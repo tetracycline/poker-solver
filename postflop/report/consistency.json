@@ -1,0 +1,1090 @@
+{
+ "BTN_BB|gto": {
+  "pairs": 2066,
+  "range_bad": 1,
+  "combos": 414712,
+  "combo_bad": 1402,
+  "combo_bad_w_pct": 0.162,
+  "examples": [
+   {
+    "f": "Ts7h7d_xx_6c.json",
+    "line": "x x/x x/",
+    "board": "7d7hTs6c5c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 80.7,
+    "fold_big": 52.6
+   }
+  ]
+ },
+ "BTN_BB|exp_ip": {
+  "pairs": 564,
+  "range_bad": 26,
+  "combos": 63686,
+  "combo_bad": 285,
+  "combo_bad_w_pct": 0.213,
+  "examples": [
+   {
+    "f": "Qs6h6s_xb75c_9h.json",
+    "line": "x b75 c/x x/",
+    "board": "6h6sQs9h2h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 96.7,
+    "fold_big": 95.2
+   },
+   {
+    "f": "AsAh5h_xb75c_Kd.json",
+    "line": "x b75 c/x x/",
+    "board": "5hAhAsKd4c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 67.9,
+    "fold_big": 62.2
+   },
+   {
+    "f": "Js8h5s_xx_Kh.json",
+    "line": "x x/x x/",
+    "board": "5s8hJsKhTh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 89.2,
+    "fold_big": 71.0
+   },
+   {
+    "f": "AsJsTs_xx_8s.json",
+    "line": "x x/x x/",
+    "board": "TsJsAs8sAh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 37.5,
+    "fold_big": 0.0
+   },
+   {
+    "f": "Ts7h5d_xb75c_Td.json",
+    "line": "x b75 c/x x/",
+    "board": "5d7hTsTd6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 51.2,
+    "fold_big": 47.0
+   },
+   {
+    "f": "KsJh9s_xb75c_Kd.json",
+    "line": "x b75 c/x x/",
+    "board": "9sJhKsKd5c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 78.7,
+    "fold_big": 77.7
+   },
+   {
+    "f": "KsJh9s_xb75c_Kd.json",
+    "line": "x b75 c/x x/",
+    "board": "9sJhKsKdQd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 57.1,
+    "fold_big": 37.6
+   },
+   {
+    "f": "7s7h4h_xb75c_5d.json",
+    "line": "x b75 c/x x/",
+    "board": "4h7h7s5dAc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 71.3,
+    "fold_big": 62.5
+   }
+  ]
+ },
+ "BTN_BB|exp_oop": {
+  "pairs": 1371,
+  "range_bad": 65,
+  "combos": 170219,
+  "combo_bad": 276,
+  "combo_bad_w_pct": 0.032,
+  "examples": [
+   {
+    "f": "KsTs5h_xb33c_9c.json",
+    "line": "x b33 c/x b50 c/x ",
+    "board": "5hTsKs9c7h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 7.3,
+    "fold_big": 6.1
+   },
+   {
+    "f": "7s7h4h_xx_5d.json",
+    "line": "x x/x b100 c/x ",
+    "board": "4h7h7s5dAc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 61.7,
+    "fold_big": 45.4
+   },
+   {
+    "f": "7s7h4h_xx_5d.json",
+    "line": "x x/x b100 c/x ",
+    "board": "4h7h7s5d3d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 88.2,
+    "fold_big": 57.6
+   },
+   {
+    "f": "7s7h4h_xx_5d.json",
+    "line": "x x/x x/x ",
+    "board": "4h7h7s5dAc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 58.0,
+    "fold_big": 34.7
+   },
+   {
+    "f": "AsJsTs_xb33c_Ah.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "TsJsAsAh7d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 95.1,
+    "fold_big": 93.9
+   },
+   {
+    "f": "6s6h3d_xx_9d.json",
+    "line": "x x/x b100 c/x ",
+    "board": "3d6h6s9d4s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 43.0,
+    "fold_big": 25.8
+   },
+   {
+    "f": "6s6h3d_xx_9d.json",
+    "line": "x x/x b100 c/x ",
+    "board": "3d6h6s9dJd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 1.8,
+    "fold_big": 0.0
+   },
+   {
+    "f": "AsKh3s_xb33c_Ad.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "3sKhAsAd2h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 83.9,
+    "fold_big": 82.7
+   }
+  ]
+ },
+ "CO_BB|gto": {
+  "pairs": 797,
+  "range_bad": 2,
+  "combos": 120732,
+  "combo_bad": 393,
+  "combo_bad_w_pct": 0.159,
+  "examples": [
+   {
+    "f": "8s8h7h_xx_8c.json",
+    "line": "x x/x x/",
+    "board": "7h8h8s8cJh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 4.1,
+    "fold_big": 0.0
+   },
+   {
+    "f": "8s8h7h_xx_8c.json",
+    "line": "x x/x x/x ",
+    "board": "7h8h8s8c7c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 91.9,
+    "fold_big": 90.7
+   }
+  ]
+ },
+ "CO_BB|exp_ip": {
+  "pairs": 204,
+  "range_bad": 10,
+  "combos": 18213,
+  "combo_bad": 142,
+  "combo_bad_w_pct": 0.137,
+  "examples": [
+   {
+    "f": "KsTh6d_xb75c_Kc.json",
+    "line": "x b75 c/x x/",
+    "board": "6dThKsKc2h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 18.7,
+    "fold_big": 0.5
+   },
+   {
+    "f": "KsTh6d_xb75c_Kc.json",
+    "line": "x b75 c/x x/",
+    "board": "6dThKsKc2c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 18.0,
+    "fold_big": 0.2
+   },
+   {
+    "f": "Js9h2s_xx_7s.json",
+    "line": "x x/x x/",
+    "board": "2s9hJs7s6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 73.3,
+    "fold_big": 30.2
+   },
+   {
+    "f": "Qs6h4d_xx_Ad.json",
+    "line": "x x/x x/",
+    "board": "4d6hQsAd8s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 28.0,
+    "fold_big": 26.3
+   },
+   {
+    "f": "As4s2h_xx_8d.json",
+    "line": "x x/x x/",
+    "board": "2h4sAs8d2c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 2.7,
+    "fold_big": 0.2
+   },
+   {
+    "f": "As4s2h_xx_8d.json",
+    "line": "x x/x x/",
+    "board": "2h4sAs8d2d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 2.7,
+    "fold_big": 0.2
+   },
+   {
+    "f": "7s6s3s_xx_9d.json",
+    "line": "x x/x x/",
+    "board": "3s6s7s9dKh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 66.0,
+    "fold_big": 28.6
+   },
+   {
+    "f": "As9h2d_xb75c_Kd.json",
+    "line": "x b75 c/x x/",
+    "board": "2d9hAsKd6s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 83.3,
+    "fold_big": 77.6
+   }
+  ]
+ },
+ "CO_BB|exp_oop": {
+  "pairs": 551,
+  "range_bad": 17,
+  "combos": 57638,
+  "combo_bad": 87,
+  "combo_bad_w_pct": 0.044,
+  "examples": [
+   {
+    "f": "8s8h7h_xx_4h.json",
+    "line": "x x/x b50 c/x ",
+    "board": "7h8h8s4h6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 28.8,
+    "fold_big": 0.0
+   },
+   {
+    "f": "8s8h7h_xb33c_8c.json",
+    "line": "x b33 c/x x/x ",
+    "board": "7h8h8s8c7c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 98.0,
+    "fold_big": 96.7
+   },
+   {
+    "f": "8s8h7h_xx_6h.json",
+    "line": "x x/x x/x ",
+    "board": "7h8h8s6h6s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 91.5,
+    "fold_big": 88.5
+   },
+   {
+    "f": "QsTh7s_xb33c_Ad.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "7sThQsAdAs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 7.3,
+    "fold_big": 3.1
+   },
+   {
+    "f": "As4s2h_xx_Qd.json",
+    "line": "x x/x b100 c/x ",
+    "board": "2h4sAsQdTc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 45.1,
+    "fold_big": 43.6
+   },
+   {
+    "f": "As9h2d_xb33c_Qd.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "2d9hAsQdQh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 90.9,
+    "fold_big": 89.0
+   },
+   {
+    "f": "Ks8s6h_xx_4h.json",
+    "line": "x x/x b100 c/x ",
+    "board": "6h8sKs4hTh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 76.0,
+    "fold_big": 73.9
+   },
+   {
+    "f": "Qs6h4d_xx_Ad.json",
+    "line": "x x/x b50 c/x ",
+    "board": "4d6hQsAd8s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 17.3,
+    "fold_big": 0.0
+   }
+  ]
+ },
+ "SB_BB|gto": {
+  "pairs": 1061,
+  "range_bad": 4,
+  "combos": 256542,
+  "combo_bad": 519,
+  "combo_bad_w_pct": 0.053,
+  "examples": [
+   {
+    "f": "6s5h3h_b33c_Kh.json",
+    "line": "b33 c/x b50 c/x ",
+    "board": "3h5h6sKh9s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 46.2,
+    "fold_big": 44.9
+   },
+   {
+    "f": "6s5h3h_b33c_Kh.json",
+    "line": "b33 c/x x/x ",
+    "board": "3h5h6sKh5s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 63.7,
+    "fold_big": 58.2
+   },
+   {
+    "f": "6s5h3h_b33c_Kh.json",
+    "line": "b33 c/b100 c/x ",
+    "board": "3h5h6sKh9s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 85.2,
+    "fold_big": 82.7
+   },
+   {
+    "f": "QsJs9s_xx_4s.json",
+    "line": "x x/x x/x ",
+    "board": "9sJsQs4s5s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 66.0,
+    "fold_big": 36.1
+   }
+  ]
+ },
+ "SB_BB|exp_ip": {
+  "pairs": 354,
+  "range_bad": 6,
+  "combos": 64389,
+  "combo_bad": 156,
+  "combo_bad_w_pct": 0.037,
+  "examples": [
+   {
+    "f": "9s4h3d_b33c_4d.json",
+    "line": "b33 c/b50 c/",
+    "board": "3d4h9s4d5h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 79.6,
+    "fold_big": 78.1
+   },
+   {
+    "f": "AsTh4d_b33c_Qs.json",
+    "line": "b33 c/b50 c/",
+    "board": "4dThAsQsJh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 55.2,
+    "fold_big": 52.0
+   },
+   {
+    "f": "KsKh3d_b33c_9h.json",
+    "line": "b33 c/b50 c/",
+    "board": "3dKhKs9h8c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 1.8,
+    "fold_big": 0.2
+   },
+   {
+    "f": "QsJs9s_xx_6d.json",
+    "line": "x x/x x/",
+    "board": "9sJsQs6dKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 7.4,
+    "fold_big": 3.3
+   },
+   {
+    "f": "QsJs9s_xx_6d.json",
+    "line": "x x/x x/",
+    "board": "9sJsQs6dTd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 59.2,
+    "fold_big": 16.8
+   },
+   {
+    "f": "9s4h3d_xx_4c.json",
+    "line": "x x/x x/",
+    "board": "3d4h9s4cAh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 7.6,
+    "fold_big": 0.0
+   }
+  ]
+ },
+ "SB_BB|exp_oop": {
+  "pairs": 709,
+  "range_bad": 34,
+  "combos": 105167,
+  "combo_bad": 204,
+  "combo_bad_w_pct": 0.033,
+  "examples": [
+   {
+    "f": "AsTh4d_xx_Qs.json",
+    "line": "x x/x x/x ",
+    "board": "4dThAsQs3c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 43.8,
+    "fold_big": 38.7
+   },
+   {
+    "f": "QsJh9d_xx_Jd.json",
+    "line": "x x/x b50 c/x ",
+    "board": "9dJhQsJdKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 3.1,
+    "fold_big": 0.0
+   },
+   {
+    "f": "QsJh9d_xx_Jd.json",
+    "line": "x x/x b50 c/x ",
+    "board": "9dJhQsJd6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 1.1,
+    "fold_big": 0.0
+   },
+   {
+    "f": "KsQs2h_b75c_8c.json",
+    "line": "b75 c/x b100 c/x ",
+    "board": "2hQsKs8cTh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 57.8,
+    "fold_big": 56.4
+   },
+   {
+    "f": "KsKh3d_b33c_9h.json",
+    "line": "b33 c/x ",
+    "board": "3dKhKs9h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 19.3,
+    "fold_big": 17.4
+   },
+   {
+    "f": "AsJh4h_b75c_4c.json",
+    "line": "b75 c/x ",
+    "board": "4hJhAs4c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 80.7,
+    "fold_big": 78.2
+   },
+   {
+    "f": "QsJs9s_xx_6d.json",
+    "line": "x x/x b50 c/x ",
+    "board": "9sJsQs6dKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 17.0,
+    "fold_big": 14.7
+   },
+   {
+    "f": "8s5s2h_b33c_4c.json",
+    "line": "b33 c/x b50 c/x ",
+    "board": "2h5s8s4cJd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 56.6,
+    "fold_big": 47.4
+   }
+  ]
+ },
+ "UTG_BB|gto": {
+  "pairs": 479,
+  "range_bad": 1,
+  "combos": 49007,
+  "combo_bad": 182,
+  "combo_bad_w_pct": 0.273,
+  "examples": [
+   {
+    "f": "9s5h5s_xx_8s.json",
+    "line": "x x/b100 c/x ",
+    "board": "5h5s9s8sQc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 77.8,
+    "fold_big": 75.1
+   }
+  ]
+ },
+ "UTG_BB|exp_ip": {
+  "pairs": 126,
+  "range_bad": 7,
+  "combos": 5285,
+  "combo_bad": 28,
+  "combo_bad_w_pct": 0.044,
+  "examples": [
+   {
+    "f": "KsTh7d_xb75c_Qs.json",
+    "line": "x b75 c/x x/",
+    "board": "7dThKsQsAh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 81.3,
+    "fold_big": 65.5
+   },
+   {
+    "f": "KsTh7d_xb75c_Qs.json",
+    "line": "x b75 c/x x/",
+    "board": "7dThKsQs4d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 97.5,
+    "fold_big": 94.2
+   },
+   {
+    "f": "KsTh7d_xx_Qs.json",
+    "line": "x x/x x/",
+    "board": "7dThKsQs4d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 58.0,
+    "fold_big": 55.7
+   },
+   {
+    "f": "9s5h5s_xb33c_Jh.json",
+    "line": "x b33 c/x x/",
+    "board": "5h5s9sJh5d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 39.5,
+    "fold_big": 20.7
+   },
+   {
+    "f": "9s5h5s_xb33c_Jh.json",
+    "line": "x b33 c/x x/",
+    "board": "5h5s9sJhTd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 35.8,
+    "fold_big": 27.1
+   },
+   {
+    "f": "Js9h7h_xx_Jh.json",
+    "line": "x x/x x/",
+    "board": "7h9hJsJh7c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 34.8,
+    "fold_big": 33.4
+   },
+   {
+    "f": "As3h2d_xb75c_2s.json",
+    "line": "x b75 c/x x/",
+    "board": "2d3hAs2sKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 40.2,
+    "fold_big": 28.7
+   }
+  ]
+ },
+ "UTG_BB|exp_oop": {
+  "pairs": 356,
+  "range_bad": 16,
+  "combos": 35011,
+  "combo_bad": 69,
+  "combo_bad_w_pct": 0.048,
+  "examples": [
+   {
+    "f": "As3h2d_xx_8h.json",
+    "line": "x x/x b100 c/x ",
+    "board": "2d3hAs8hQc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 62.3,
+    "fold_big": 28.0
+   },
+   {
+    "f": "Qs2h2s_xx_4c.json",
+    "line": "x x/x b50 c/x ",
+    "board": "2h2sQs4c7d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 58.4,
+    "fold_big": 32.8
+   },
+   {
+    "f": "Qs2h2s_xx_4c.json",
+    "line": "x x/x b100 c/x ",
+    "board": "2h2sQs4c7d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 100.0,
+    "fold_big": 65.0
+   },
+   {
+    "f": "Qs2h2s_xx_4c.json",
+    "line": "x x/x x/x ",
+    "board": "2h2sQs4c7d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 42.9,
+    "fold_big": 10.6
+   },
+   {
+    "f": "Js9h7h_xb33c_5d.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "7h9hJs5d7c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 91.8,
+    "fold_big": 85.3
+   },
+   {
+    "f": "As3h2d_xx_5d.json",
+    "line": "x x/x b100 c/x ",
+    "board": "2d3hAs5d2c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 97.6,
+    "fold_big": 96.0
+   },
+   {
+    "f": "AsQh6s_xb33c_8d.json",
+    "line": "x b33 c/x b50 c/x ",
+    "board": "6sQhAs8dJs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 72.8,
+    "fold_big": 71.0
+   },
+   {
+    "f": "QsTh8s_xx_Qd.json",
+    "line": "x x/x x/x ",
+    "board": "8sThQsQd6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 87.7,
+    "fold_big": 82.9
+   }
+  ]
+ },
+ "HJ_BB|gto": {
+  "pairs": 552,
+  "range_bad": 1,
+  "combos": 74828,
+  "combo_bad": 245,
+  "combo_bad_w_pct": 0.125,
+  "examples": [
+   {
+    "f": "QsTh7d_xx_Js.json",
+    "line": "x x/b100 c/x ",
+    "board": "7dThQsJs5c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 98.2,
+    "fold_big": 97.0
+   }
+  ]
+ },
+ "HJ_BB|exp_ip": {
+  "pairs": 153,
+  "range_bad": 6,
+  "combos": 7759,
+  "combo_bad": 32,
+  "combo_bad_w_pct": 0.001,
+  "examples": [
+   {
+    "f": "Ks9h4h_xx_Ah.json",
+    "line": "x x/x x/",
+    "board": "4h9hKsAh3s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 47.7,
+    "fold_big": 43.0
+   },
+   {
+    "f": "6s4h3d_xx_2s.json",
+    "line": "x x/x x/",
+    "board": "3d4h6s2sAs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 51.2,
+    "fold_big": 33.2
+   },
+   {
+    "f": "9s5h4s_xb33c_Ks.json",
+    "line": "x b33 c/x x/",
+    "board": "4s5h9sKs4c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 54.1,
+    "fold_big": 51.9
+   },
+   {
+    "f": "Ts6h4d_xx_6d.json",
+    "line": "x x/x x/",
+    "board": "4d6hTs6dJd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 20.5,
+    "fold_big": 19.3
+   },
+   {
+    "f": "AsQs6s_xb75c_9s.json",
+    "line": "x b75 c/x x/",
+    "board": "6sQsAs9sTh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 7.5,
+    "fold_big": 0.0
+   },
+   {
+    "f": "QsTh7d_xx_6h.json",
+    "line": "x x/x x/",
+    "board": "7dThQs6hKh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 85.2,
+    "fold_big": 37.4
+   }
+  ]
+ },
+ "HJ_BB|exp_oop": {
+  "pairs": 352,
+  "range_bad": 18,
+  "combos": 41038,
+  "combo_bad": 76,
+  "combo_bad_w_pct": 0.058,
+  "examples": [
+   {
+    "f": "9s5h4s_xb33c_2d.json",
+    "line": "x b33 c/x b100 c/x ",
+    "board": "4s5h9s2dQh",
+    "small": 50,
+    "big": 100,
+    "fold_small": 86.9,
+    "fold_big": 77.1
+   },
+   {
+    "f": "Ks9h4h_xx_Ah.json",
+    "line": "x x/x x/x ",
+    "board": "4h9hKsAh3s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 59.3,
+    "fold_big": 56.6
+   },
+   {
+    "f": "QsTh7d_xx_Js.json",
+    "line": "x x/x b50 c/x ",
+    "board": "7dThQsJs4c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 43.6,
+    "fold_big": 36.6
+   },
+   {
+    "f": "QsTh7d_xx_Js.json",
+    "line": "x x/x b100 c/x ",
+    "board": "7dThQsJs5c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 68.9,
+    "fold_big": 34.1
+   },
+   {
+    "f": "QsTh7d_xx_Js.json",
+    "line": "x x/x b100 c/x ",
+    "board": "7dThQsJs4c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 61.9,
+    "fold_big": 35.0
+   },
+   {
+    "f": "Ts6h4d_xx_Qh.json",
+    "line": "x x/x b50 c/x ",
+    "board": "4d6hTsQhAd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 91.1,
+    "fold_big": 88.5
+   },
+   {
+    "f": "Ts6h4d_xx_Qh.json",
+    "line": "x x/x x/x ",
+    "board": "4d6hTsQhAd",
+    "small": 50,
+    "big": 100,
+    "fold_small": 74.4,
+    "fold_big": 71.3
+   },
+   {
+    "f": "6s4h3d_xx_2s.json",
+    "line": "x x/x b50 c/x ",
+    "board": "3d4h6s2sKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 11.9,
+    "fold_big": 7.9
+   }
+  ]
+ },
+ "SB3_BTN|gto": {
+  "pairs": 321,
+  "range_bad": 1,
+  "combos": 27183,
+  "combo_bad": 33,
+  "combo_bad_w_pct": 0.051,
+  "examples": [
+   {
+    "f": "Ks9h2d_xx_4c.json",
+    "line": "x x/b50 c/x ",
+    "board": "2d9hKs4c4d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 98.8,
+    "fold_big": 93.0
+   }
+  ]
+ },
+ "SB3_BTN|exp_ip": {
+  "pairs": 145,
+  "range_bad": 1,
+  "combos": 5637,
+  "combo_bad": 5,
+  "combo_bad_w_pct": 0.014,
+  "examples": [
+   {
+    "f": "9s7h6h_xx_4c.json",
+    "line": "x x/x x/",
+    "board": "6h7h9s4c4s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 68.2,
+    "fold_big": 66.3
+   }
+  ]
+ },
+ "SB3_BTN|exp_oop": {
+  "pairs": 154,
+  "range_bad": 9,
+  "combos": 6666,
+  "combo_bad": 8,
+  "combo_bad_w_pct": 0.05,
+  "examples": [
+   {
+    "f": "Ks5s4h_xx_Jh.json",
+    "line": "x x/x b50 c/x ",
+    "board": "4h5sKsJh9d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 90.2,
+    "fold_big": 62.0
+   },
+   {
+    "f": "Ks5s4h_xx_Jh.json",
+    "line": "x x/x x/x ",
+    "board": "4h5sKsJh9d",
+    "small": 50,
+    "big": 100,
+    "fold_small": 28.6,
+    "fold_big": 4.2
+   },
+   {
+    "f": "7s6h5h_xx_6s.json",
+    "line": "x x/b50 c/x ",
+    "board": "5h6h7s6s7h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 95.8,
+    "fold_big": 94.1
+   },
+   {
+    "f": "Qs8h4d_xx_5c.json",
+    "line": "x x/b50 c/x ",
+    "board": "4d8hQs5cKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 97.8,
+    "fold_big": 96.8
+   },
+   {
+    "f": "As6s4h_xx_Kc.json",
+    "line": "x x/x b50 c/x ",
+    "board": "4h6sAsKc2s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 77.5,
+    "fold_big": 49.6
+   },
+   {
+    "f": "As6s4h_xx_Kc.json",
+    "line": "x x/x b50 c/x ",
+    "board": "4h6sAsKc3c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 81.2,
+    "fold_big": 52.9
+   },
+   {
+    "f": "Ks9h2d_xx_Kh.json",
+    "line": "x x/x b50 c/x ",
+    "board": "2d9hKsKh9c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 46.6,
+    "fold_big": 17.4
+   },
+   {
+    "f": "QsTs2s_xx_6c.json",
+    "line": "x x/x ",
+    "board": "2sTsQs6c",
+    "small": 50,
+    "big": 100,
+    "fold_small": 70.1,
+    "fold_big": 51.0
+   }
+  ]
+ },
+ "BB3_BTN|gto": {
+  "pairs": 319,
+  "range_bad": 0,
+  "combos": 26630,
+  "combo_bad": 27,
+  "combo_bad_w_pct": 0.042,
+  "examples": []
+ },
+ "BB3_BTN|exp_ip": {
+  "pairs": 130,
+  "range_bad": 2,
+  "combos": 3850,
+  "combo_bad": 6,
+  "combo_bad_w_pct": 0.009,
+  "examples": [
+   {
+    "f": "KsTh3d_xx_Tc.json",
+    "line": "x x/",
+    "board": "3dThKsTc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 48.8,
+    "fold_big": 40.8
+   },
+   {
+    "f": "KsTh3d_xx_3h.json",
+    "line": "x x/",
+    "board": "3dThKs3h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 47.7,
+    "fold_big": 40.0
+   }
+  ]
+ },
+ "BB3_BTN|exp_oop": {
+  "pairs": 162,
+  "range_bad": 4,
+  "combos": 6062,
+  "combo_bad": 6,
+  "combo_bad_w_pct": 0.025,
+  "examples": [
+   {
+    "f": "KsTh3d_xx_Qc.json",
+    "line": "x x/x x/x ",
+    "board": "3dThKsQc7h",
+    "small": 50,
+    "big": 100,
+    "fold_small": 98.7,
+    "fold_big": 35.3
+   },
+   {
+    "f": "As8h5h_xx_Ad.json",
+    "line": "x x/b50 c/x ",
+    "board": "5h8hAsAd7s",
+    "small": 50,
+    "big": 100,
+    "fold_small": 4.6,
+    "fold_big": 1.5
+   },
+   {
+    "f": "8s4h4d_xx_2c.json",
+    "line": "x x/x x/x ",
+    "board": "4d4h8s2cKs",
+    "small": 50,
+    "big": 100,
+    "fold_small": 17.8,
+    "fold_big": 4.3
+   },
+   {
+    "f": "6s3h3s_b75c_5d.json",
+    "line": "b75 c/x x/x ",
+    "board": "3h3s6s5dKc",
+    "small": 50,
+    "big": 100,
+    "fold_small": 96.8,
+    "fold_big": 80.7
+   }
+  ]
+ }
+}

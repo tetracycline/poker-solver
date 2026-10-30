@@ -1,0 +1,10 @@
+# 外部 AGPL 解算器原始碼：照 README 自行 clone，不放進 repo
+postflop-solver/
+pfdriver/target/
+out/
+tmp/
+logs/
+screens/
+site/postflop/data/
+pages/postflop/
+__pycache__/

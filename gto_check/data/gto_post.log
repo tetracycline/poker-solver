@@ -1,0 +1,11 @@
+171 flop files
+0 BTN_BB 5s3h2d
+20 BTN_BB Js5h3h
+40 BTN_BB Qs6h6s
+60 CO_BB As9h6d
+80 HJ_BB 9s5h4s
+100 HJ_BB Qs7h3s
+120 UTG_BB Ks8h8d
+140 SB3_BTN Js5h4d
+160 BB3_BTN Js3h3d
+done {'BTN_BB': 51, 'CO_BB': 24, 'HJ_BB': 32, 'UTG_BB': 24, 'SB3_BTN': 20, 'BB3_BTN': 20} errs 0

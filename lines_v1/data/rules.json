@@ -1,0 +1,8738 @@
+[
+{
+"id": "SRP_IP|f_cbet|A_high|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"big"
+],
+"dev": true,
+"blend": {
+"x": 0.15,
+"small": 0.49,
+"big": 0.37
+},
+"exp": {
+"x": 0.183,
+"small": 0.616,
+"big": 0.201
+},
+"gto_f": {
+"x": 0.078,
+"small": 0.251,
+"big": 0.671
+},
+"n": [
+270.1,
+265.1
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.4,
+"small": 0.35,
+"big": 0.25
+},
+"exp": {
+"x": 0.515,
+"small": 0.404,
+"big": 0.08
+},
+"gto_f": {
+"x": 0.179,
+"small": 0.262,
+"big": 0.559
+},
+"n": [
+443.4,
+473.0
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.66,
+"small": 0.22,
+"big": 0.11
+},
+"exp": {
+"x": 0.697,
+"small": 0.266,
+"big": 0.036
+},
+"gto_f": {
+"x": 0.601,
+"small": 0.137,
+"big": 0.261
+},
+"n": [
+519.3,
+449.0
+],
+"fallback": false,
+"why": "有攤牌價值，下注只被更好的牌跟 → 過牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.29,
+"small": 0.12,
+"big": 0.59
+},
+"exp": {
+"x": 0.166,
+"small": 0.098,
+"big": 0.736
+},
+"gto_f": {
+"x": 0.531,
+"small": 0.159,
+"big": 0.31
+},
+"n": [
+1327.3,
+1069.1
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"big"
+],
+"dev": true,
+"blend": {
+"x": 0.27,
+"small": 0.38,
+"big": 0.35
+},
+"exp": {
+"x": 0.191,
+"small": 0.503,
+"big": 0.305
+},
+"gto_f": {
+"x": 0.413,
+"small": 0.143,
+"big": 0.444
+},
+"n": [
+180.3,
+126.5
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.09,
+"small": 0.11,
+"big": 0.8
+},
+"exp": {
+"x": 0.025,
+"small": 0.128,
+"big": 0.847
+},
+"gto_f": {
+"x": 0.198,
+"small": 0.083,
+"big": 0.719
+},
+"n": [
+367.0,
+290.2
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|A_high|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.2,
+"small": 0.1,
+"big": 0.7
+},
+"exp": {
+"x": 0.018,
+"small": 0.036,
+"big": 0.946
+},
+"gto_f": {
+"x": 0.526,
+"small": 0.233,
+"big": 0.241
+},
+"n": [
+1485.1,
+772.1
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.11,
+"small": 0.65,
+"big": 0.24
+},
+"exp": {
+"x": 0.087,
+"small": 0.764,
+"big": 0.149
+},
+"gto_f": {
+"x": 0.143,
+"small": 0.444,
+"big": 0.412
+},
+"n": [
+302.6,
+258.5
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.2,
+"small": 0.63,
+"big": 0.17
+},
+"exp": {
+"x": 0.152,
+"small": 0.717,
+"big": 0.131
+},
+"gto_f": {
+"x": 0.276,
+"small": 0.477,
+"big": 0.247
+},
+"n": [
+661.0,
+740.5
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.6,
+"small": 0.35,
+"big": 0.05
+},
+"exp": {
+"x": 0.594,
+"small": 0.347,
+"big": 0.059
+},
+"gto_f": {
+"x": 0.619,
+"small": 0.342,
+"big": 0.039
+},
+"n": [
+390.0,
+232.7
+],
+"fallback": false,
+"why": "有攤牌價值，下注只被更好的牌跟 → 過牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.4,
+"small": 0.27,
+"big": 0.33
+},
+"exp": {
+"x": 0.294,
+"small": 0.239,
+"big": 0.466
+},
+"gto_f": {
+"x": 0.602,
+"small": 0.314,
+"big": 0.085
+},
+"n": [
+1846.0,
+1381.1
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.19,
+"small": 0.4,
+"big": 0.41
+},
+"exp": {
+"x": 0.139,
+"small": 0.408,
+"big": 0.453
+},
+"gto_f": {
+"x": 0.296,
+"small": 0.387,
+"big": 0.317
+},
+"n": [
+451.2,
+339.9
+],
+"fallback": false,
+"why": "池面對 75% 棄 55%，被跟也有 1/3 勝率",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.16,
+"small": 0.25,
+"big": 0.59
+},
+"exp": {
+"x": 0.05,
+"small": 0.193,
+"big": 0.757
+},
+"gto_f": {
+"x": 0.36,
+"small": 0.368,
+"big": 0.271
+},
+"n": [
+648.2,
+543.0
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|KQ_high|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.16,
+"small": 0.2,
+"big": 0.64
+},
+"exp": {
+"x": 0.01,
+"small": 0.086,
+"big": 0.903
+},
+"gto_f": {
+"x": 0.443,
+"small": 0.404,
+"big": 0.153
+},
+"n": [
+3012.7,
+1989.7
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"big"
+],
+"dev": true,
+"blend": {
+"x": 0.03,
+"small": 0.58,
+"big": 0.39
+},
+"exp": {
+"x": 0.0,
+"small": 0.666,
+"big": 0.334
+},
+"gto_f": {
+"x": 0.075,
+"small": 0.417,
+"big": 0.508
+},
+"n": [
+132.7,
+101.9
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"big"
+],
+"dev": false,
+"blend": {
+"x": 0.09,
+"small": 0.56,
+"big": 0.35
+},
+"exp": {
+"x": 0.001,
+"small": 0.599,
+"big": 0.399
+},
+"gto_f": {
+"x": 0.254,
+"small": 0.477,
+"big": 0.269
+},
+"n": [
+535.8,
+575.2
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.51,
+"small": 0.35,
+"big": 0.14
+},
+"exp": {
+"x": 0.46,
+"small": 0.401,
+"big": 0.14
+},
+"gto_f": {
+"x": 0.595,
+"small": 0.253,
+"big": 0.152
+},
+"n": [
+1411.5,
+958.0
+],
+"fallback": true,
+"why": "有攤牌價值，下注只被更好的牌跟 → 過牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.3,
+"small": 0.51,
+"big": 0.19
+},
+"exp": {
+"x": 0.155,
+"small": 0.612,
+"big": 0.233
+},
+"gto_f": {
+"x": 0.573,
+"small": 0.324,
+"big": 0.103
+},
+"n": [
+1010.9,
+683.8
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 43%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.1,
+"small": 0.44,
+"big": 0.46
+},
+"exp": {
+"x": 0.021,
+"small": 0.475,
+"big": 0.504
+},
+"gto_f": {
+"x": 0.234,
+"small": 0.388,
+"big": 0.378
+},
+"n": [
+299.2,
+195.3
+],
+"fallback": false,
+"why": "池面對 75% 棄 55%，被跟也有 1/3 勝率",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.19,
+"small": 0.35,
+"big": 0.46
+},
+"exp": {
+"x": 0.072,
+"small": 0.357,
+"big": 0.571
+},
+"gto_f": {
+"x": 0.412,
+"small": 0.346,
+"big": 0.243
+},
+"n": [
+876.2,
+778.1
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mid_high|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.16,
+"small": 0.29,
+"big": 0.55
+},
+"exp": {
+"x": 0.047,
+"small": 0.225,
+"big": 0.729
+},
+"gto_f": {
+"x": 0.376,
+"small": 0.401,
+"big": 0.223
+},
+"n": [
+1568.7,
+1102.1
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.13,
+"small": 0.6,
+"big": 0.27
+},
+"exp": {
+"x": 0.105,
+"small": 0.665,
+"big": 0.229
+},
+"gto_f": {
+"x": 0.184,
+"small": 0.483,
+"big": 0.333
+},
+"n": [
+1499.0,
+1190.8
+],
+"fallback": true,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"big"
+],
+"dev": false,
+"blend": {
+"x": 0.15,
+"small": 0.47,
+"big": 0.39
+},
+"exp": {
+"x": 0.008,
+"small": 0.488,
+"big": 0.504
+},
+"gto_f": {
+"x": 0.403,
+"small": 0.431,
+"big": 0.166
+},
+"n": [
+342.0,
+287.6
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.51,
+"small": 0.35,
+"big": 0.14
+},
+"exp": {
+"x": 0.46,
+"small": 0.401,
+"big": 0.14
+},
+"gto_f": {
+"x": 0.595,
+"small": 0.253,
+"big": 0.152
+},
+"n": [
+1411.5,
+958.0
+],
+"fallback": true,
+"why": "有攤牌價值，下注只被更好的牌跟 → 過牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.24,
+"small": 0.46,
+"big": 0.3
+},
+"exp": {
+"x": 0.05,
+"small": 0.53,
+"big": 0.42
+},
+"gto_f": {
+"x": 0.592,
+"small": 0.32,
+"big": 0.088
+},
+"n": [
+358.5,
+203.5
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 41%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.1,
+"small": 0.4,
+"big": 0.5
+},
+"exp": {
+"x": 0.014,
+"small": 0.357,
+"big": 0.629
+},
+"gto_f": {
+"x": 0.251,
+"small": 0.493,
+"big": 0.256
+},
+"n": [
+178.6,
+116.2
+],
+"fallback": false,
+"why": "池面對 75% 棄 55%，被跟也有 1/3 勝率",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.3,
+"small": 0.2,
+"big": 0.5
+},
+"exp": {
+"x": 0.114,
+"small": 0.18,
+"big": 0.706
+},
+"gto_f": {
+"x": 0.653,
+"small": 0.235,
+"big": 0.112
+},
+"n": [
+1074.0,
+958.4
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|low|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.14,
+"small": 0.37,
+"big": 0.49
+},
+"exp": {
+"x": 0.007,
+"small": 0.355,
+"big": 0.638
+},
+"gto_f": {
+"x": 0.384,
+"small": 0.398,
+"big": 0.218
+},
+"n": [
+317.3,
+223.2
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.17,
+"small": 0.73,
+"big": 0.1
+},
+"exp": {
+"x": 0.167,
+"small": 0.735,
+"big": 0.098
+},
+"gto_f": {
+"x": 0.164,
+"small": 0.732,
+"big": 0.104
+},
+"n": [
+423.7,
+276.7
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.2,
+"small": 0.67,
+"big": 0.13
+},
+"exp": {
+"x": 0.136,
+"small": 0.702,
+"big": 0.163
+},
+"gto_f": {
+"x": 0.313,
+"small": 0.605,
+"big": 0.082
+},
+"n": [
+468.8,
+481.2
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.51,
+"small": 0.35,
+"big": 0.14
+},
+"exp": {
+"x": 0.46,
+"small": 0.401,
+"big": 0.14
+},
+"gto_f": {
+"x": 0.595,
+"small": 0.253,
+"big": 0.152
+},
+"n": [
+1411.5,
+958.0
+],
+"fallback": true,
+"why": "有攤牌價值，下注只被更好的牌跟 → 過牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.38,
+"small": 0.41,
+"big": 0.21
+},
+"exp": {
+"x": 0.328,
+"small": 0.375,
+"big": 0.297
+},
+"gto_f": {
+"x": 0.484,
+"small": 0.476,
+"big": 0.04
+},
+"n": [
+499.5,
+421.9
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 55%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.21,
+"small": 0.62,
+"big": 0.17
+},
+"exp": {
+"x": 0.169,
+"small": 0.626,
+"big": 0.205
+},
+"gto_f": {
+"x": 0.292,
+"small": 0.599,
+"big": 0.109
+},
+"n": [
+279.8,
+207.1
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 55%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"big"
+],
+"dev": false,
+"blend": {
+"x": 0.21,
+"small": 0.42,
+"big": 0.37
+},
+"exp": {
+"x": 0.066,
+"small": 0.385,
+"big": 0.549
+},
+"gto_f": {
+"x": 0.464,
+"small": 0.495,
+"big": 0.041
+},
+"n": [
+1475.5,
+1288.5
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 55%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|paired|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.14,
+"small": 0.39,
+"big": 0.47
+},
+"exp": {
+"x": 0.042,
+"small": 0.299,
+"big": 0.659
+},
+"gto_f": {
+"x": 0.336,
+"small": 0.557,
+"big": 0.107
+},
+"n": [
+1856.4,
+1091.2
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.17,
+"small": 0.57,
+"big": 0.26
+},
+"exp": {
+"x": 0.04,
+"small": 0.59,
+"big": 0.369
+},
+"gto_f": {
+"x": 0.416,
+"small": 0.524,
+"big": 0.06
+},
+"n": [
+278.2,
+229.2
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.24,
+"small": 0.43,
+"big": 0.33
+},
+"exp": {
+"x": 0.077,
+"small": 0.423,
+"big": 0.499
+},
+"gto_f": {
+"x": 0.538,
+"small": 0.445,
+"big": 0.016
+},
+"n": [
+263.6,
+252.5
+],
+"fallback": false,
+"why": "池面對 33% 只棄 39%、跟 53% → 小注讓差牌付錢",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.25,
+"small": 0.26,
+"big": 0.49
+},
+"exp": {
+"x": 0.021,
+"small": 0.241,
+"big": 0.739
+},
+"gto_f": {
+"x": 0.687,
+"small": 0.293,
+"big": 0.019
+},
+"n": [
+157.4,
+116.2
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.26,
+"small": 0.31,
+"big": 0.43
+},
+"exp": {
+"x": 0.021,
+"small": 0.336,
+"big": 0.643
+},
+"gto_f": {
+"x": 0.711,
+"small": 0.266,
+"big": 0.023
+},
+"n": [
+615.5,
+415.4
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.24,
+"small": 0.52,
+"big": 0.24
+},
+"exp": {
+"x": 0.054,
+"small": 0.603,
+"big": 0.343
+},
+"gto_f": {
+"x": 0.583,
+"small": 0.378,
+"big": 0.039
+},
+"n": [
+407.8,
+256.7
+],
+"fallback": false,
+"why": "33% 只要 25% 棄牌就回本，這種面池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.25,
+"small": 0.27,
+"big": 0.49
+},
+"exp": {
+"x": 0.041,
+"small": 0.233,
+"big": 0.726
+},
+"gto_f": {
+"x": 0.625,
+"small": 0.338,
+"big": 0.038
+},
+"n": [
+346.3,
+304.7
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|f_cbet|mono|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你開池、BB 跟注；翻牌 BB 過牌",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.16,
+"small": 0.3,
+"big": 0.54
+},
+"exp": {
+"x": 0.001,
+"small": 0.194,
+"big": 0.805
+},
+"gto_f": {
+"x": 0.452,
+"small": 0.49,
+"big": 0.058
+},
+"n": [
+430.8,
+256.6
+],
+"fallback": false,
+"why": "池面對 75% c-bet 棄 55%（保本 43%）→ 直接賺",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.07,
+"small": 0.7,
+"big": 0.23
+},
+"exp": {
+"x": 0.012,
+"small": 0.894,
+"big": 0.093
+},
+"gto_f": {
+"x": 0.173,
+"small": 0.349,
+"big": 0.478
+},
+"n": [
+3914.3,
+3969.3
+],
+"fallback": false,
+"why": "翻牌跟注的多是中對/聽牌 → 轉牌繼續收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.06,
+"small": 0.61,
+"big": 0.33
+},
+"exp": {
+"x": 0.013,
+"small": 0.749,
+"big": 0.238
+},
+"gto_f": {
+"x": 0.154,
+"small": 0.347,
+"big": 0.498
+},
+"n": [
+3303.4,
+3940.2
+],
+"fallback": false,
+"why": "翻牌跟注的多是中對/聽牌 → 轉牌繼續收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.14,
+"small": 0.64,
+"big": 0.22
+},
+"exp": {
+"x": 0.024,
+"small": 0.731,
+"big": 0.245
+},
+"gto_f": {
+"x": 0.365,
+"small": 0.467,
+"big": 0.168
+},
+"n": [
+1403.1,
+1074.0
+],
+"fallback": false,
+"why": "翻牌跟注範圍很寬（弱對/聽牌多）→ 半池薄價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.19,
+"small": 0.65,
+"big": 0.16
+},
+"exp": {
+"x": 0.029,
+"small": 0.818,
+"big": 0.153
+},
+"gto_f": {
+"x": 0.492,
+"small": 0.333,
+"big": 0.175
+},
+"n": [
+12620.1,
+6078.0
+],
+"fallback": false,
+"why": "翻牌跟注範圍很寬（弱對/聽牌多）→ 半池薄價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.08,
+"small": 0.67,
+"big": 0.26
+},
+"exp": {
+"x": 0.003,
+"small": 0.891,
+"big": 0.106
+},
+"gto_f": {
+"x": 0.216,
+"small": 0.251,
+"big": 0.533
+},
+"n": [
+5510.0,
+2780.7
+],
+"fallback": false,
+"why": "轉牌半池只要 33% 棄牌，池棄 36%＋你的補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.13,
+"small": 0.66,
+"big": 0.2
+},
+"exp": {
+"x": 0.005,
+"small": 0.89,
+"big": 0.105
+},
+"gto_f": {
+"x": 0.374,
+"small": 0.239,
+"big": 0.387
+},
+"n": [
+9952.2,
+4683.8
+],
+"fallback": false,
+"why": "轉牌半池只要 33% 棄牌，池棄 36%＋你的補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|barrel|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.21,
+"small": 0.67,
+"big": 0.12
+},
+"exp": {
+"x": 0.01,
+"small": 0.907,
+"big": 0.083
+},
+"gto_f": {
+"x": 0.584,
+"small": 0.218,
+"big": 0.198
+},
+"n": [
+12844.4,
+4732.3
+],
+"fallback": false,
+"why": "轉牌半池只要 33% 棄牌，池棄 36%＋你的補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.07,
+"small": 0.34,
+"big": 0.59
+},
+"exp": {
+"x": 0.005,
+"small": 0.189,
+"big": 0.807
+},
+"gto_f": {
+"x": 0.203,
+"small": 0.617,
+"big": 0.18
+},
+"n": [
+1344.1,
+2131.2
+],
+"fallback": false,
+"why": "翻牌過牌讓對手以為你弱 → 轉牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.08,
+"small": 0.3,
+"big": 0.62
+},
+"exp": {
+"x": 0.001,
+"small": 0.132,
+"big": 0.868
+},
+"gto_f": {
+"x": 0.235,
+"small": 0.605,
+"big": 0.16
+},
+"n": [
+1175.9,
+2652.7
+],
+"fallback": false,
+"why": "翻牌過牌讓對手以為你弱 → 轉牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.16,
+"small": 0.25,
+"big": 0.59
+},
+"exp": {
+"x": 0.002,
+"small": 0.131,
+"big": 0.868
+},
+"gto_f": {
+"x": 0.444,
+"small": 0.472,
+"big": 0.084
+},
+"n": [
+1625.0,
+1557.5
+],
+"fallback": false,
+"why": "翻牌過、轉牌下注池棄 58% → 中等牌也直接拿走底池",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"big"
+],
+"dev": true,
+"blend": {
+"x": 0.18,
+"small": 0.44,
+"big": 0.38
+},
+"exp": {
+"x": 0.007,
+"small": 0.425,
+"big": 0.568
+},
+"gto_f": {
+"x": 0.505,
+"small": 0.467,
+"big": 0.027
+},
+"n": [
+3436.5,
+8224.8
+],
+"fallback": false,
+"why": "翻牌過、轉牌下注池棄 58% → 中等牌也直接拿走底池",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.08,
+"small": 0.39,
+"big": 0.54
+},
+"exp": {
+"x": 0.004,
+"small": 0.274,
+"big": 0.723
+},
+"gto_f": {
+"x": 0.211,
+"small": 0.594,
+"big": 0.195
+},
+"n": [
+493.9,
+2332.9
+],
+"fallback": false,
+"why": "翻牌過、轉牌下注：池棄 58% → 最好偷的時機",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.12,
+"small": 0.63,
+"big": 0.25
+},
+"exp": {
+"x": 0.003,
+"small": 0.65,
+"big": 0.348
+},
+"gto_f": {
+"x": 0.343,
+"small": 0.596,
+"big": 0.06
+},
+"n": [
+812.9,
+5267.0
+],
+"fallback": false,
+"why": "翻牌過、轉牌下注：池棄 58% → 最好偷的時機",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|delay|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "delay",
+"street": "turn",
+"sit": "翻牌你也過牌；轉牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.17,
+"small": 0.57,
+"big": 0.26
+},
+"exp": {
+"x": 0.013,
+"small": 0.61,
+"big": 0.377
+},
+"gto_f": {
+"x": 0.448,
+"small": 0.499,
+"big": 0.053
+},
+"n": [
+370.0,
+4235.9
+],
+"fallback": false,
+"why": "翻牌過、轉牌下注：池棄 58% → 最好偷的時機",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "big",
+"gto_zh": "下注 1 池/全下",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.2,
+"small": 0.16,
+"big": 0.63
+},
+"exp": {
+"x": 0.188,
+"small": 0.145,
+"big": 0.667
+},
+"gto_f": {
+"x": 0.233,
+"small": 0.197,
+"big": 0.57
+},
+"n": [
+8851.7,
+8474.4
+],
+"fallback": false,
+"why": "河牌池跟注寬（面對 1 池仍跟 38%）→ 大注收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.42,
+"small": 0.22,
+"big": 0.36
+},
+"exp": {
+"x": 0.339,
+"small": 0.212,
+"big": 0.449
+},
+"gto_f": {
+"x": 0.583,
+"small": 0.228,
+"big": 0.189
+},
+"n": [
+3819.9,
+5165.4
+],
+"fallback": false,
+"why": "河牌池跟注寬（面對 1 池仍跟 38%）→ 大注收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.71,
+"small": 0.16,
+"big": 0.13
+},
+"exp": {
+"x": 0.682,
+"small": 0.132,
+"big": 0.186
+},
+"gto_f": {
+"x": 0.763,
+"small": 0.2,
+"big": 0.037
+},
+"n": [
+2663.5,
+1661.5
+],
+"fallback": false,
+"why": "中等牌下注只會被更好的牌跟 → 過牌攤牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.54,
+"small": 0.29,
+"big": 0.17
+},
+"exp": {
+"x": 0.375,
+"small": 0.413,
+"big": 0.212
+},
+"gto_f": {
+"x": 0.856,
+"small": 0.054,
+"big": 0.09
+},
+"n": [
+16161.5,
+9150.4
+],
+"fallback": false,
+"why": "中等牌下注只會被更好的牌跟 → 過牌攤牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.54,
+"small": 0.28,
+"big": 0.18
+},
+"exp": {
+"x": 0.395,
+"small": 0.397,
+"big": 0.207
+},
+"gto_f": {
+"x": 0.806,
+"small": 0.052,
+"big": 0.142
+},
+"n": [
+2932.4,
+2616.5
+],
+"fallback": false,
+"why": "第三槍池只棄約 40%，詐唬幾乎不賺 → 放棄",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_barrel|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.31,
+"small": 0.48,
+"big": 0.21
+},
+"exp": {
+"x": 0.113,
+"small": 0.68,
+"big": 0.207
+},
+"gto_f": {
+"x": 0.669,
+"small": 0.104,
+"big": 0.228
+},
+"n": [
+20278.7,
+10217.4
+],
+"fallback": false,
+"why": "河牌半池保本 33%，池棄 43%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_stab|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "big",
+"gto_zh": "下注 1 池/全下",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.07,
+"small": 0.4,
+"big": 0.52
+},
+"exp": {
+"x": 0.074,
+"small": 0.402,
+"big": 0.524
+},
+"gto_f": {
+"x": 0.074,
+"small": 0.402,
+"big": 0.524
+},
+"n": [
+2577.3,
+2577.3
+],
+"fallback": false,
+"why": "對手兩條街都過牌＝弱 → 河牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_stab|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.14,
+"small": 0.61,
+"big": 0.26
+},
+"exp": {
+"x": 0.136,
+"small": 0.61,
+"big": 0.255
+},
+"gto_f": {
+"x": 0.136,
+"small": 0.61,
+"big": 0.255
+},
+"n": [
+1449.0,
+1449.0
+],
+"fallback": false,
+"why": "對手兩條街都過牌＝弱 → 河牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_stab|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.26,
+"small": 0.56,
+"big": 0.18
+},
+"exp": {
+"x": 0.256,
+"small": 0.565,
+"big": 0.179
+},
+"gto_f": {
+"x": 0.256,
+"small": 0.565,
+"big": 0.179
+},
+"n": [
+1168.6,
+1168.6
+],
+"fallback": false,
+"why": "對手兩條街都過牌＝弱 → 半池薄價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_stab|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.7,
+"small": 0.25,
+"big": 0.05
+},
+"exp": {
+"x": 0.704,
+"small": 0.248,
+"big": 0.048
+},
+"gto_f": {
+"x": 0.704,
+"small": 0.248,
+"big": 0.048
+},
+"n": [
+7392.0,
+7392.0
+],
+"fallback": false,
+"why": "有攤牌價值，過牌免費看牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_IP|r_stab|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.8,
+"small": 0.13,
+"big": 0.07
+},
+"exp": {
+"x": 0.796,
+"small": 0.129,
+"big": 0.075
+},
+"gto_f": {
+"x": 0.796,
+"small": 0.129,
+"big": 0.075
+},
+"n": [
+1238.4,
+1238.4
+],
+"fallback": false,
+"why": "翻轉都過後河牌下 ~1 池，池棄 75%（最佳詐唬點）",
+"choices": [
+"x",
+"small",
+"big"
+],
+"note": "river_bluff.md: SRP IP 翻轉都過 fold 74.9% @90% pot (n=21,387)"
+},
+{
+"id": "SRP_IP|r_stab|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌 BB 過牌",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.65,
+"small": 0.21,
+"big": 0.14
+},
+"exp": {
+"x": 0.651,
+"small": 0.208,
+"big": 0.141
+},
+"gto_f": {
+"x": 0.651,
+"small": 0.208,
+"big": 0.141
+},
+"n": [
+6359.5,
+6359.5
+],
+"fallback": false,
+"why": "翻轉都過後河牌下 ~1 池，池棄 75%（最佳詐唬點）",
+"choices": [
+"x",
+"small",
+"big"
+],
+"note": "river_bluff.md: SRP IP 翻轉都過 fold 74.9% @90% pot (n=21,387)"
+},
+{
+"id": "SRP_IP|vs_probe|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.95,
+"r": 0.04
+},
+"exp": {
+"f": 0.015,
+"c": 0.933,
+"r": 0.052
+},
+"gto_f": {
+"f": 0.002,
+"c": 0.983,
+"r": 0.015
+},
+"n": [
+2136.0,
+3744.5
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.02,
+"c": 0.97,
+"r": 0.01
+},
+"exp": {
+"f": 0.026,
+"c": 0.962,
+"r": 0.011
+},
+"gto_f": {
+"f": 0.022,
+"c": 0.977,
+"r": 0.001
+},
+"n": [
+2024.8,
+4916.5
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.14,
+"c": 0.86,
+"r": 0.0
+},
+"exp": {
+"f": 0.168,
+"c": 0.825,
+"r": 0.007
+},
+"gto_f": {
+"f": 0.082,
+"c": 0.917,
+"r": 0.001
+},
+"n": [
+2583.9,
+2866.1
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.42,
+"c": 0.57,
+"r": 0.01
+},
+"exp": {
+"f": 0.482,
+"c": 0.502,
+"r": 0.015
+},
+"gto_f": {
+"f": 0.297,
+"c": 0.701,
+"r": 0.002
+},
+"n": [
+6220.3,
+15458.5
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.11,
+"c": 0.86,
+"r": 0.03
+},
+"exp": {
+"f": 0.137,
+"c": 0.827,
+"r": 0.036
+},
+"gto_f": {
+"f": 0.071,
+"c": 0.924,
+"r": 0.005
+},
+"n": [
+878.1,
+4133.6
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"f"
+],
+"dev": true,
+"blend": {
+"f": 0.48,
+"c": 0.51,
+"r": 0.0
+},
+"exp": {
+"f": 0.469,
+"c": 0.527,
+"r": 0.003
+},
+"gto_f": {
+"f": 0.514,
+"c": 0.485,
+"r": 0.001
+},
+"n": [
+1488.7,
+10440.4
+],
+"fallback": false,
+"why": "探測範圍有很多弱對/聽牌（43%）→ 有對子就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_probe|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_probe",
+"street": "turn",
+"sit": "翻牌你過牌；轉牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.89,
+"c": 0.1,
+"r": 0.0
+},
+"exp": {
+"f": 0.881,
+"c": 0.117,
+"r": 0.003
+},
+"gto_f": {
+"f": 0.919,
+"c": 0.081,
+"r": 0.0
+},
+"n": [
+763.5,
+8255.6
+],
+"fallback": false,
+"why": "池的轉牌探測空氣只占 11%，空氣跟不起",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.91,
+"r": 0.08
+},
+"exp": {
+"f": 0.015,
+"c": 0.892,
+"r": 0.093
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.948,
+"r": 0.052
+},
+"n": [
+1163.0,
+1119.2
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.22,
+"c": 0.73,
+"r": 0.06
+},
+"exp": {
+"f": 0.315,
+"c": 0.608,
+"r": 0.077
+},
+"gto_f": {
+"f": 0.034,
+"c": 0.948,
+"r": 0.018
+},
+"n": [
+2274.9,
+2387.5
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.37,
+"c": 0.57,
+"r": 0.06
+},
+"exp": {
+"f": 0.502,
+"c": 0.414,
+"r": 0.084
+},
+"gto_f": {
+"f": 0.125,
+"c": 0.872,
+"r": 0.003
+},
+"n": [
+744.6,
+445.2
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.48,
+"c": 0.5,
+"r": 0.02
+},
+"exp": {
+"f": 0.605,
+"c": 0.371,
+"r": 0.023
+},
+"gto_f": {
+"f": 0.238,
+"c": 0.746,
+"r": 0.015
+},
+"n": [
+4418.9,
+2029.0
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.16,
+"c": 0.82,
+"r": 0.02
+},
+"exp": {
+"f": 0.229,
+"c": 0.74,
+"r": 0.031
+},
+"gto_f": {
+"f": 0.02,
+"c": 0.967,
+"r": 0.013
+},
+"n": [
+1487.5,
+944.7
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"c"
+],
+"dev": true,
+"blend": {
+"f": 0.62,
+"c": 0.37,
+"r": 0.01
+},
+"exp": {
+"f": 0.735,
+"c": 0.253,
+"r": 0.013
+},
+"gto_f": {
+"f": 0.401,
+"c": 0.599,
+"r": 0.001
+},
+"n": [
+4509.9,
+2661.9
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_flop|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "flop",
+"sit": "你下注，BB 加注（翻牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.93,
+"c": 0.07,
+"r": 0.0
+},
+"exp": {
+"f": 0.977,
+"c": 0.023,
+"r": 0.0
+},
+"gto_f": {
+"f": 0.852,
+"c": 0.148,
+"r": 0.0
+},
+"n": [
+8696.0,
+4002.4
+],
+"fallback": false,
+"why": "翻牌加注空氣只 12%、頂對以上 59% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.29,
+"c": 0.71,
+"r": 0.0
+},
+"exp": {
+"f": 0.288,
+"c": 0.712
+},
+"gto_f": {
+"f": 0.292,
+"c": 0.708
+},
+"n": [
+3485.1,
+612.6
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 你夠強，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"c"
+],
+"dev": false,
+"blend": {
+"f": 0.6,
+"c": 0.4,
+"r": 0.0
+},
+"exp": {
+"f": 0.473,
+"c": 0.527
+},
+"gto_f": {
+"f": 0.83,
+"c": 0.17
+},
+"n": [
+3227.0,
+1068.1
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.71,
+"c": 0.29,
+"r": 0.0
+},
+"exp": {
+"f": 0.632,
+"c": 0.368
+},
+"gto_f": {
+"f": 0.85,
+"c": 0.15
+},
+"n": [
+1459.3,
+332.7
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.92,
+"c": 0.08,
+"r": 0.0
+},
+"exp": {
+"f": 0.907,
+"c": 0.093
+},
+"gto_f": {
+"f": 0.952,
+"c": 0.048
+},
+"n": [
+11341.6,
+1835.8
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.96,
+"c": 0.04,
+"r": 0.0
+},
+"exp": {
+"f": 0.963,
+"c": 0.037
+},
+"gto_f": {
+"f": 0.966,
+"c": 0.034
+},
+"n": [
+4839.3,
+656.7
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.97,
+"c": 0.03,
+"r": 0.0
+},
+"exp": {
+"f": 0.956,
+"c": 0.044
+},
+"gto_f": {
+"f": 1.0,
+"c": 0.0
+},
+"n": [
+9646.6,
+2138.6
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|vs_raise|ST_turn|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "vs_raise",
+"street": "turn",
+"sit": "你下注，BB 加注（轉牌）",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 1.0,
+"c": 0.0,
+"r": 0.0
+},
+"exp": {
+"f": 0.994,
+"c": 0.006
+},
+"gto_f": {
+"f": 1.0,
+"c": 0.0
+},
+"n": [
+12261.7,
+1266.1
+],
+"fallback": false,
+"why": "轉牌加注只有 6% 空氣、兩對以上 64% → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|strong",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.11,
+"c": 0.66,
+"r": 0.23
+},
+"exp": {
+"f": 0.131,
+"c": 0.652,
+"r": 0.217
+},
+"gto_f": {
+"f": 0.083,
+"c": 0.668,
+"r": 0.249
+},
+"n": [
+1813.3,
+11523.9
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|top_good",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.29,
+"c": 0.68,
+"r": 0.03
+},
+"exp": {
+"f": 0.335,
+"c": 0.629,
+"r": 0.037
+},
+"gto_f": {
+"f": 0.211,
+"c": 0.763,
+"r": 0.027
+},
+"n": [
+1590.2,
+6957.4
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|top_weak",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.39,
+"c": 0.59,
+"r": 0.02
+},
+"exp": {
+"f": 0.465,
+"c": 0.506,
+"r": 0.028
+},
+"gto_f": {
+"f": 0.246,
+"c": 0.736,
+"r": 0.018
+},
+"n": [
+1596.9,
+4435.5
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|mid_low",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.63,
+"c": 0.33,
+"r": 0.04
+},
+"exp": {
+"f": 0.695,
+"c": 0.261,
+"r": 0.044
+},
+"gto_f": {
+"f": 0.5,
+"c": 0.458,
+"r": 0.042
+},
+"n": [
+2599.0,
+24813.9
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|weak_draw",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.77,
+"c": 0.21,
+"r": 0.03
+},
+"exp": {
+"f": 0.78,
+"c": 0.193,
+"r": 0.027
+},
+"gto_f": {
+"f": 0.738,
+"c": 0.231,
+"r": 0.031
+},
+"n": [
+371.7,
+5060.6
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_IP|r_vs_bet|ALL|air",
+"group": "SRP_IP",
+"group_zh": "單加注底池・你開池（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌 BB 先下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.88,
+"c": 0.09,
+"r": 0.03
+},
+"exp": {
+"f": 0.893,
+"c": 0.077,
+"r": 0.03
+},
+"gto_f": {
+"f": 0.868,
+"c": 0.111,
+"r": 0.021
+},
+"n": [
+810.4,
+16345.1
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.32,
+"r": 0.68
+},
+"exp": {
+"f": 0.0,
+"c": 0.298,
+"r": 0.702
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.367,
+"r": 0.633
+},
+"n": [
+289.5,
+251.7
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.86,
+"r": 0.13
+},
+"exp": {
+"f": 0.007,
+"c": 0.871,
+"r": 0.122
+},
+"gto_f": {
+"f": 0.011,
+"c": 0.833,
+"r": 0.156
+},
+"n": [
+440.1,
+345.8
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.94,
+"r": 0.04
+},
+"exp": {
+"f": 0.012,
+"c": 0.941,
+"r": 0.047
+},
+"gto_f": {
+"f": 0.016,
+"c": 0.948,
+"r": 0.036
+},
+"n": [
+928.8,
+810.2
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.35,
+"c": 0.48,
+"r": 0.17
+},
+"exp": {
+"f": 0.296,
+"c": 0.486,
+"r": 0.218
+},
+"gto_f": {
+"f": 0.447,
+"c": 0.479,
+"r": 0.074
+},
+"n": [
+1676.7,
+1790.4
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"r"
+],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.66,
+"r": 0.33
+},
+"exp": {
+"f": 0.007,
+"c": 0.658,
+"r": 0.335
+},
+"gto_f": {
+"f": 0.021,
+"c": 0.655,
+"r": 0.324
+},
+"n": [
+376.1,
+334.7
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"r"
+],
+"dev": false,
+"blend": {
+"f": 0.31,
+"c": 0.29,
+"r": 0.39
+},
+"exp": {
+"f": 0.304,
+"c": 0.207,
+"r": 0.489
+},
+"gto_f": {
+"f": 0.334,
+"c": 0.455,
+"r": 0.211
+},
+"n": [
+846.1,
+670.0
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|A_high|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "A_high",
+"tx_zh": "A 高面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.95,
+"c": 0.02,
+"r": 0.03
+},
+"exp": {
+"f": 0.934,
+"c": 0.016,
+"r": 0.05
+},
+"gto_f": {
+"f": 0.976,
+"c": 0.021,
+"r": 0.003
+},
+"n": [
+2413.7,
+2063.3
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.3,
+"r": 0.7
+},
+"exp": {
+"f": 0.0,
+"c": 0.276,
+"r": 0.724
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.341,
+"r": 0.659
+},
+"n": [
+388.0,
+459.5
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.91,
+"r": 0.09
+},
+"exp": {
+"f": 0.0,
+"c": 0.943,
+"r": 0.057
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.835,
+"r": 0.164
+},
+"n": [
+890.7,
+673.8
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.97,
+"r": 0.03
+},
+"exp": {
+"f": 0.0,
+"c": 0.984,
+"r": 0.016
+},
+"gto_f": {
+"f": 0.004,
+"c": 0.935,
+"r": 0.061
+},
+"n": [
+605.0,
+644.1
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.16,
+"c": 0.77,
+"r": 0.07
+},
+"exp": {
+"f": 0.1,
+"c": 0.844,
+"r": 0.056
+},
+"gto_f": {
+"f": 0.268,
+"c": 0.622,
+"r": 0.11
+},
+"n": [
+2441.7,
+2732.3
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.0,
+"c": 0.73,
+"r": 0.26
+},
+"exp": {
+"f": 0.0,
+"c": 0.833,
+"r": 0.167
+},
+"gto_f": {
+"f": 0.009,
+"c": 0.55,
+"r": 0.441
+},
+"n": [
+854.5,
+812.8
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.18,
+"c": 0.56,
+"r": 0.26
+},
+"exp": {
+"f": 0.137,
+"c": 0.619,
+"r": 0.243
+},
+"gto_f": {
+"f": 0.261,
+"c": 0.442,
+"r": 0.297
+},
+"n": [
+892.8,
+824.9
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|KQ_high|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "KQ_high",
+"tx_zh": "K/Q 高面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.79,
+"c": 0.15,
+"r": 0.06
+},
+"exp": {
+"f": 0.728,
+"c": 0.187,
+"r": 0.085
+},
+"gto_f": {
+"f": 0.905,
+"c": 0.074,
+"r": 0.02
+},
+"n": [
+4545.6,
+4264.5
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.09,
+"r": 0.91
+},
+"exp": {
+"f": 0.0,
+"c": 0.056,
+"r": 0.944
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.157,
+"r": 0.843
+},
+"n": [
+135.0,
+192.4
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.87,
+"r": 0.13
+},
+"exp": {
+"f": 0.0,
+"c": 0.923,
+"r": 0.077
+},
+"gto_f": {
+"f": 0.003,
+"c": 0.773,
+"r": 0.224
+},
+"n": [
+724.6,
+636.0
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.92,
+"r": 0.08
+},
+"exp": {
+"f": 0.0,
+"c": 0.977,
+"r": 0.023
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.819,
+"r": 0.181
+},
+"n": [
+240.7,
+253.2
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.09,
+"c": 0.82,
+"r": 0.09
+},
+"exp": {
+"f": 0.046,
+"c": 0.896,
+"r": 0.059
+},
+"gto_f": {
+"f": 0.163,
+"c": 0.687,
+"r": 0.15
+},
+"n": [
+1341.8,
+1543.2
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.0,
+"c": 0.7,
+"r": 0.29
+},
+"exp": {
+"f": 0.0,
+"c": 0.814,
+"r": 0.186
+},
+"gto_f": {
+"f": 0.006,
+"c": 0.501,
+"r": 0.493
+},
+"n": [
+490.3,
+468.3
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.26,
+"c": 0.48,
+"r": 0.26
+},
+"exp": {
+"f": 0.212,
+"c": 0.536,
+"r": 0.252
+},
+"gto_f": {
+"f": 0.34,
+"c": 0.384,
+"r": 0.277
+},
+"n": [
+1055.6,
+816.2
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mid_high|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mid_high",
+"tx_zh": "J/T 高中張面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.69,
+"c": 0.23,
+"r": 0.08
+},
+"exp": {
+"f": 0.58,
+"c": 0.315,
+"r": 0.105
+},
+"gto_f": {
+"f": 0.882,
+"c": 0.081,
+"r": 0.036
+},
+"n": [
+2734.2,
+2675.4
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.07,
+"r": 0.93
+},
+"exp": {
+"f": 0.0,
+"c": 0.007,
+"r": 0.993
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.188,
+"r": 0.812
+},
+"n": [
+111.1,
+149.4
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.78,
+"r": 0.22
+},
+"exp": {
+"f": 0.0,
+"c": 0.838,
+"r": 0.162
+},
+"gto_f": {
+"f": 0.009,
+"c": 0.668,
+"r": 0.324
+},
+"n": [
+235.9,
+280.5
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.01,
+"c": 0.72,
+"r": 0.27
+},
+"exp": {
+"f": 0.0,
+"c": 0.801,
+"r": 0.199
+},
+"gto_f": {
+"f": 0.017,
+"c": 0.582,
+"r": 0.401
+},
+"n": [
+101.6,
+100.2
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.05,
+"c": 0.82,
+"r": 0.12
+},
+"exp": {
+"f": 0.023,
+"c": 0.92,
+"r": 0.057
+},
+"gto_f": {
+"f": 0.107,
+"c": 0.643,
+"r": 0.25
+},
+"n": [
+558.0,
+602.3
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [
+"r"
+],
+"dev": true,
+"blend": {
+"f": 0.0,
+"c": 0.61,
+"r": 0.39
+},
+"exp": {
+"f": 0.0,
+"c": 0.739,
+"r": 0.261
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.383,
+"r": 0.617
+},
+"n": [
+291.6,
+282.1
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"f"
+],
+"dev": true,
+"blend": {
+"f": 0.44,
+"c": 0.33,
+"r": 0.23
+},
+"exp": {
+"f": 0.325,
+"c": 0.402,
+"r": 0.274
+},
+"gto_f": {
+"f": 0.648,
+"c": 0.209,
+"r": 0.144
+},
+"n": [
+1644.5,
+1507.5
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|low|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "low",
+"tx_zh": "低牌面(9 以下)",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.76,
+"c": 0.19,
+"r": 0.05
+},
+"exp": {
+"f": 0.687,
+"c": 0.252,
+"r": 0.061
+},
+"gto_f": {
+"f": 0.899,
+"c": 0.07,
+"r": 0.03
+},
+"n": [
+577.3,
+558.7
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.22,
+"r": 0.78
+},
+"exp": {
+"f": 0.0,
+"c": 0.193,
+"r": 0.807
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.271,
+"r": 0.729
+},
+"n": [
+506.3,
+429.3
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.81,
+"r": 0.19
+},
+"exp": {
+"f": 0.0,
+"c": 0.905,
+"r": 0.095
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.624,
+"r": 0.376
+},
+"n": [
+404.4,
+364.0
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.0,
+"c": 0.83,
+"r": 0.17
+},
+"exp": {
+"f": 0.0,
+"c": 0.967,
+"r": 0.033
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.571,
+"r": 0.429
+},
+"n": [
+167.2,
+155.8
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [],
+"dev": true,
+"blend": {
+"f": 0.11,
+"c": 0.69,
+"r": 0.2
+},
+"exp": {
+"f": 0.111,
+"c": 0.8,
+"r": 0.089
+},
+"gto_f": {
+"f": 0.122,
+"c": 0.475,
+"r": 0.402
+},
+"n": [
+564.5,
+751.7
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "r",
+"gto_zh": "加注",
+"ok": [
+"c"
+],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.59,
+"r": 0.41
+},
+"exp": {
+"f": 0.0,
+"c": 0.708,
+"r": 0.292
+},
+"gto_f": {
+"f": 0.003,
+"c": 0.374,
+"r": 0.623
+},
+"n": [
+549.6,
+454.2
+],
+"fallback": false,
+"why": "聽牌加注：池棄 41%，被跟還有補牌",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"f"
+],
+"dev": true,
+"blend": {
+"f": 0.39,
+"c": 0.31,
+"r": 0.3
+},
+"exp": {
+"f": 0.289,
+"c": 0.379,
+"r": 0.332
+},
+"gto_f": {
+"f": 0.586,
+"c": 0.185,
+"r": 0.229
+},
+"n": [
+2240.4,
+1669.3
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|paired|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "paired",
+"tx_zh": "對子面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.67,
+"c": 0.21,
+"r": 0.11
+},
+"exp": {
+"f": 0.57,
+"c": 0.29,
+"r": 0.14
+},
+"gto_f": {
+"f": 0.866,
+"c": 0.073,
+"r": 0.061
+},
+"n": [
+3054.0,
+2602.3
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "r",
+"ans_zh": "加注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"c"
+],
+"dev": true,
+"blend": {
+"f": 0.0,
+"c": 0.53,
+"r": 0.47
+},
+"exp": {
+"f": 0.0,
+"c": 0.429,
+"r": 0.571
+},
+"gto_f": {
+"f": 0.0,
+"c": 0.723,
+"r": 0.277
+},
+"n": [
+420.2,
+415.1
+],
+"fallback": false,
+"why": "強牌加注：池面對加注只棄 41%，會付錢",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.03,
+"c": 0.91,
+"r": 0.06
+},
+"exp": {
+"f": 0.007,
+"c": 0.948,
+"r": 0.045
+},
+"gto_f": {
+"f": 0.074,
+"c": 0.85,
+"r": 0.076
+},
+"n": [
+246.4,
+229.5
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.11,
+"c": 0.78,
+"r": 0.11
+},
+"exp": {
+"f": 0.097,
+"c": 0.774,
+"r": 0.13
+},
+"gto_f": {
+"f": 0.135,
+"c": 0.792,
+"r": 0.073
+},
+"n": [
+281.3,
+276.0
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.28,
+"c": 0.57,
+"r": 0.14
+},
+"exp": {
+"f": 0.221,
+"c": 0.609,
+"r": 0.17
+},
+"gto_f": {
+"f": 0.402,
+"c": 0.503,
+"r": 0.096
+},
+"n": [
+768.7,
+925.2
+],
+"fallback": false,
+"why": "池 c-bet 空氣占 24% → 你的對子常常領先，跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.08,
+"c": 0.63,
+"r": 0.29
+},
+"exp": {
+"f": 0.067,
+"c": 0.637,
+"r": 0.296
+},
+"gto_f": {
+"f": 0.115,
+"c": 0.616,
+"r": 0.269
+},
+"n": [
+424.9,
+399.1
+],
+"fallback": false,
+"why": "池翻牌 c-bet 空氣占 24%，你的牌有勝率 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.82,
+"c": 0.04,
+"r": 0.14
+},
+"exp": {
+"f": 0.764,
+"c": 0.036,
+"r": 0.2
+},
+"gto_f": {
+"f": 0.936,
+"c": 0.043,
+"r": 0.022
+},
+"n": [
+520.4,
+511.5
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|f_vs_cbet|mono|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你 BB 跟注；翻牌你過牌，對手 c-bet",
+"tx": "mono",
+"tx_zh": "單色面",
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.96,
+"c": 0.02,
+"r": 0.01
+},
+"exp": {
+"f": 0.944,
+"c": 0.035,
+"r": 0.02
+},
+"gto_f": {
+"f": 1.0,
+"c": 0.0,
+"r": 0.0
+},
+"n": [
+693.8,
+670.1
+],
+"fallback": false,
+"why": "沒對子沒聽牌，跟了也很難贏 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.93,
+"r": 0.06
+},
+"exp": {
+"f": 0.003,
+"c": 0.959,
+"r": 0.038
+},
+"gto_f": {
+"f": 0.012,
+"c": 0.881,
+"r": 0.106
+},
+"n": [
+6082.6,
+5472.0
+],
+"fallback": false,
+"why": "池轉牌下注很寬（弱對+聽牌約 40%）→ 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.05,
+"c": 0.94,
+"r": 0.01
+},
+"exp": {
+"f": 0.042,
+"c": 0.953,
+"r": 0.005
+},
+"gto_f": {
+"f": 0.071,
+"c": 0.919,
+"r": 0.009
+},
+"n": [
+5592.9,
+3571.2
+],
+"fallback": false,
+"why": "池轉牌下注很寬（弱對+聽牌約 40%）→ 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.21,
+"c": 0.79,
+"r": 0.01
+},
+"exp": {
+"f": 0.168,
+"c": 0.827,
+"r": 0.005
+},
+"gto_f": {
+"f": 0.281,
+"c": 0.708,
+"r": 0.011
+},
+"n": [
+4917.4,
+3636.1
+],
+"fallback": false,
+"why": "池轉牌下注很寬（弱對+聽牌約 40%）→ 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"f"
+],
+"dev": true,
+"blend": {
+"f": 0.42,
+"c": 0.57,
+"r": 0.01
+},
+"exp": {
+"f": 0.369,
+"c": 0.627,
+"r": 0.004
+},
+"gto_f": {
+"f": 0.523,
+"c": 0.465,
+"r": 0.012
+},
+"n": [
+19281.7,
+14978.6
+],
+"fallback": false,
+"why": "池轉牌下注很寬（弱對+聽牌約 40%）→ 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"f"
+],
+"dev": true,
+"blend": {
+"f": 0.46,
+"c": 0.48,
+"r": 0.06
+},
+"exp": {
+"f": 0.423,
+"c": 0.549,
+"r": 0.029
+},
+"gto_f": {
+"f": 0.54,
+"c": 0.346,
+"r": 0.114
+},
+"n": [
+6385.0,
+3698.7
+],
+"fallback": false,
+"why": "池轉牌下注很寬（弱對+聽牌約 40%）→ 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.71,
+"c": 0.29,
+"r": 0.0
+},
+"exp": {
+"f": 0.621,
+"c": 0.377,
+"r": 0.002
+},
+"gto_f": {
+"f": 0.862,
+"c": 0.131,
+"r": 0.007
+},
+"n": [
+7616.1,
+3780.8
+],
+"fallback": false,
+"why": "轉牌下注空氣只 12%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|vs_barrel|ALL|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了 c-bet；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.77,
+"c": 0.23,
+"r": 0.0
+},
+"exp": {
+"f": 0.675,
+"c": 0.325,
+"r": 0.0
+},
+"gto_f": {
+"f": 0.954,
+"c": 0.046,
+"r": 0.0
+},
+"n": [
+7613.6,
+1712.2
+],
+"fallback": false,
+"why": "轉牌下注空氣只 12%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.16,
+"small": 0.24,
+"big": 0.6
+},
+"exp": {
+"x": 0.042,
+"small": 0.261,
+"big": 0.696
+},
+"gto_f": {
+"x": 0.367,
+"small": 0.213,
+"big": 0.42
+},
+"n": [
+6212.2,
+6347.6
+],
+"fallback": false,
+"why": "對手翻牌沒 c-bet＝弱 → 轉牌主動收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "big",
+"ans_zh": "下注 1 池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"small"
+],
+"dev": true,
+"blend": {
+"x": 0.17,
+"small": 0.37,
+"big": 0.47
+},
+"exp": {
+"x": 0.047,
+"small": 0.37,
+"big": 0.583
+},
+"gto_f": {
+"x": 0.392,
+"small": 0.358,
+"big": 0.249
+},
+"n": [
+3646.5,
+3163.1
+],
+"fallback": false,
+"why": "對手翻牌沒 c-bet＝弱 → 轉牌主動收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.27,
+"small": 0.45,
+"big": 0.28
+},
+"exp": {
+"x": 0.058,
+"small": 0.553,
+"big": 0.389
+},
+"gto_f": {
+"x": 0.665,
+"small": 0.258,
+"big": 0.076
+},
+"n": [
+3190.2,
+3211.1
+],
+"fallback": false,
+"why": "對手翻牌放棄 c-bet，轉牌下注池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.3,
+"small": 0.58,
+"big": 0.12
+},
+"exp": {
+"x": 0.061,
+"small": 0.788,
+"big": 0.15
+},
+"gto_f": {
+"x": 0.747,
+"small": 0.183,
+"big": 0.07
+},
+"n": [
+13295.3,
+15024.4
+],
+"fallback": false,
+"why": "對手翻牌放棄 c-bet，轉牌下注池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "big",
+"gto_zh": "下注 1 池",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.06,
+"small": 0.61,
+"big": 0.32
+},
+"exp": {
+"x": 0.02,
+"small": 0.77,
+"big": 0.21
+},
+"gto_f": {
+"x": 0.148,
+"small": 0.321,
+"big": 0.531
+},
+"n": [
+6663.7,
+6307.8
+],
+"fallback": false,
+"why": "對手翻牌放棄 c-bet，轉牌下注池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.21,
+"small": 0.64,
+"big": 0.15
+},
+"exp": {
+"x": 0.019,
+"small": 0.882,
+"big": 0.099
+},
+"gto_f": {
+"x": 0.567,
+"small": 0.195,
+"big": 0.237
+},
+"n": [
+9493.6,
+8599.9
+],
+"fallback": false,
+"why": "對手翻牌放棄 c-bet，轉牌下注池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|probe|ALL|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "probe",
+"street": "turn",
+"sit": "翻牌對手沒 c-bet；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.34,
+"small": 0.62,
+"big": 0.04
+},
+"exp": {
+"x": 0.011,
+"small": 0.934,
+"big": 0.055
+},
+"gto_f": {
+"x": 0.944,
+"small": 0.031,
+"big": 0.026
+},
+"n": [
+12337.3,
+11677.1
+],
+"fallback": false,
+"why": "對手翻牌放棄 c-bet，轉牌下注池棄 50%",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.21,
+"c": 0.58,
+"r": 0.2
+},
+"exp": {
+"f": 0.225,
+"c": 0.58,
+"r": 0.195
+},
+"gto_f": {
+"f": 0.19,
+"c": 0.59,
+"r": 0.22
+},
+"n": [
+14384.8,
+12385.9
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.42,
+"c": 0.55,
+"r": 0.03
+},
+"exp": {
+"f": 0.431,
+"c": 0.53,
+"r": 0.039
+},
+"gto_f": {
+"f": 0.397,
+"c": 0.58,
+"r": 0.023
+},
+"n": [
+6394.2,
+3576.8
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.45,
+"c": 0.53,
+"r": 0.02
+},
+"exp": {
+"f": 0.473,
+"c": 0.509,
+"r": 0.017
+},
+"gto_f": {
+"f": 0.4,
+"c": 0.577,
+"r": 0.023
+},
+"n": [
+6754.5,
+4822.3
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.67,
+"c": 0.3,
+"r": 0.03
+},
+"exp": {
+"f": 0.707,
+"c": 0.267,
+"r": 0.025
+},
+"gto_f": {
+"f": 0.603,
+"c": 0.359,
+"r": 0.038
+},
+"n": [
+40471.1,
+29095.5
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.85,
+"c": 0.13,
+"r": 0.02
+},
+"exp": {
+"f": 0.864,
+"c": 0.116,
+"r": 0.019
+},
+"gto_f": {
+"f": 0.815,
+"c": 0.167,
+"r": 0.018
+},
+"n": [
+5562.8,
+1285.2
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_vs_bet|ALL|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌你過牌，對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.91,
+"c": 0.08,
+"r": 0.01
+},
+"exp": {
+"f": 0.907,
+"c": 0.082,
+"r": 0.011
+},
+"gto_f": {
+"f": 0.902,
+"c": 0.084,
+"r": 0.015
+},
+"n": [
+42902.7,
+17096.2
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "SRP_BB|r_stab|ALL|strong",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "big",
+"gto_zh": "下注 1 池/全下",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.4,
+"small": 0.28,
+"big": 0.32
+},
+"exp": {
+"x": 0.43,
+"small": 0.261,
+"big": 0.308
+},
+"gto_f": {
+"x": 0.35,
+"small": 0.315,
+"big": 0.336
+},
+"n": [
+6168.6,
+9123.2
+],
+"fallback": false,
+"why": "轉牌對手過牌示弱 → 河牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|r_stab|ALL|top_good",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.34,
+"small": 0.43,
+"big": 0.23
+},
+"exp": {
+"x": 0.375,
+"small": 0.381,
+"big": 0.244
+},
+"gto_f": {
+"x": 0.262,
+"small": 0.535,
+"big": 0.204
+},
+"n": [
+2734.8,
+2908.0
+],
+"fallback": false,
+"why": "轉牌對手過牌示弱 → 河牌收價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|r_stab|ALL|top_weak",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_weak",
+"hc_zh": "頂對弱踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.49,
+"small": 0.42,
+"big": 0.09
+},
+"exp": {
+"x": 0.551,
+"small": 0.361,
+"big": 0.088
+},
+"gto_f": {
+"x": 0.369,
+"small": 0.537,
+"big": 0.095
+},
+"n": [
+2456.5,
+3779.0
+],
+"fallback": false,
+"why": "對手轉牌也不下注＝弱 → 半池薄價值",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|r_stab|ALL|mid_low",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.7,
+"small": 0.24,
+"big": 0.06
+},
+"exp": {
+"x": 0.737,
+"small": 0.201,
+"big": 0.062
+},
+"gto_f": {
+"x": 0.639,
+"small": 0.317,
+"big": 0.044
+},
+"n": [
+9987.3,
+18013.2
+],
+"fallback": false,
+"why": "有攤牌價值，過牌就好",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "SRP_BB|r_stab|ALL|weak_draw",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.66,
+"small": 0.18,
+"big": 0.16
+},
+"exp": {
+"x": 0.704,
+"small": 0.128,
+"big": 0.168
+},
+"gto_f": {
+"x": 0.588,
+"small": 0.28,
+"big": 0.133
+},
+"n": [
+1300.5,
+1125.7
+],
+"fallback": false,
+"why": "翻轉都過，河牌你先下 ~1 池：池棄 67%",
+"choices": [
+"x",
+"small",
+"big"
+],
+"note": "river_bluff.md: SRP OOP 翻轉都過 fold 66.9% @89% pot (n=34,825)"
+},
+{
+"id": "SRP_BB|r_stab|ALL|air",
+"group": "SRP_BB",
+"group_zh": "單加注底池・你在 BB 防守",
+"cat": "r_stab",
+"street": "river",
+"sit": "轉牌兩人都過牌；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.6,
+"small": 0.25,
+"big": 0.15
+},
+"exp": {
+"x": 0.575,
+"small": 0.247,
+"big": 0.178
+},
+"gto_f": {
+"x": 0.644,
+"small": 0.244,
+"big": 0.112
+},
+"n": [
+6811.0,
+14140.1
+],
+"fallback": false,
+"why": "翻轉都過，河牌你先下 ~1 池：池棄 67%",
+"choices": [
+"x",
+"small",
+"big"
+],
+"note": "river_bluff.md: SRP OOP 翻轉都過 fold 66.9% @89% pot (n=34,825)"
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|strong",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.15,
+"small": 0.56,
+"big": 0.29
+},
+"exp": {
+"x": 0.117,
+"small": 0.571,
+"big": 0.312
+},
+"gto_f": {
+"x": 0.212,
+"small": 0.53,
+"big": 0.258
+},
+"n": [
+195.6,
+87.4
+],
+"fallback": false,
+"why": "3bet 底池小注保本 25%，池棄 29%，價值牌也被跟",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|top_good",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.17,
+"small": 0.38,
+"big": 0.45
+},
+"exp": {
+"x": 0.155,
+"small": 0.432,
+"big": 0.413
+},
+"gto_f": {
+"x": 0.201,
+"small": 0.288,
+"big": 0.512
+},
+"n": [
+611.3,
+647.0
+],
+"fallback": false,
+"why": "池面對 75% 棄 50%（保本 43%）",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|mid_low",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [
+"big"
+],
+"dev": false,
+"blend": {
+"x": 0.18,
+"small": 0.43,
+"big": 0.4
+},
+"exp": {
+"x": 0.075,
+"small": 0.424,
+"big": 0.501
+},
+"gto_f": {
+"x": 0.365,
+"small": 0.431,
+"big": 0.204
+},
+"n": [
+1032.7,
+427.3
+],
+"fallback": false,
+"why": "3bet 底池小注保本 25%，池棄 29%，價值牌也被跟",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|draw",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 33%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"big"
+],
+"dev": true,
+"blend": {
+"x": 0.12,
+"small": 0.48,
+"big": 0.4
+},
+"exp": {
+"x": 0.08,
+"small": 0.573,
+"big": 0.347
+},
+"gto_f": {
+"x": 0.187,
+"small": 0.315,
+"big": 0.498
+},
+"n": [
+153.9,
+64.6
+],
+"fallback": false,
+"why": "3bet 底池小注保本 25%，池棄 29%，價值牌也被跟",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|weak_draw",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "big",
+"gto_zh": "下注 75%",
+"ok": [
+"small"
+],
+"dev": false,
+"blend": {
+"x": 0.07,
+"small": 0.42,
+"big": 0.51
+},
+"exp": {
+"x": 0.014,
+"small": 0.496,
+"big": 0.49
+},
+"gto_f": {
+"x": 0.187,
+"small": 0.276,
+"big": 0.537
+},
+"n": [
+541.2,
+639.7
+],
+"fallback": false,
+"why": "池面對 75% 棄 50%（保本 43%）",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|f_cbet|ALL|air",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "f_cbet",
+"street": "flop",
+"sit": "你 3bet、BTN 跟注；翻牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "big",
+"ans_zh": "下注 75%",
+"gto": "small",
+"gto_zh": "下注 33%",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.17,
+"small": 0.29,
+"big": 0.54
+},
+"exp": {
+"x": 0.036,
+"small": 0.285,
+"big": 0.679
+},
+"gto_f": {
+"x": 0.411,
+"small": 0.31,
+"big": 0.278
+},
+"n": [
+537.0,
+495.9
+],
+"fallback": false,
+"why": "池面對 75% 棄 50%（保本 43%）",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|strong",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.45,
+"small": 0.34,
+"big": 0.22
+},
+"exp": {
+"x": 0.407,
+"small": 0.318,
+"big": 0.274
+},
+"gto_f": {
+"x": 0.517,
+"small": 0.376,
+"big": 0.107
+},
+"n": [
+590.5,
+380.2
+],
+"fallback": false,
+"why": "轉牌收價值，SPR 低可以直接打到全下",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|top_good",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "small",
+"gto_zh": "下注 半池",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.34,
+"small": 0.37,
+"big": 0.3
+},
+"exp": {
+"x": 0.281,
+"small": 0.354,
+"big": 0.365
+},
+"gto_f": {
+"x": 0.444,
+"small": 0.387,
+"big": 0.169
+},
+"n": [
+970.2,
+1091.6
+],
+"fallback": false,
+"why": "轉牌收價值，SPR 低可以直接打到全下",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|mid_low",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.49,
+"small": 0.46,
+"big": 0.06
+},
+"exp": {
+"x": 0.354,
+"small": 0.577,
+"big": 0.069
+},
+"gto_f": {
+"x": 0.742,
+"small": 0.229,
+"big": 0.029
+},
+"n": [
+2339.4,
+795.6
+],
+"fallback": false,
+"why": "半池保本 33%，池棄 36% ＋補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|draw",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": true,
+"blend": {
+"x": 0.33,
+"small": 0.54,
+"big": 0.13
+},
+"exp": {
+"x": 0.189,
+"small": 0.702,
+"big": 0.109
+},
+"gto_f": {
+"x": 0.591,
+"small": 0.244,
+"big": 0.165
+},
+"n": [
+441.2,
+228.2
+],
+"fallback": false,
+"why": "半池保本 33%，池棄 36% ＋補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|weak_draw",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "small",
+"ans_zh": "下注 半池",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [
+"x"
+],
+"dev": true,
+"blend": {
+"x": 0.41,
+"small": 0.48,
+"big": 0.11
+},
+"exp": {
+"x": 0.282,
+"small": 0.605,
+"big": 0.113
+},
+"gto_f": {
+"x": 0.648,
+"small": 0.261,
+"big": 0.091
+},
+"n": [
+1074.8,
+1052.3
+],
+"fallback": false,
+"why": "半池保本 33%，池棄 36% ＋補牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|barrel|ALL|air",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "barrel",
+"street": "turn",
+"sit": "翻牌 c-bet 被跟；轉牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.65,
+"small": 0.32,
+"big": 0.03
+},
+"exp": {
+"x": 0.587,
+"small": 0.392,
+"big": 0.021
+},
+"gto_f": {
+"x": 0.761,
+"small": 0.179,
+"big": 0.06
+},
+"n": [
+741.9,
+349.7
+],
+"fallback": false,
+"why": "轉牌詐唬池不太棄 → 放棄",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|r_barrel|ALL|strong",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "big",
+"gto_zh": "下注 1 池/全下",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.32,
+"small": 0.17,
+"big": 0.51
+},
+"exp": {
+"x": 0.303,
+"big": 0.526,
+"small": 0.17
+},
+"gto_f": {
+"x": 0.348,
+"big": 0.491,
+"small": 0.161
+},
+"n": [
+918.4,
+751.3
+],
+"fallback": false,
+"why": "河牌收價值：池跟注寬",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|r_barrel|ALL|top_good",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "big",
+"ans_zh": "下注 1 池/全下",
+"gto": "big",
+"gto_zh": "下注 1 池/全下",
+"ok": [
+"x"
+],
+"dev": false,
+"blend": {
+"x": 0.38,
+"small": 0.18,
+"big": 0.44
+},
+"exp": {
+"x": 0.376,
+"big": 0.419,
+"small": 0.204
+},
+"gto_f": {
+"x": 0.378,
+"big": 0.491,
+"small": 0.131
+},
+"n": [
+722.5,
+940.0
+],
+"fallback": false,
+"why": "河牌收價值：池跟注寬",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|r_barrel|ALL|mid_low",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.69,
+"small": 0.15,
+"big": 0.17
+},
+"exp": {
+"x": 0.665,
+"big": 0.156,
+"small": 0.179
+},
+"gto_f": {
+"x": 0.724,
+"big": 0.183,
+"small": 0.092
+},
+"n": [
+1717.2,
+709.7
+],
+"fallback": false,
+"why": "過牌攤牌",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|r_barrel|ALL|weak_draw",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.69,
+"small": 0.04,
+"big": 0.27
+},
+"exp": {
+"x": 0.673,
+"big": 0.294,
+"small": 0.033
+},
+"gto_f": {
+"x": 0.726,
+"big": 0.218,
+"small": 0.055
+},
+"n": [
+394.7,
+537.9
+],
+"fallback": false,
+"why": "3bet 底池 OOP 第三槍詐唬 EV≈0（池只棄 36%）",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_3bettor|r_barrel|ALL|air",
+"group": "3BP_3bettor",
+"group_zh": "3bet 底池・你 3bet（沒位置）",
+"cat": "r_barrel",
+"street": "river",
+"sit": "翻、轉都下注被跟；河牌你先行動",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "x",
+"ans_zh": "過牌",
+"gto": "x",
+"gto_zh": "過牌",
+"ok": [],
+"dev": false,
+"blend": {
+"x": 0.75,
+"small": 0.09,
+"big": 0.16
+},
+"exp": {
+"x": 0.788,
+"big": 0.129,
+"small": 0.083
+},
+"gto_f": {
+"x": 0.688,
+"big": 0.217,
+"small": 0.095
+},
+"n": [
+877.7,
+699.9
+],
+"fallback": false,
+"why": "3bet 底池 OOP 第三槍詐唬 EV≈0（池只棄 36%）",
+"choices": [
+"x",
+"small",
+"big"
+]
+},
+{
+"id": "3BP_caller|f_vs_cbet|ALL|top_good",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你跟了 3bet（有位置）；翻牌對手 c-bet",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.01,
+"c": 0.92,
+"r": 0.07
+},
+"exp": {
+"f": 0.009,
+"c": 0.946,
+"r": 0.045
+},
+"gto_f": {
+"f": 0.001,
+"c": 0.883,
+"r": 0.116
+},
+"n": [
+435.6,
+877.1
+],
+"fallback": false,
+"why": "池 3bet 後 c-bet 67%，範圍很寬 → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|f_vs_cbet|ALL|mid_low",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你跟了 3bet（有位置）；翻牌對手 c-bet",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.32,
+"c": 0.66,
+"r": 0.02
+},
+"exp": {
+"f": 0.343,
+"c": 0.65,
+"r": 0.006
+},
+"gto_f": {
+"f": 0.282,
+"c": 0.668,
+"r": 0.05
+},
+"n": [
+221.6,
+1299.3
+],
+"fallback": false,
+"why": "池 3bet 後 c-bet 67%，範圍很寬 → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|f_vs_cbet|ALL|draw",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你跟了 3bet（有位置）；翻牌對手 c-bet",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.02,
+"c": 0.93,
+"r": 0.05
+},
+"exp": {
+"f": 0.022,
+"c": 0.962,
+"r": 0.016
+},
+"gto_f": {
+"f": 0.008,
+"c": 0.872,
+"r": 0.121
+},
+"n": [
+100.8,
+270.0
+],
+"fallback": false,
+"why": "池 3bet 後 c-bet 67%，範圍很寬 → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|f_vs_cbet|ALL|weak_draw",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你跟了 3bet（有位置）；翻牌對手 c-bet",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [
+"f"
+],
+"dev": false,
+"blend": {
+"f": 0.45,
+"c": 0.52,
+"r": 0.02
+},
+"exp": {
+"f": 0.479,
+"c": 0.519,
+"r": 0.001
+},
+"gto_f": {
+"f": 0.407,
+"c": 0.534,
+"r": 0.058
+},
+"n": [
+723.2,
+1024.7
+],
+"fallback": false,
+"why": "池 3bet 後 c-bet 67%，範圍很寬 → 有勝率就跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|f_vs_cbet|ALL|air",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "f_vs_cbet",
+"street": "flop",
+"sit": "你跟了 3bet（有位置）；翻牌對手 c-bet",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.73,
+"c": 0.25,
+"r": 0.02
+},
+"exp": {
+"f": 0.713,
+"c": 0.279,
+"r": 0.008
+},
+"gto_f": {
+"f": 0.772,
+"c": 0.195,
+"r": 0.033
+},
+"n": [
+216.7,
+1289.3
+],
+"fallback": false,
+"why": "3bet 底池賠率差，沒牌就棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|strong",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.0,
+"c": 0.87,
+"r": 0.12
+},
+"exp": {
+"f": 0.003,
+"c": 0.911,
+"r": 0.085
+},
+"gto_f": {
+"f": 0.008,
+"c": 0.802,
+"r": 0.19
+},
+"n": [
+436.8,
+830.2
+],
+"fallback": false,
+"why": "你有位置、牌夠強 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|top_good",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.1,
+"c": 0.81,
+"r": 0.08
+},
+"exp": {
+"f": 0.085,
+"c": 0.85,
+"r": 0.065
+},
+"gto_f": {
+"f": 0.133,
+"c": 0.746,
+"r": 0.121
+},
+"n": [
+1033.7,
+1496.2
+],
+"fallback": false,
+"why": "你有位置、牌夠強 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|mid_low",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"c"
+],
+"dev": false,
+"blend": {
+"f": 0.58,
+"c": 0.39,
+"r": 0.02
+},
+"exp": {
+"f": 0.569,
+"c": 0.416,
+"r": 0.015
+},
+"gto_f": {
+"f": 0.608,
+"c": 0.355,
+"r": 0.037
+},
+"n": [
+705.5,
+2089.3
+],
+"fallback": false,
+"why": "轉牌再下注範圍變強 → 弱牌棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|draw",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "draw",
+"hc_zh": "強聽牌",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.23,
+"c": 0.72,
+"r": 0.05
+},
+"exp": {
+"f": 0.189,
+"c": 0.776,
+"r": 0.035
+},
+"gto_f": {
+"f": 0.317,
+"c": 0.604,
+"r": 0.079
+},
+"n": [
+380.3,
+631.8
+],
+"fallback": false,
+"why": "你有位置、牌夠強 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|weak_draw",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"c"
+],
+"dev": false,
+"blend": {
+"f": 0.61,
+"c": 0.37,
+"r": 0.02
+},
+"exp": {
+"f": 0.544,
+"c": 0.445,
+"r": 0.011
+},
+"gto_f": {
+"f": 0.738,
+"c": 0.238,
+"r": 0.023
+},
+"n": [
+1257.5,
+1033.3
+],
+"fallback": false,
+"why": "轉牌再下注範圍變強 → 弱牌棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|vs_barrel|ALL|air",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "vs_barrel",
+"street": "turn",
+"sit": "翻牌跟了；轉牌對手再下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.93,
+"c": 0.07,
+"r": 0.0
+},
+"exp": {
+"f": 0.918,
+"c": 0.082,
+"r": 0.0
+},
+"gto_f": {
+"f": 0.944,
+"c": 0.055,
+"r": 0.001
+},
+"n": [
+123.3,
+309.7
+],
+"fallback": false,
+"why": "轉牌再下注範圍變強 → 弱牌棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|r_vs_bet|ALL|strong",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "strong",
+"hc_zh": "兩對以上",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.07,
+"c": 0.66,
+"r": 0.27
+},
+"exp": {
+"f": 0.067,
+"c": 0.668,
+"r": 0.266
+},
+"gto_f": {
+"f": 0.074,
+"c": 0.635,
+"r": 0.291
+},
+"n": [
+983.6,
+1446.1
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|r_vs_bet|ALL|top_good",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "top_good",
+"hc_zh": "超對/頂對好踢",
+"ans": "c",
+"ans_zh": "跟注",
+"gto": "c",
+"gto_zh": "跟注",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.25,
+"c": 0.69,
+"r": 0.06
+},
+"exp": {
+"f": 0.225,
+"c": 0.714,
+"r": 0.061
+},
+"gto_f": {
+"f": 0.293,
+"c": 0.641,
+"r": 0.066
+},
+"n": [
+1317.8,
+1452.8
+],
+"fallback": false,
+"why": "河牌下注空氣約 18%＋弱對 18%，你贏這些 → 跟",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|r_vs_bet|ALL|mid_low",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "mid_low",
+"hc_zh": "中小對",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [
+"c"
+],
+"dev": false,
+"blend": {
+"f": 0.51,
+"c": 0.46,
+"r": 0.03
+},
+"exp": {
+"f": 0.477,
+"c": 0.502,
+"r": 0.021
+},
+"gto_f": {
+"f": 0.567,
+"c": 0.393,
+"r": 0.04
+},
+"n": [
+835.7,
+3004.1
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|r_vs_bet|ALL|weak_draw",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "weak_draw",
+"hc_zh": "卡順/兩高張",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.78,
+"c": 0.2,
+"r": 0.03
+},
+"exp": {
+"f": 0.773,
+"c": 0.202,
+"r": 0.025
+},
+"gto_f": {
+"f": 0.782,
+"c": 0.184,
+"r": 0.034
+},
+"n": [
+2434.2,
+726.2
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+},
+{
+"id": "3BP_caller|r_vs_bet|ALL|air",
+"group": "3BP_caller",
+"group_zh": "3bet 底池・你跟 3bet（有位置）",
+"cat": "r_vs_bet",
+"street": "river",
+"sit": "河牌對手下注",
+"tx": null,
+"tx_zh": null,
+"hc": "air",
+"hc_zh": "空氣",
+"ans": "f",
+"ans_zh": "棄牌",
+"gto": "f",
+"gto_zh": "棄牌",
+"ok": [],
+"dev": false,
+"blend": {
+"f": 0.79,
+"c": 0.15,
+"r": 0.06
+},
+"exp": {
+"f": 0.754,
+"c": 0.178,
+"r": 0.068
+},
+"gto_f": {
+"f": 0.856,
+"c": 0.112,
+"r": 0.032
+},
+"n": [
+229.2,
+1258.8
+],
+"fallback": false,
+"why": "河牌下注空氣只約 18%，你只贏詐唬 → 棄",
+"choices": [
+"f",
+"c",
+"r"
+]
+}
+]

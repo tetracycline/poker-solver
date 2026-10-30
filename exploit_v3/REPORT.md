@@ -1,6 +1,6 @@
 # 3-bet・Iso・行動線（NL2 剝削，預覽版）
 
-產出時間：2026-10-31 01:45（台北時間）・**尚未上線**，預覽在 `/workspace/poker_mb/preview_3bet_iso_lines/site/learn.html`
+產出時間：2026-10-31 01:30（台北時間）・**尚未上線**，預覽在 `/workspace/poker_mb/preview_3bet_iso_lines/site/learn.html`
 
 ## 結論（先看這段）
 

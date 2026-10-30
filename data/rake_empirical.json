@@ -1,0 +1,51 @@
+{
+ "<4": {
+  "n": 8247,
+  "avg_pre_pot": 2.46,
+  "avg_rake_bb": 0.263,
+  "avg_jp_bb": 0.054,
+  "drop_over_prepot": 0.129
+ },
+ "4-7": {
+  "n": 13229,
+  "avg_pre_pot": 5.45,
+  "avg_rake_bb": 0.599,
+  "avg_jp_bb": 0.117,
+  "drop_over_prepot": 0.1312
+ },
+ "7-12": {
+  "n": 6642,
+  "avg_pre_pot": 8.54,
+  "avg_rake_bb": 1.128,
+  "avg_jp_bb": 0.25,
+  "drop_over_prepot": 0.1613
+ },
+ "12-20": {
+  "n": 2697,
+  "avg_pre_pot": 15.35,
+  "avg_rake_bb": 1.966,
+  "avg_jp_bb": 0.452,
+  "drop_over_prepot": 0.1575
+ },
+ "20-35": {
+  "n": 1367,
+  "avg_pre_pot": 24.91,
+  "avg_rake_bb": 2.844,
+  "avg_jp_bb": 0.663,
+  "drop_over_prepot": 0.1408
+ },
+ "35-60": {
+  "n": 417,
+  "avg_pre_pot": 45.87,
+  "avg_rake_bb": 3.813,
+  "avg_jp_bb": 0.988,
+  "drop_over_prepot": 0.1047
+ },
+ "60+": {
+  "n": 399,
+  "avg_pre_pot": 143.73,
+  "avg_rake_bb": 5.992,
+  "avg_jp_bb": 0.982,
+  "drop_over_prepot": 0.0485
+ }
+}

@@ -1,0 +1,23 @@
+it 500  NashConv 3.45 mbb/hand  (5s)
+it 1000  NashConv 1.02 mbb/hand  (10s)
+it 1500  NashConv 0.55 mbb/hand  (15s)
+it 2000  NashConv 0.35 mbb/hand  (20s)
+it 2500  NashConv 0.25 mbb/hand  (25s)
+it 3000  NashConv 0.18 mbb/hand  (30s)
+it 3500  NashConv 0.13 mbb/hand  (34s)
+it 4000  NashConv 0.10 mbb/hand  (39s)
+it 4500  NashConv 0.07 mbb/hand  (44s)
+it 5000  NashConv 0.06 mbb/hand  (49s)
+it 5500  NashConv 0.05 mbb/hand  (54s)
+it 6000  NashConv 0.04 mbb/hand  (59s)
+nodes 65
+UTGrfi {'fold': 78.1, 'open': 21.9}
+HJrfi {'fold': 73.7, 'open': 26.3}
+COrfi {'fold': 68.0, 'open': 32.0}
+BTNrfi {'fold': 52.5, 'open': 47.5}
+SBrfi {'fold': 50.4, 'open': 49.6}
+UTGopen>BB {'fold': 59.0, 'call': 34.7, '3bet': 6.3}
+HJopen>BB {'fold': 54.6, 'call': 37.8, '3bet': 7.6}
+COopen>BB {'fold': 50.1, 'call': 41.9, '3bet': 8.0}
+BTNopen>BB {'fold': 44.3, 'call': 42.9, '3bet': 12.8}
+SBopen>BB {'fold': 28.1, 'call': 57.9, '3bet': 14.1}

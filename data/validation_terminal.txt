@@ -1,0 +1,2 @@
+max abs error fast vs naive terminal values: 4.55e-12
+7-card category freq: 0.1728 0.4397 0.2348 0.0482 0.0464 0.0298 0.0261 0.0018 0.0003 (expected .1741 .4382 .2350 .0483 .0462 .0303 .0260 .0017 .0003)

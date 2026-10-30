@@ -1,0 +1,6752 @@
+{
+ "meta": {
+  "source": "HHDealer 2026-10-24_GGP_NL-HH-_SH_ATSFK331.zip",
+  "files": 1286,
+  "note": "NL2=$0.01/$0.02, NL5=$0.02/$0.05; 6-max; hands with 3-6 active players; names anonymized but consistent within dataset"
+ },
+ "skipped": {
+  "NL2:n2": 29568,
+  "NL2:order": 19904,
+  "NL5:n2": 25007,
+  "NL5:order": 10719
+ },
+ "NL2": {
+  "hands": 2334487,
+  "hands_by_players": {
+   "3": 57915,
+   "4": 215035,
+   "5": 768827,
+   "6": 1292710
+  },
+  "pot_level": {
+   "limped": 24.5,
+   "SRP": 61.7,
+   "3BP": 11.9,
+   "4BP": 1.6,
+   "5B+": 0.4
+  },
+  "preflop": {
+   "UTG": {
+    "hands": 1292710,
+    "vpip": 24.7,
+    "pfr": 18.7,
+    "rfi_opp": 1290625,
+    "open_raise": 18.5,
+    "open_limp": 6.1,
+    "limp_any": 6.1,
+    "open_sizes": {
+     "2.0x": 33.8,
+     "2.1-2.5x": 26.4,
+     "2.6-3x": 32.6,
+     "3.1-4x": 5.4,
+     "4.1-6x": 0.6,
+     ">6x": 1.2
+    },
+    "iso_opp": 748,
+    "iso": 15.6,
+    "overlimp": 9.5,
+    "f3": {
+     "n": 60410,
+     "fold": 35.6,
+     "call": 52.0,
+     "raise": 12.4
+    },
+    "sq_opp": 1132,
+    "squeeze": 2.3,
+    "overcall_vs_open_plus_caller": 44.5,
+    "vs_open": {},
+    "3bet_total": 3.1,
+    "coldcall_total": 35.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 226,
+      "fold": 33.2,
+      "3bet": 1.8
+     },
+     "2.1-2.5x": {
+      "n": 94,
+      "fold": 46.8,
+      "3bet": 0.0
+     },
+     "2.6-3x": {
+      "n": 323,
+      "fold": 48.3,
+      "3bet": 2.2
+     },
+     "3.1-4x": {
+      "n": 631,
+      "fold": 58.8,
+      "3bet": 3.3
+     },
+     "4.1-6x": {
+      "n": 608,
+      "fold": 68.6,
+      "3bet": 3.8
+     },
+     ">6x": {
+      "n": 629,
+      "fold": 78.4,
+      "3bet": 3.5
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 80757,
+      "win": 18.1
+     },
+     "2.1-2.5x": {
+      "n": 63171,
+      "win": 23.7
+     },
+     "2.6-3x": {
+      "n": 77927,
+      "win": 27.8
+     },
+     "3.1-4x": {
+      "n": 13012,
+      "win": 34.3
+     },
+     "4.1-6x": {
+      "n": 1443,
+      "win": 39.6
+     },
+     ">6x": {
+      "n": 2834,
+      "win": 57.2
+     }
+    },
+    "limp_vs_raise": {
+     "n": 43245,
+     "fold": 21.3,
+     "call": 74.1,
+     "raise": 4.6
+    }
+   },
+   "HJ": {
+    "hands": 2061537,
+    "vpip": 25.7,
+    "pfr": 18.8,
+    "rfi_opp": 1741758,
+    "open_raise": 20.6,
+    "open_limp": 6.0,
+    "limp_any": 5.4,
+    "open_sizes": {
+     "2.0x": 32.5,
+     "2.1-2.5x": 28.1,
+     "2.6-3x": 32.5,
+     "3.1-4x": 5.2,
+     "4.1-6x": 0.6,
+     ">6x": 1.1
+    },
+    "iso_opp": 79015,
+    "iso": 16.4,
+    "overlimp": 8.7,
+    "f3": {
+     "n": 79270,
+     "fold": 38.0,
+     "call": 50.4,
+     "raise": 11.6
+    },
+    "sq_opp": 1265,
+    "squeeze": 2.1,
+    "overcall_vs_open_plus_caller": 42.0,
+    "vs_open": {
+     "UTG": {
+      "n": 239125,
+      "fold": 80.8,
+      "call": 13.3,
+      "3bet": 5.9
+     }
+    },
+    "3bet_total": 5.9,
+    "coldcall_total": 13.5,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 81046,
+      "fold": 79.0,
+      "3bet": 7.0
+     },
+     "2.1-2.5x": {
+      "n": 63307,
+      "fold": 80.3,
+      "3bet": 5.8
+     },
+     "2.6-3x": {
+      "n": 78390,
+      "fold": 81.8,
+      "3bet": 5.2
+     },
+     "3.1-4x": {
+      "n": 13854,
+      "fold": 82.4,
+      "3bet": 4.5
+     },
+     "4.1-6x": {
+      "n": 2264,
+      "fold": 80.1,
+      "3bet": 3.8
+     },
+     ">6x": {
+      "n": 3602,
+      "fold": 87.6,
+      "3bet": 3.1
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 116553,
+      "win": 22.2
+     },
+     "2.1-2.5x": {
+      "n": 100601,
+      "win": 29.0
+     },
+     "2.6-3x": {
+      "n": 116512,
+      "win": 32.8
+     },
+     "3.1-4x": {
+      "n": 18553,
+      "win": 39.6
+     },
+     "4.1-6x": {
+      "n": 2002,
+      "win": 43.1
+     },
+     ">6x": {
+      "n": 3881,
+      "win": 62.2
+     }
+    },
+    "limp_vs_raise": {
+     "n": 55102,
+     "fold": 23.4,
+     "call": 72.7,
+     "raise": 4.0
+    }
+   },
+   "CO": {
+    "hands": 2276572,
+    "vpip": 27.7,
+    "pfr": 19.4,
+    "rfi_opp": 1495229,
+    "open_raise": 24.7,
+    "open_limp": 5.8,
+    "limp_any": 4.5,
+    "open_sizes": {
+     "2.0x": 29.2,
+     "2.1-2.5x": 33.2,
+     "2.6-3x": 31.4,
+     "3.1-4x": 4.8,
+     "4.1-6x": 0.5,
+     ">6x": 0.9
+    },
+    "iso_opp": 170217,
+    "iso": 18.5,
+    "overlimp": 9.1,
+    "f3": {
+     "n": 70941,
+     "fold": 43.9,
+     "call": 46.2,
+     "raise": 9.9
+    },
+    "sq_opp": 32912,
+    "squeeze": 5.9,
+    "overcall_vs_open_plus_caller": 15.5,
+    "vs_open": {
+     "UTG": {
+      "n": 193194,
+      "fold": 79.1,
+      "call": 14.5,
+      "3bet": 6.4
+     },
+     "HJ": {
+      "n": 358057,
+      "fold": 79.2,
+      "call": 14.2,
+      "3bet": 6.6
+     },
+     "BTN": {
+      "n": 1412,
+      "fold": 57.4,
+      "call": 39.7,
+      "3bet": 2.9
+     },
+     "SB": {
+      "n": 1186,
+      "fold": 59.6,
+      "call": 37.9,
+      "3bet": 2.5
+     }
+    },
+    "3bet_total": 6.5,
+    "coldcall_total": 14.4,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 180825,
+      "fold": 76.9,
+      "3bet": 7.9
+     },
+     "2.1-2.5x": {
+      "n": 151518,
+      "fold": 79.0,
+      "3bet": 6.4
+     },
+     "2.6-3x": {
+      "n": 180957,
+      "fold": 80.3,
+      "3bet": 5.8
+     },
+     "3.1-4x": {
+      "n": 30420,
+      "fold": 82.0,
+      "3bet": 4.5
+     },
+     "4.1-6x": {
+      "n": 4106,
+      "fold": 79.5,
+      "3bet": 3.4
+     },
+     ">6x": {
+      "n": 6997,
+      "fold": 88.7,
+      "3bet": 2.7
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 107707,
+      "win": 27.5
+     },
+     "2.1-2.5x": {
+      "n": 122495,
+      "win": 34.3
+     },
+     "2.6-3x": {
+      "n": 116050,
+      "win": 39.1
+     },
+     "3.1-4x": {
+      "n": 17620,
+      "win": 45.9
+     },
+     "4.1-6x": {
+      "n": 1894,
+      "win": 47.1
+     },
+     ">6x": {
+      "n": 3386,
+      "win": 67.7
+     }
+    },
+    "limp_vs_raise": {
+     "n": 42988,
+     "fold": 25.9,
+     "call": 70.5,
+     "raise": 3.6
+    }
+   },
+   "BTN": {
+    "hands": 2334487,
+    "vpip": 32.2,
+    "pfr": 21.3,
+    "rfi_opp": 1097884,
+    "open_raise": 34.2,
+    "open_limp": 6.3,
+    "limp_any": 4.1,
+    "open_sizes": {
+     "2.0x": 25.8,
+     "2.1-2.5x": 37.5,
+     "2.6-3x": 30.8,
+     "3.1-4x": 4.5,
+     "4.1-6x": 0.6,
+     ">6x": 0.8
+    },
+    "iso_opp": 225819,
+    "iso": 21.6,
+    "overlimp": 11.5,
+    "f3": {
+     "n": 58202,
+     "fold": 51.2,
+     "call": 40.8,
+     "raise": 8.0
+    },
+    "sq_opp": 108591,
+    "squeeze": 6.4,
+    "overcall_vs_open_plus_caller": 17.0,
+    "vs_open": {
+     "UTG": {
+      "n": 152835,
+      "fold": 76.2,
+      "call": 16.9,
+      "3bet": 6.9
+     },
+     "HJ": {
+      "n": 283407,
+      "fold": 76.3,
+      "call": 16.6,
+      "3bet": 7.1
+     },
+     "CO": {
+      "n": 369106,
+      "fold": 75.8,
+      "call": 16.3,
+      "3bet": 7.9
+     }
+    },
+    "3bet_total": 7.4,
+    "coldcall_total": 16.5,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 246611,
+      "fold": 73.3,
+      "3bet": 9.0
+     },
+     "2.1-2.5x": {
+      "n": 242108,
+      "fold": 75.8,
+      "3bet": 7.5
+     },
+     "2.6-3x": {
+      "n": 261112,
+      "fold": 77.4,
+      "3bet": 6.6
+     },
+     "3.1-4x": {
+      "n": 42000,
+      "fold": 80.5,
+      "3bet": 4.8
+     },
+     "4.1-6x": {
+      "n": 4608,
+      "fold": 82.6,
+      "3bet": 3.9
+     },
+     ">6x": {
+      "n": 9256,
+      "fold": 89.7,
+      "3bet": 2.6
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 96906,
+      "win": 34.8
+     },
+     "2.1-2.5x": {
+      "n": 141052,
+      "win": 42.5
+     },
+     "2.6-3x": {
+      "n": 115759,
+      "win": 47.0
+     },
+     "3.1-4x": {
+      "n": 16864,
+      "win": 54.5
+     },
+     "4.1-6x": {
+      "n": 2186,
+      "win": 55.2
+     },
+     ">6x": {
+      "n": 3072,
+      "win": 71.0
+     }
+    },
+    "limp_vs_raise": {
+     "n": 27648,
+     "fold": 30.6,
+     "call": 66.6,
+     "raise": 2.8
+    }
+   },
+   "SB": {
+    "hands": 2334487,
+    "vpip": 32.8,
+    "pfr": 15.9,
+    "rfi_opp": 653395,
+    "open_raise": 35.3,
+    "open_limp": 13.5,
+    "limp_any": 6.5,
+    "open_sizes": {
+     "2.0x": 21.4,
+     "2.1-2.5x": 17.5,
+     "2.6-3x": 53.4,
+     "3.1-4x": 5.9,
+     "4.1-6x": 0.7,
+     ">6x": 1.2
+    },
+    "iso_opp": 246125,
+    "iso": 17.8,
+    "overlimp": 25.5,
+    "f3": {
+     "n": 21583,
+     "fold": 46.7,
+     "call": 43.4,
+     "raise": 9.9
+    },
+    "sq_opp": 234591,
+    "squeeze": 6.0,
+    "overcall_vs_open_plus_caller": 18.9,
+    "vs_open": {
+     "UTG": {
+      "n": 116503,
+      "fold": 76.0,
+      "call": 18.0,
+      "3bet": 6.0
+     },
+     "HJ": {
+      "n": 216067,
+      "fold": 75.5,
+      "call": 18.1,
+      "3bet": 6.4
+     },
+     "CO": {
+      "n": 279584,
+      "fold": 74.7,
+      "call": 18.0,
+      "3bet": 7.3
+     },
+     "BTN": {
+      "n": 375794,
+      "fold": 73.2,
+      "call": 17.9,
+      "3bet": 8.8
+     }
+    },
+    "3bet_total": 7.5,
+    "coldcall_total": 18.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 277771,
+      "fold": 71.0,
+      "3bet": 8.7
+     },
+     "2.1-2.5x": {
+      "n": 324555,
+      "fold": 73.9,
+      "3bet": 7.8
+     },
+     "2.6-3x": {
+      "n": 317965,
+      "fold": 76.5,
+      "3bet": 6.8
+     },
+     "3.1-4x": {
+      "n": 50645,
+      "fold": 80.0,
+      "3bet": 5.4
+     },
+     "4.1-6x": {
+      "n": 5943,
+      "fold": 83.1,
+      "3bet": 4.0
+     },
+     ">6x": {
+      "n": 11189,
+      "fold": 88.8,
+      "3bet": 2.7
+     }
+    },
+    "fold_to_steal": {
+     "CO": {
+      "n": 279584,
+      "fold": 74.7
+     },
+     "BTN": {
+      "n": 375794,
+      "fold": 73.2
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 49313,
+      "win": 44.4
+     },
+     "2.1-2.5x": {
+      "n": 40402,
+      "win": 52.3
+     },
+     "2.6-3x": {
+      "n": 123134,
+      "win": 56.5
+     },
+     "3.1-4x": {
+      "n": 13513,
+      "win": 63.6
+     },
+     "4.1-6x": {
+      "n": 1706,
+      "win": 63.2
+     },
+     ">6x": {
+      "n": 2664,
+      "win": 78.0
+     }
+    },
+    "limp_vs_raise": {
+     "n": 28866,
+     "fold": 44.8,
+     "call": 52.6,
+     "raise": 2.5
+    }
+   },
+   "BB": {
+    "hands": 2334487,
+    "vpip": 28.5,
+    "pfr": 6.8,
+    "rfi_opp": 0,
+    "open_raise": null,
+    "open_limp": null,
+    "limp_any": 0.0,
+    "open_sizes": {
+     "2.0x": null,
+     "2.1-2.5x": null,
+     "2.6-3x": null,
+     "3.1-4x": null,
+     "4.1-6x": null,
+     ">6x": null
+    },
+    "iso_opp": 290244,
+    "iso": 17.6,
+    "overlimp": 0.1,
+    "f3": {
+     "n": 96,
+     "fold": 30.2,
+     "call": 56.2,
+     "raise": 13.5
+    },
+    "sq_opp": 397869,
+    "squeeze": 6.0,
+    "overcall_vs_open_plus_caller": 33.6,
+    "vs_open": {
+     "UTG": {
+      "n": 88483,
+      "fold": 63.1,
+      "call": 31.7,
+      "3bet": 5.2
+     },
+     "HJ": {
+      "n": 163109,
+      "fold": 62.2,
+      "call": 32.2,
+      "3bet": 5.6
+     },
+     "CO": {
+      "n": 208923,
+      "fold": 60.6,
+      "call": 33.2,
+      "3bet": 6.2
+     },
+     "BTN": {
+      "n": 275106,
+      "fold": 58.2,
+      "call": 34.2,
+      "3bet": 7.6
+     },
+     "SB": {
+      "n": 230689,
+      "fold": 54.0,
+      "call": 36.7,
+      "3bet": 9.3
+     }
+    },
+    "3bet_total": 7.1,
+    "coldcall_total": 34.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 246634,
+      "fold": 50.2,
+      "3bet": 8.4
+     },
+     "2.1-2.5x": {
+      "n": 280311,
+      "fold": 58.6,
+      "3bet": 7.1
+     },
+     "2.6-3x": {
+      "n": 366355,
+      "fold": 61.9,
+      "3bet": 6.9
+     },
+     "3.1-4x": {
+      "n": 54010,
+      "fold": 70.4,
+      "3bet": 5.2
+     },
+     "4.1-6x": {
+      "n": 6574,
+      "fold": 77.0,
+      "3bet": 3.9
+     },
+     ">6x": {
+      "n": 12426,
+      "fold": 85.9,
+      "3bet": 1.1
+     }
+    },
+    "fold_to_steal": {
+     "CO": {
+      "n": 208923,
+      "fold": 60.6
+     },
+     "BTN": {
+      "n": 275106,
+      "fold": 58.2
+     },
+     "SB": {
+      "n": 230689,
+      "fold": 54.0
+     }
+    },
+    "open_takes_blinds": {}
+   }
+  },
+  "bb_defend_by_opener": {
+   "UTG": {
+    "n": 88483,
+    "defend": 36.9
+   },
+   "HJ": {
+    "n": 163109,
+    "defend": 37.8
+   },
+   "CO": {
+    "n": 208923,
+    "defend": 39.4
+   },
+   "BTN": {
+    "n": 275106,
+    "defend": 41.8
+   },
+   "SB": {
+    "n": 230689,
+    "defend": 46.0
+   }
+  },
+  "bb_defend_by_size": {
+   "2.0x": {
+    "n": 246634,
+    "defend": 49.8
+   },
+   "2.1-2.5x": {
+    "n": 280311,
+    "defend": 41.4
+   },
+   "2.6-3x": {
+    "n": 366355,
+    "defend": 38.1
+   },
+   "3.1-4x": {
+    "n": 54010,
+    "defend": 29.6
+   },
+   "4.1-6x": {
+    "n": 6574,
+    "defend": 23.0
+   },
+   ">6x": {
+    "n": 12426,
+    "defend": 14.1
+   }
+  },
+  "limper_vs_raise": {
+   "n": 197849,
+   "fold": 27.6,
+   "call": 68.7,
+   "raise": 3.6
+  },
+  "iso_size": {
+   "1": {
+    "2.0x": 23897,
+    "2.1-2.5x": 10525,
+    "2.6-3x": 37029,
+    "3.1-4x": 51921,
+    "4.1-6x": 33779,
+    ">6x": 7669
+   },
+   "2": {
+    "2.0x": 2158,
+    "2.1-2.5x": 701,
+    "2.6-3x": 2757,
+    "3.1-4x": 4711,
+    "4.1-6x": 7890,
+    ">6x": 2685
+   },
+   "3": {
+    "2.0x": 169,
+    "2.1-2.5x": 37,
+    "2.6-3x": 284,
+    "3.1-4x": 286,
+    "4.1-6x": 878,
+    ">6x": 687
+   }
+  },
+  "fold_to_3bet_IP_OOP": {
+   "IP": {
+    "n": 157722,
+    "fold": 45.2,
+    "call": 45.1,
+    "raise": 9.6
+   },
+   "OOP": {
+    "n": 132780,
+    "fold": 38.6,
+    "call": 49.8,
+    "raise": 11.6
+   }
+  },
+  "fold_to_4bet": {
+   "n": 42992,
+   "fold": 30.9,
+   "call": 51.4,
+   "raise": 17.6
+  },
+  "3bet_size": {
+   "IP": {
+    "≤3x": 69473,
+    "3-4x": 49215,
+    ">4x": 8186,
+    "allin": 5050
+   },
+   "OOP": {
+    "≤3x": 41615,
+    "3-4x": 51638,
+    ">4x": 23057,
+    "allin": 5888
+   }
+  },
+  "postflop_HU": {
+   "SRP_PFR_IP": {
+    "cbet": {
+     "n": 343183,
+     "pct": 61.2
+    },
+    "cbet_size": {
+     "≤33%": 21.2,
+     "34-55%": 47.4,
+     "56-80%": 23.2,
+     "81-110%": 6.9,
+     ">110%": 1.4
+    },
+    "vs_cbet": {
+     "n": 209864,
+     "fold": 47.5,
+     "call": 45.7,
+     "raise": 6.8
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 44459,
+      "fold": 38.7,
+      "call": 52.6,
+      "raise": 8.6
+     },
+     "34-55%": {
+      "n": 99489,
+      "fold": 45.2,
+      "call": 47.8,
+      "raise": 6.9
+     },
+     "56-80%": {
+      "n": 48596,
+      "fold": 54.6,
+      "call": 39.8,
+      "raise": 5.7
+     },
+     "81-110%": {
+      "n": 14390,
+      "fold": 61.2,
+      "call": 33.6,
+      "raise": 5.2
+     },
+     ">110%": {
+      "n": 2930,
+      "fold": 71.7,
+      "call": 25.3,
+      "raise": 3.0
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 14314,
+     "fold": 40.6,
+     "call": 49.9,
+     "raise": 9.5
+    },
+    "turn_barrel": {
+     "n": 88315,
+     "pct": 54.3
+    },
+    "turn_barrel_size": {
+     "≤33%": 14.8,
+     "34-55%": 32.7,
+     "56-80%": 37.3,
+     "81-110%": 9.3,
+     ">110%": 5.8
+    },
+    "vs_turn_barrel": {
+     "n": 47984,
+     "fold": 40.9,
+     "call": 49.4,
+     "raise": 9.8
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 7118,
+      "fold": 24.5,
+      "call": 61.6,
+      "raise": 13.9
+     },
+     "34-55%": {
+      "n": 15700,
+      "fold": 35.6,
+      "call": 54.2,
+      "raise": 10.2
+     },
+     "56-80%": {
+      "n": 17914,
+      "fold": 46.3,
+      "call": 45.1,
+      "raise": 8.6
+     },
+     "81-110%": {
+      "n": 4480,
+      "fold": 49.8,
+      "call": 41.2,
+      "raise": 9.0
+     },
+     ">110%": {
+      "n": 2772,
+      "fold": 63.0,
+      "call": 31.8,
+      "raise": 5.2
+     }
+    },
+    "river_barrel": {
+     "n": 19009,
+     "pct": 47.8
+    },
+    "river_barrel_size": {
+     "≤33%": 17.4,
+     "34-55%": 22.6,
+     "56-80%": 29.8,
+     "81-110%": 17.1,
+     ">110%": 13.1
+    },
+    "vs_river_barrel": {
+     "n": 9080,
+     "fold": 48.9,
+     "call": 44.0,
+     "raise": 7.1
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 1582,
+      "fold": 34.4,
+      "call": 56.0,
+      "raise": 9.6
+     },
+     "34-55%": {
+      "n": 2052,
+      "fold": 43.1,
+      "call": 47.9,
+      "raise": 9.1
+     },
+     "56-80%": {
+      "n": 2706,
+      "fold": 50.3,
+      "call": 42.5,
+      "raise": 7.3
+     },
+     "81-110%": {
+      "n": 1555,
+      "fold": 56.7,
+      "call": 38.1,
+      "raise": 5.2
+     },
+     ">110%": {
+      "n": 1185,
+      "fold": 64.7,
+      "call": 32.7,
+      "raise": 2.5
+     }
+    },
+    "delayed_cbet": {
+     "n": 83367,
+     "pct": 38.4
+    },
+    "vs_delayed_cbet": {
+     "n": 32036,
+     "fold": 58.1,
+     "call": 38.0,
+     "raise": 3.9
+    },
+    "vs_donk": {
+     "n": 55906,
+     "fold": 33.8,
+     "call": 50.4,
+     "raise": 15.8
+    },
+    "vs_probe": {
+     "n": 49952,
+     "fold": 50.3,
+     "call": 42.5,
+     "raise": 7.2
+    }
+   },
+   "SRP_PFR_OOP": {
+    "cbet": {
+     "n": 224106,
+     "pct": 51.5
+    },
+    "cbet_size": {
+     "≤33%": 23.0,
+     "34-55%": 50.9,
+     "56-80%": 18.0,
+     "81-110%": 6.4,
+     ">110%": 1.7
+    },
+    "vs_cbet": {
+     "n": 115494,
+     "fold": 39.4,
+     "call": 50.4,
+     "raise": 10.1
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 26529,
+      "fold": 30.4,
+      "call": 56.2,
+      "raise": 13.3
+     },
+     "34-55%": {
+      "n": 58764,
+      "fold": 38.1,
+      "call": 52.0,
+      "raise": 9.9
+     },
+     "56-80%": {
+      "n": 20821,
+      "fold": 47.6,
+      "call": 44.4,
+      "raise": 8.0
+     },
+     "81-110%": {
+      "n": 7435,
+      "fold": 53.0,
+      "call": 39.1,
+      "raise": 7.9
+     },
+     ">110%": {
+      "n": 1945,
+      "fold": 63.5,
+      "call": 33.6,
+      "raise": 2.9
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 11667,
+     "fold": 38.7,
+     "call": 49.4,
+     "raise": 11.8
+    },
+    "turn_barrel": {
+     "n": 57427,
+     "pct": 57.5
+    },
+    "turn_barrel_size": {
+     "≤33%": 19.4,
+     "34-55%": 33.4,
+     "56-80%": 33.0,
+     "81-110%": 9.3,
+     ">110%": 4.9
+    },
+    "vs_turn_barrel": {
+     "n": 33027,
+     "fold": 35.6,
+     "call": 53.7,
+     "raise": 10.6
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 6422,
+      "fold": 21.9,
+      "call": 63.5,
+      "raise": 14.5
+     },
+     "34-55%": {
+      "n": 11019,
+      "fold": 31.9,
+      "call": 56.5,
+      "raise": 11.6
+     },
+     "56-80%": {
+      "n": 10906,
+      "fold": 41.7,
+      "call": 49.5,
+      "raise": 8.7
+     },
+     "81-110%": {
+      "n": 3062,
+      "fold": 45.4,
+      "call": 45.6,
+      "raise": 9.0
+     },
+     ">110%": {
+      "n": 1618,
+      "fold": 56.0,
+      "call": 39.7,
+      "raise": 4.3
+     }
+    },
+    "river_barrel": {
+     "n": 16689,
+     "pct": 55.8
+    },
+    "river_barrel_size": {
+     "≤33%": 26.8,
+     "34-55%": 24.0,
+     "56-80%": 24.2,
+     "81-110%": 14.2,
+     ">110%": 10.8
+    },
+    "vs_river_barrel": {
+     "n": 9307,
+     "fold": 38.7,
+     "call": 46.8,
+     "raise": 14.5
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 2493,
+      "fold": 26.4,
+      "call": 52.5,
+      "raise": 21.1
+     },
+     "34-55%": {
+      "n": 2230,
+      "fold": 36.3,
+      "call": 48.5,
+      "raise": 15.2
+     },
+     "56-80%": {
+      "n": 2252,
+      "fold": 42.7,
+      "call": 44.4,
+      "raise": 12.9
+     },
+     "81-110%": {
+      "n": 1325,
+      "fold": 46.1,
+      "call": 41.8,
+      "raise": 12.1
+     },
+     ">110%": {
+      "n": 1007,
+      "fold": 56.0,
+      "call": 40.6,
+      "raise": 3.4
+     }
+    },
+    "delayed_cbet": {
+     "n": 65192,
+     "pct": 41.1
+    },
+    "vs_delayed_cbet": {
+     "n": 26780,
+     "fold": 49.6,
+     "call": 43.9,
+     "raise": 6.5
+    },
+    "vs_ip_float_bet": {
+     "n": 43420,
+     "fold": 49.5,
+     "call": 43.9,
+     "raise": 6.6
+    }
+   },
+   "SRP_donk": {
+    "n": 399089,
+    "pct": 14.0,
+    "sizes": {
+     "≤33%": 23.3,
+     "34-55%": 42.9,
+     "56-80%": 18.3,
+     "81-110%": 12.2,
+     ">110%": 3.3
+    }
+   },
+   "SRP_probe": {
+    "n": 133319,
+    "pct": 37.5
+   },
+   "SRP_flop_xr_vs_cbet": {
+    "n": 209864,
+    "pct": 6.8
+   },
+   "SRP_float_bet_when_pfr_checks_oop": {
+    "n": 108612,
+    "pct": 40.0
+   },
+   "SRP_turn_lead_after_calling_cbet": {
+    "n": 95236,
+    "pct": 7.3
+   },
+   "SRP_turn_stab_ip_after_pfr_checks": {
+    "n": 38412,
+    "pct": 34.5
+   },
+   "3BP_PFR_IP": {
+    "cbet": {
+     "n": 53051,
+     "pct": 73.6
+    },
+    "cbet_size": {
+     "≤33%": 37.4,
+     "34-55%": 34.8,
+     "56-80%": 18.4,
+     "81-110%": 6.5,
+     ">110%": 3.0
+    },
+    "vs_cbet": {
+     "n": 39020,
+     "fold": 45.0,
+     "call": 45.5,
+     "raise": 9.6
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 14585,
+      "fold": 34.3,
+      "call": 54.2,
+      "raise": 11.5
+     },
+     "34-55%": {
+      "n": 13593,
+      "fold": 45.8,
+      "call": 45.1,
+      "raise": 9.1
+     },
+     "56-80%": {
+      "n": 7171,
+      "fold": 56.2,
+      "call": 36.0,
+      "raise": 7.8
+     },
+     "81-110%": {
+      "n": 2519,
+      "fold": 61.6,
+      "call": 29.1,
+      "raise": 9.3
+     },
+     ">110%": {
+      "n": 1152,
+      "fold": 63.0,
+      "call": 34.0,
+      "raise": 3.0
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 3731,
+     "fold": 34.5,
+     "call": 49.9,
+     "raise": 15.6
+    },
+    "turn_barrel": {
+     "n": 15761,
+     "pct": 56.1
+    },
+    "turn_barrel_size": {
+     "≤33%": 19.8,
+     "34-55%": 30.3,
+     "56-80%": 33.8,
+     "81-110%": 9.0,
+     ">110%": 7.0
+    },
+    "vs_turn_barrel": {
+     "n": 8842,
+     "fold": 40.3,
+     "call": 46.1,
+     "raise": 13.6
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 1752,
+      "fold": 24.5,
+      "call": 58.7,
+      "raise": 16.7
+     },
+     "34-55%": {
+      "n": 2682,
+      "fold": 37.7,
+      "call": 48.9,
+      "raise": 13.4
+     },
+     "56-80%": {
+      "n": 2991,
+      "fold": 48.0,
+      "call": 38.6,
+      "raise": 13.3
+     },
+     "81-110%": {
+      "n": 796,
+      "fold": 45.4,
+      "call": 38.2,
+      "raise": 16.5
+     },
+     ">110%": {
+      "n": 621,
+      "fold": 52.8,
+      "call": 44.3,
+      "raise": 2.9
+     }
+    },
+    "river_barrel": {
+     "n": 2698,
+     "pct": 52.1
+    },
+    "river_barrel_size": {
+     "≤33%": 23.3,
+     "34-55%": 20.9,
+     "56-80%": 25.5,
+     "81-110%": 17.6,
+     ">110%": 12.7
+    },
+    "vs_river_barrel": {
+     "n": 1406,
+     "fold": 46.2,
+     "call": 49.1,
+     "raise": 4.7
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 327,
+      "fold": 33.3,
+      "call": 57.2,
+      "raise": 9.5
+     },
+     "34-55%": {
+      "n": 294,
+      "fold": 44.2,
+      "call": 50.3,
+      "raise": 5.4
+     },
+     "56-80%": {
+      "n": 359,
+      "fold": 47.4,
+      "call": 48.7,
+      "raise": 3.9
+     },
+     "81-110%": {
+      "n": 247,
+      "fold": 51.0,
+      "call": 47.0,
+      "raise": 2.0
+     },
+     ">110%": {
+      "n": 179,
+      "fold": 64.2,
+      "call": 35.8,
+      "raise": 0.0
+     }
+    },
+    "delayed_cbet": {
+     "n": 7938,
+     "pct": 47.6
+    },
+    "vs_delayed_cbet": {
+     "n": 3776,
+     "fold": 55.3,
+     "call": 39.1,
+     "raise": 5.5
+    },
+    "vs_donk": {
+     "n": 8221,
+     "fold": 24.3,
+     "call": 51.5,
+     "raise": 24.2
+    },
+    "vs_probe": {
+     "n": 6093,
+     "fold": 41.9,
+     "call": 48.0,
+     "raise": 10.2
+    }
+   },
+   "3BP_PFR_OOP": {
+    "cbet": {
+     "n": 68416,
+     "pct": 67.1
+    },
+    "cbet_size": {
+     "≤33%": 37.2,
+     "34-55%": 33.5,
+     "56-80%": 18.3,
+     "81-110%": 7.5,
+     ">110%": 3.6
+    },
+    "vs_cbet": {
+     "n": 45878,
+     "fold": 39.8,
+     "call": 48.2,
+     "raise": 12.0
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 17050,
+      "fold": 28.6,
+      "call": 56.7,
+      "raise": 14.8
+     },
+     "34-55%": {
+      "n": 15364,
+      "fold": 41.2,
+      "call": 47.7,
+      "raise": 11.1
+     },
+     "56-80%": {
+      "n": 8382,
+      "fold": 50.2,
+      "call": 39.3,
+      "raise": 10.5
+     },
+     "81-110%": {
+      "n": 3448,
+      "fold": 54.7,
+      "call": 34.3,
+      "raise": 11.0
+     },
+     ">110%": {
+      "n": 1634,
+      "fold": 59.1,
+      "call": 37.9,
+      "raise": 3.0
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 5528,
+     "fold": 33.5,
+     "call": 50.3,
+     "raise": 16.1
+    },
+    "turn_barrel": {
+     "n": 20327,
+     "pct": 60.0
+    },
+    "turn_barrel_size": {
+     "≤33%": 24.6,
+     "34-55%": 29.9,
+     "56-80%": 28.5,
+     "81-110%": 9.6,
+     ">110%": 7.4
+    },
+    "vs_turn_barrel": {
+     "n": 12192,
+     "fold": 37.0,
+     "call": 50.2,
+     "raise": 12.8
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 3001,
+      "fold": 21.8,
+      "call": 61.6,
+      "raise": 16.7
+     },
+     "34-55%": {
+      "n": 3647,
+      "fold": 36.0,
+      "call": 51.7,
+      "raise": 12.3
+     },
+     "56-80%": {
+      "n": 3470,
+      "fold": 44.6,
+      "call": 42.3,
+      "raise": 13.1
+     },
+     "81-110%": {
+      "n": 1175,
+      "fold": 45.2,
+      "call": 43.9,
+      "raise": 10.9
+     },
+     ">110%": {
+      "n": 899,
+      "fold": 52.1,
+      "call": 44.8,
+      "raise": 3.1
+     }
+    },
+    "river_barrel": {
+     "n": 4807,
+     "pct": 61.0
+    },
+    "river_barrel_size": {
+     "≤33%": 30.9,
+     "34-55%": 22.1,
+     "56-80%": 22.2,
+     "81-110%": 15.6,
+     ">110%": 9.2
+    },
+    "vs_river_barrel": {
+     "n": 2932,
+     "fold": 35.7,
+     "call": 53.8,
+     "raise": 10.5
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 906,
+      "fold": 22.3,
+      "call": 58.5,
+      "raise": 19.2
+     },
+     "34-55%": {
+      "n": 649,
+      "fold": 35.3,
+      "call": 53.2,
+      "raise": 11.6
+     },
+     "56-80%": {
+      "n": 650,
+      "fold": 39.2,
+      "call": 55.7,
+      "raise": 5.1
+     },
+     "81-110%": {
+      "n": 457,
+      "fold": 47.9,
+      "call": 47.9,
+      "raise": 4.2
+     },
+     ">110%": {
+      "n": 270,
+      "fold": 52.6,
+      "call": 45.2,
+      "raise": 2.2
+     }
+    },
+    "delayed_cbet": {
+     "n": 13030,
+     "pct": 52.5
+    },
+    "vs_delayed_cbet": {
+     "n": 6843,
+     "fold": 48.0,
+     "call": 44.0,
+     "raise": 8.0
+    },
+    "vs_ip_float_bet": {
+     "n": 9508,
+     "fold": 35.9,
+     "call": 49.8,
+     "raise": 14.3
+    }
+   },
+   "3BP_donk": {
+    "n": 61272,
+    "pct": 13.4,
+    "sizes": {
+     "≤33%": 36.8,
+     "34-55%": 31.8,
+     "56-80%": 14.5,
+     "81-110%": 10.5,
+     ">110%": 6.5
+    }
+   },
+   "3BP_probe": {
+    "n": 14031,
+    "pct": 43.4
+   },
+   "3BP_flop_xr_vs_cbet": {
+    "n": 39020,
+    "pct": 9.6
+   },
+   "3BP_float_bet_when_pfr_checks_oop": {
+    "n": 22538,
+    "pct": 42.2
+   },
+   "3BP_turn_lead_after_calling_cbet": {
+    "n": 16872,
+    "pct": 6.6
+   },
+   "3BP_turn_stab_ip_after_pfr_checks": {
+    "n": 6187,
+    "pct": 41.1
+   }
+  },
+  "cbet_by_texture_SRP": {
+   "IP|rainbow|unpaired|A高": {
+    "n": 24431,
+    "cbet": 66.3
+   },
+   "OOP|twotone|unpaired|J/T高": {
+    "n": 23272,
+    "cbet": 52.0
+   },
+   "IP|twotone|unpaired|9以下": {
+    "n": 30650,
+    "cbet": 54.6
+   },
+   "IP|rainbow|paired|9以下": {
+    "n": 11215,
+    "cbet": 54.1
+   },
+   "IP|twotone|unpaired|K/Q高": {
+    "n": 56175,
+    "cbet": 64.9
+   },
+   "IP|rainbow|unpaired|K/Q高": {
+    "n": 37907,
+    "cbet": 64.1
+   },
+   "OOP|twotone|unpaired|K/Q高": {
+    "n": 36264,
+    "cbet": 54.8
+   },
+   "IP|rainbow|unpaired|9以下": {
+    "n": 20812,
+    "cbet": 53.4
+   },
+   "IP|rainbow|unpaired|J/T高": {
+    "n": 23673,
+    "cbet": 60.9
+   },
+   "IP|twotone|unpaired|J/T高": {
+    "n": 35395,
+    "cbet": 61.3
+   },
+   "IP|twotone|unpaired|A高": {
+    "n": 36644,
+    "cbet": 67.2
+   },
+   "OOP|rainbow|unpaired|A高": {
+    "n": 15879,
+    "cbet": 55.7
+   },
+   "OOP|rainbow|unpaired|K/Q高": {
+    "n": 24480,
+    "cbet": 53.5
+   },
+   "OOP|mono|unpaired|A高": {
+    "n": 2685,
+    "cbet": 47.7
+   },
+   "IP|rainbow|paired|J/T高": {
+    "n": 6506,
+    "cbet": 58.1
+   },
+   "OOP|rainbow|unpaired|9以下": {
+    "n": 13784,
+    "cbet": 45.8
+   },
+   "OOP|twotone|unpaired|A高": {
+    "n": 23702,
+    "cbet": 56.7
+   },
+   "OOP|twotone|paired|9以下": {
+    "n": 6775,
+    "cbet": 47.4
+   },
+   "OOP|rainbow|unpaired|J/T高": {
+    "n": 15908,
+    "cbet": 51.8
+   },
+   "OOP|rainbow|paired|9以下": {
+    "n": 7295,
+    "cbet": 45.6
+   },
+   "OOP|twotone|paired|K/Q高": {
+    "n": 5070,
+    "cbet": 48.6
+   },
+   "OOP|twotone|paired|A高": {
+    "n": 2847,
+    "cbet": 51.3
+   },
+   "IP|twotone|paired|K/Q高": {
+    "n": 8083,
+    "cbet": 60.1
+   },
+   "IP|twotone|paired|9以下": {
+    "n": 10700,
+    "cbet": 56.4
+   },
+   "OOP|rainbow|paired|K/Q高": {
+    "n": 5199,
+    "cbet": 47.8
+   },
+   "IP|twotone|paired|J/T高": {
+    "n": 6343,
+    "cbet": 59.0
+   },
+   "IP|rainbow|paired|K/Q高": {
+    "n": 8124,
+    "cbet": 58.3
+   },
+   "OOP|mono|unpaired|J/T高": {
+    "n": 2630,
+    "cbet": 45.0
+   },
+   "OOP|mono|unpaired|K/Q高": {
+    "n": 4095,
+    "cbet": 46.7
+   },
+   "IP|mono|unpaired|K/Q高": {
+    "n": 6284,
+    "cbet": 55.4
+   },
+   "IP|rainbow|paired|A高": {
+    "n": 4468,
+    "cbet": 58.3
+   },
+   "IP|twotone|paired|A高": {
+    "n": 4399,
+    "cbet": 61.7
+   },
+   "OOP|mono|unpaired|9以下": {
+    "n": 2250,
+    "cbet": 45.0
+   },
+   "IP|mono|unpaired|J/T高": {
+    "n": 3905,
+    "cbet": 55.2
+   },
+   "OOP|twotone|paired|J/T高": {
+    "n": 4021,
+    "cbet": 50.2
+   },
+   "OOP|twotone|unpaired|9以下": {
+    "n": 20831,
+    "cbet": 47.3
+   },
+   "OOP|rainbow|paired|J/T高": {
+    "n": 4314,
+    "cbet": 47.5
+   },
+   "OOP|rainbow|paired|A高": {
+    "n": 2805,
+    "cbet": 46.7
+   },
+   "IP|mono|unpaired|A高": {
+    "n": 3964,
+    "cbet": 57.7
+   },
+   "IP|mono|unpaired|9以下": {
+    "n": 3505,
+    "cbet": 52.8
+   }
+  },
+  "fold_to_cbet_by_texture_SRP": {
+   "IP|rainbow|unpaired|A高": {
+    "n": 16188,
+    "fold": 50.5,
+    "raise": 4.8
+   },
+   "IP|twotone|unpaired|K/Q高": {
+    "n": 36466,
+    "fold": 48.0,
+    "raise": 6.7
+   },
+   "IP|rainbow|unpaired|K/Q高": {
+    "n": 24316,
+    "fold": 49.2,
+    "raise": 5.2
+   },
+   "OOP|twotone|unpaired|K/Q高": {
+    "n": 19883,
+    "fold": 40.3,
+    "raise": 10.2
+   },
+   "IP|rainbow|unpaired|9以下": {
+    "n": 11114,
+    "fold": 41.4,
+    "raise": 8.1
+   },
+   "IP|rainbow|unpaired|J/T高": {
+    "n": 14417,
+    "fold": 42.7,
+    "raise": 6.7
+   },
+   "IP|twotone|unpaired|A高": {
+    "n": 24633,
+    "fold": 49.2,
+    "raise": 6.1
+   },
+   "OOP|rainbow|unpaired|A高": {
+    "n": 8847,
+    "fold": 41.7,
+    "raise": 7.9
+   },
+   "IP|twotone|unpaired|9以下": {
+    "n": 16734,
+    "fold": 41.2,
+    "raise": 9.6
+   },
+   "IP|rainbow|paired|J/T高": {
+    "n": 3777,
+    "fold": 51.0,
+    "raise": 6.7
+   },
+   "OOP|twotone|unpaired|A高": {
+    "n": 13439,
+    "fold": 40.5,
+    "raise": 9.4
+   },
+   "IP|twotone|unpaired|J/T高": {
+    "n": 21693,
+    "fold": 43.6,
+    "raise": 8.1
+   },
+   "OOP|rainbow|unpaired|9以下": {
+    "n": 6309,
+    "fold": 34.1,
+    "raise": 11.2
+   },
+   "OOP|twotone|paired|A高": {
+    "n": 1460,
+    "fold": 46.4,
+    "raise": 8.7
+   },
+   "OOP|rainbow|unpaired|J/T高": {
+    "n": 8241,
+    "fold": 36.5,
+    "raise": 9.9
+   },
+   "OOP|twotone|unpaired|J/T高": {
+    "n": 12094,
+    "fold": 34.8,
+    "raise": 11.5
+   },
+   "IP|twotone|paired|9以下": {
+    "n": 6038,
+    "fold": 47.7,
+    "raise": 8.5
+   },
+   "OOP|rainbow|paired|K/Q高": {
+    "n": 2486,
+    "fold": 49.0,
+    "raise": 7.6
+   },
+   "OOP|twotone|paired|K/Q高": {
+    "n": 2465,
+    "fold": 45.1,
+    "raise": 10.1
+   },
+   "IP|twotone|paired|J/T高": {
+    "n": 3742,
+    "fold": 49.2,
+    "raise": 8.2
+   },
+   "OOP|twotone|paired|9以下": {
+    "n": 3212,
+    "fold": 38.9,
+    "raise": 11.5
+   },
+   "IP|rainbow|paired|K/Q高": {
+    "n": 4733,
+    "fold": 57.3,
+    "raise": 5.4
+   },
+   "OOP|rainbow|unpaired|K/Q高": {
+    "n": 13096,
+    "fold": 41.8,
+    "raise": 8.3
+   },
+   "OOP|mono|unpaired|J/T高": {
+    "n": 1184,
+    "fold": 43.2,
+    "raise": 11.1
+   },
+   "IP|rainbow|paired|9以下": {
+    "n": 6065,
+    "fold": 49.5,
+    "raise": 7.3
+   },
+   "OOP|rainbow|paired|9以下": {
+    "n": 3330,
+    "fold": 41.9,
+    "raise": 9.1
+   },
+   "IP|twotone|paired|A高": {
+    "n": 2713,
+    "fold": 53.9,
+    "raise": 6.0
+   },
+   "IP|twotone|paired|K/Q高": {
+    "n": 4857,
+    "fold": 51.2,
+    "raise": 7.1
+   },
+   "OOP|mono|unpaired|K/Q高": {
+    "n": 1914,
+    "fold": 41.4,
+    "raise": 12.2
+   },
+   "IP|rainbow|paired|A高": {
+    "n": 2603,
+    "fold": 59.9,
+    "raise": 5.1
+   },
+   "IP|mono|unpaired|J/T高": {
+    "n": 2155,
+    "fold": 50.3,
+    "raise": 6.8
+   },
+   "OOP|twotone|unpaired|9以下": {
+    "n": 9863,
+    "fold": 33.2,
+    "raise": 13.0
+   },
+   "OOP|mono|unpaired|9以下": {
+    "n": 1013,
+    "fold": 39.9,
+    "raise": 11.3
+   },
+   "OOP|mono|unpaired|A高": {
+    "n": 1281,
+    "fold": 42.2,
+    "raise": 12.6
+   },
+   "OOP|rainbow|paired|J/T高": {
+    "n": 2050,
+    "fold": 43.0,
+    "raise": 9.9
+   },
+   "IP|mono|unpaired|K/Q高": {
+    "n": 3484,
+    "fold": 51.7,
+    "raise": 7.4
+   },
+   "IP|mono|unpaired|9以下": {
+    "n": 1849,
+    "fold": 48.0,
+    "raise": 7.1
+   },
+   "OOP|twotone|paired|J/T高": {
+    "n": 2018,
+    "fold": 41.8,
+    "raise": 10.2
+   },
+   "IP|mono|unpaired|A高": {
+    "n": 2287,
+    "fold": 50.3,
+    "raise": 6.8
+   },
+   "OOP|rainbow|paired|A高": {
+    "n": 1309,
+    "fold": 52.1,
+    "raise": 7.3
+   }
+  },
+  "fold_to_cbet_texture_marginal": {
+   "suit": {
+    "IP|rainbow": {
+     "n": 83213,
+     "fold": 48.2
+    },
+    "IP|twotone": {
+     "n": 116876,
+     "fold": 46.7
+    },
+    "OOP|twotone": {
+     "n": 64434,
+     "fold": 38.5
+    },
+    "OOP|rainbow": {
+     "n": 45668,
+     "fold": 40.5
+    },
+    "OOP|mono": {
+     "n": 5392,
+     "fold": 41.7
+    },
+    "IP|mono": {
+     "n": 9775,
+     "fold": 50.4
+    }
+   },
+   "paired": {
+    "IP|unpaired": {
+     "n": 175336,
+     "fold": 46.6
+    },
+    "OOP|unpaired": {
+     "n": 97164,
+     "fold": 38.6
+    },
+    "IP|paired": {
+     "n": 34528,
+     "fold": 51.8
+    },
+    "OOP|paired": {
+     "n": 18330,
+     "fold": 44.0
+    }
+   },
+   "high": {
+    "IP|A高": {
+     "n": 48424,
+     "fold": 50.5
+    },
+    "IP|K/Q高": {
+     "n": 73856,
+     "fold": 49.4
+    },
+    "OOP|K/Q高": {
+     "n": 39844,
+     "fold": 41.7
+    },
+    "IP|9以下": {
+     "n": 41800,
+     "fold": 43.7
+    },
+    "IP|J/T高": {
+     "n": 45784,
+     "fold": 44.7
+    },
+    "OOP|A高": {
+     "n": 26336,
+     "fold": 41.9
+    },
+    "OOP|9以下": {
+     "n": 23727,
+     "fold": 35.7
+    },
+    "OOP|J/T高": {
+     "n": 25587,
+     "fold": 36.9
+    }
+   }
+  },
+  "HU_facing_bet": {
+   "1": {
+    "by_pot": {
+     "limped": {
+      "n": 76219,
+      "fold": 57.0,
+      "call": 37.5,
+      "raise": 5.5
+     },
+     "SRP": {
+      "n": 424684,
+      "fold": 43.7,
+      "call": 47.4,
+      "raise": 8.9
+     },
+     "3BP": {
+      "n": 102627,
+      "fold": 40.2,
+      "call": 47.6,
+      "raise": 12.3
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 134321,
+      "fold": 32.0,
+      "call": 54.8,
+      "raise": 13.2
+     },
+     "34-55%": {
+      "n": 275923,
+      "fold": 42.8,
+      "call": 48.3,
+      "raise": 8.9
+     },
+     "56-80%": {
+      "n": 130318,
+      "fold": 52.6,
+      "call": 40.2,
+      "raise": 7.2
+     },
+     "81-110%": {
+      "n": 55927,
+      "fold": 58.9,
+      "call": 34.0,
+      "raise": 7.1
+     },
+     ">110%": {
+      "n": 16153,
+      "fold": 65.5,
+      "call": 31.3,
+      "raise": 3.2
+     }
+    },
+    "check_raise": {
+     "n": 351158,
+     "pct": 7.0
+    },
+    "bettor_vs_raise": {
+     "n": 56113,
+     "fold": 35.7,
+     "call": 52.8,
+     "raise": 11.4
+    }
+   },
+   "2": {
+    "by_pot": {
+     "limped": {
+      "n": 63420,
+      "fold": 50.5,
+      "call": 43.2,
+      "raise": 6.2
+     },
+     "SRP": {
+      "n": 268439,
+      "fold": 45.8,
+      "call": 45.9,
+      "raise": 8.3
+     },
+     "3BP": {
+      "n": 53669,
+      "fold": 42.2,
+      "call": 46.2,
+      "raise": 11.6
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 71741,
+      "fold": 29.9,
+      "call": 57.2,
+      "raise": 12.9
+     },
+     "34-55%": {
+      "n": 144567,
+      "fold": 44.0,
+      "call": 47.8,
+      "raise": 8.3
+     },
+     "56-80%": {
+      "n": 112817,
+      "fold": 51.4,
+      "call": 41.3,
+      "raise": 7.3
+     },
+     "81-110%": {
+      "n": 43254,
+      "fold": 57.8,
+      "call": 35.5,
+      "raise": 6.7
+     },
+     ">110%": {
+      "n": 16982,
+      "fold": 64.6,
+      "call": 31.8,
+      "raise": 3.5
+     }
+    },
+    "check_raise": {
+     "n": 180673,
+     "pct": 7.2
+    },
+    "bettor_vs_raise": {
+     "n": 32933,
+     "fold": 35.0,
+     "call": 55.0,
+     "raise": 10.0
+    }
+   },
+   "3": {
+    "by_pot": {
+     "limped": {
+      "n": 44882,
+      "fold": 59.9,
+      "call": 31.7,
+      "raise": 8.4
+     },
+     "SRP": {
+      "n": 162655,
+      "fold": 55.7,
+      "call": 35.7,
+      "raise": 8.6
+     },
+     "3BP": {
+      "n": 28784,
+      "fold": 50.2,
+      "call": 41.5,
+      "raise": 8.2
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 46891,
+      "fold": 39.0,
+      "call": 47.3,
+      "raise": 13.7
+     },
+     "34-55%": {
+      "n": 64272,
+      "fold": 53.1,
+      "call": 37.6,
+      "raise": 9.3
+     },
+     "56-80%": {
+      "n": 58736,
+      "fold": 58.7,
+      "call": 33.6,
+      "raise": 7.6
+     },
+     "81-110%": {
+      "n": 43634,
+      "fold": 64.6,
+      "call": 29.3,
+      "raise": 6.2
+     },
+     ">110%": {
+      "n": 24377,
+      "fold": 72.4,
+      "call": 24.8,
+      "raise": 2.8
+     }
+    },
+    "check_raise": {
+     "n": 92803,
+     "pct": 3.8
+    },
+    "bettor_vs_raise": {
+     "n": 20265,
+     "fold": 42.0,
+     "call": 50.3,
+     "raise": 7.7
+    }
+   }
+  },
+  "multiway": {
+   "limped": {
+    "flops": 77539,
+    "someone_bets_flop": 55.0,
+    "players": {
+     "3": 83.4,
+     "4": 15.1,
+     "5": 1.5
+    },
+    "flop_bet_takes_pot": 32.8,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 8835,
+      "win": 21.5
+     },
+     "34-55%": {
+      "n": 12715,
+      "win": 26.7
+     },
+     "56-80%": {
+      "n": 7760,
+      "win": 33.2
+     },
+     "81-110%": {
+      "n": 11327,
+      "win": 43.6
+     },
+     ">110%": {
+      "n": 2015,
+      "win": 58.2
+     }
+    },
+    "turn_bet_takes_pot": 34.9,
+    "river_bet_takes_pot": 50.0
+   },
+   "SRP": {
+    "flops": 211936,
+    "someone_bets_flop": 67.1,
+    "players": {
+     "3": 85.7,
+     "4": 13.1,
+     "5": 1.2
+    },
+    "flop_bet_takes_pot": 29.5,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 41733,
+      "win": 18.7
+     },
+     "34-55%": {
+      "n": 61014,
+      "win": 28.6
+     },
+     "56-80%": {
+      "n": 26040,
+      "win": 39.3
+     },
+     "81-110%": {
+      "n": 10245,
+      "win": 45.3
+     },
+     ">110%": {
+      "n": 3083,
+      "win": 57.2
+     }
+    },
+    "turn_bet_takes_pot": 36.8,
+    "river_bet_takes_pot": 49.5,
+    "first_bet_by_pfr": 53.0
+   },
+   "3BP": {
+    "flops": 26550,
+    "someone_bets_flop": 75.3,
+    "players": {
+     "3": 91.6,
+     "4": 8.0,
+     "5": 0.4
+    },
+    "flop_bet_takes_pot": 28.0,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 7828,
+      "win": 17.7
+     },
+     "34-55%": {
+      "n": 6185,
+      "win": 29.0
+     },
+     "56-80%": {
+      "n": 3414,
+      "win": 37.7
+     },
+     "81-110%": {
+      "n": 1583,
+      "win": 42.2
+     },
+     ">110%": {
+      "n": 971,
+      "win": 47.4
+     }
+    },
+    "turn_bet_takes_pot": 32.1,
+    "river_bet_takes_pot": 42.2,
+    "first_bet_by_pfr": 62.4
+   }
+  },
+  "showdown_class": {
+   "1|bet|≤33%": {
+    "n": 30800,
+    "air": 29.5,
+    "draw": 13.8,
+    "weak_pair": 23.6,
+    "top_pair": 25.9,
+    "two_pair": 1.5,
+    "set_trips": 4.3,
+    "straight_plus": 1.3
+   },
+   "1|bet|all": {
+    "n": 124720,
+    "air": 23.9,
+    "draw": 14.1,
+    "weak_pair": 22.9,
+    "top_pair": 32.0,
+    "two_pair": 2.3,
+    "set_trips": 3.5,
+    "straight_plus": 1.2
+   },
+   "1|call|≤33%": {
+    "n": 34452,
+    "air": 24.2,
+    "draw": 17.6,
+    "weak_pair": 29.9,
+    "top_pair": 21.9,
+    "two_pair": 1.3,
+    "set_trips": 3.9,
+    "straight_plus": 1.3
+   },
+   "2|lead/probe|≤33%": {
+    "n": 14184,
+    "air": 12.1,
+    "draw": 15.2,
+    "weak_pair": 32.2,
+    "top_pair": 23.5,
+    "two_pair": 4.8,
+    "set_trips": 5.3,
+    "straight_plus": 6.8
+   },
+   "2|lead/probe|all": {
+    "n": 47749,
+    "air": 11.4,
+    "draw": 16.3,
+    "weak_pair": 26.8,
+    "top_pair": 23.7,
+    "two_pair": 6.7,
+    "set_trips": 6.8,
+    "straight_plus": 8.3
+   },
+   "2|call|≤33%": {
+    "n": 27575,
+    "air": 11.5,
+    "draw": 20.8,
+    "weak_pair": 35.6,
+    "top_pair": 21.6,
+    "two_pair": 2.6,
+    "set_trips": 3.5,
+    "straight_plus": 4.4
+   },
+   "1|bet|34-55%": {
+    "n": 57319,
+    "air": 24.5,
+    "draw": 14.9,
+    "weak_pair": 24.6,
+    "top_pair": 30.1,
+    "two_pair": 1.9,
+    "set_trips": 3.1,
+    "straight_plus": 1.0
+   },
+   "1|call|34-55%": {
+    "n": 63420,
+    "air": 19.5,
+    "draw": 19.9,
+    "weak_pair": 29.7,
+    "top_pair": 24.1,
+    "two_pair": 1.7,
+    "set_trips": 3.8,
+    "straight_plus": 1.3
+   },
+   "2|bet|>110%": {
+    "n": 3341,
+    "air": 7.9,
+    "draw": 16.4,
+    "weak_pair": 13.8,
+    "top_pair": 34.5,
+    "two_pair": 8.9,
+    "set_trips": 8.9,
+    "straight_plus": 9.6
+   },
+   "2|bet|all": {
+    "n": 88300,
+    "air": 11.7,
+    "draw": 15.6,
+    "weak_pair": 24.2,
+    "top_pair": 29.9,
+    "two_pair": 5.3,
+    "set_trips": 6.4,
+    "straight_plus": 6.8
+   },
+   "2|call|>110%": {
+    "n": 4226,
+    "air": 3.5,
+    "draw": 15.0,
+    "weak_pair": 23.4,
+    "top_pair": 30.4,
+    "two_pair": 6.5,
+    "set_trips": 9.8,
+    "straight_plus": 11.4
+   },
+   "2|bet|34-55%": {
+    "n": 33503,
+    "air": 12.6,
+    "draw": 15.9,
+    "weak_pair": 27.7,
+    "top_pair": 28.6,
+    "two_pair": 4.1,
+    "set_trips": 5.3,
+    "straight_plus": 5.7
+   },
+   "2|call|34-55%": {
+    "n": 45997,
+    "air": 9.2,
+    "draw": 21.5,
+    "weak_pair": 34.3,
+    "top_pair": 23.0,
+    "two_pair": 2.9,
+    "set_trips": 4.0,
+    "straight_plus": 5.2
+   },
+   "3|bet|34-55%": {
+    "n": 16283,
+    "air": 18.0,
+    "draw": 0.0,
+    "weak_pair": 21.8,
+    "top_pair": 24.9,
+    "two_pair": 7.4,
+    "set_trips": 8.2,
+    "straight_plus": 19.6
+   },
+   "3|bet|all": {
+    "n": 57270,
+    "air": 18.1,
+    "draw": 0.0,
+    "weak_pair": 17.9,
+    "top_pair": 21.8,
+    "two_pair": 7.9,
+    "set_trips": 9.4,
+    "straight_plus": 25.0
+   },
+   "3|call|34-55%": {
+    "n": 24166,
+    "air": 13.8,
+    "draw": 0.0,
+    "weak_pair": 41.6,
+    "top_pair": 25.5,
+    "two_pair": 5.8,
+    "set_trips": 4.1,
+    "straight_plus": 9.2
+   },
+   "2|lead/probe|56-80%": {
+    "n": 10054,
+    "air": 10.7,
+    "draw": 17.5,
+    "weak_pair": 21.3,
+    "top_pair": 23.8,
+    "two_pair": 8.5,
+    "set_trips": 8.6,
+    "straight_plus": 9.6
+   },
+   "2|call|56-80%": {
+    "n": 31254,
+    "air": 6.2,
+    "draw": 20.8,
+    "weak_pair": 30.9,
+    "top_pair": 26.5,
+    "two_pair": 4.3,
+    "set_trips": 5.2,
+    "straight_plus": 6.1
+   },
+   "3|lead|34-55%": {
+    "n": 12533,
+    "air": 20.2,
+    "draw": 0.0,
+    "weak_pair": 20.6,
+    "top_pair": 18.1,
+    "two_pair": 9.0,
+    "set_trips": 9.2,
+    "straight_plus": 22.9
+   },
+   "3|lead|all": {
+    "n": 45343,
+    "air": 19.4,
+    "draw": 0.0,
+    "weak_pair": 19.2,
+    "top_pair": 16.2,
+    "two_pair": 8.9,
+    "set_trips": 9.6,
+    "straight_plus": 26.6
+   },
+   "1|bet|81-110%": {
+    "n": 9074,
+    "air": 17.0,
+    "draw": 12.2,
+    "weak_pair": 19.1,
+    "top_pair": 41.6,
+    "two_pair": 4.5,
+    "set_trips": 3.8,
+    "straight_plus": 1.8
+   },
+   "1|call|81-110%": {
+    "n": 10079,
+    "air": 12.4,
+    "draw": 21.2,
+    "weak_pair": 25.1,
+    "top_pair": 30.1,
+    "two_pair": 2.9,
+    "set_trips": 5.8,
+    "straight_plus": 2.4
+   },
+   "2|bet|56-80%": {
+    "n": 25295,
+    "air": 10.3,
+    "draw": 16.4,
+    "weak_pair": 19.1,
+    "top_pair": 32.3,
+    "two_pair": 6.5,
+    "set_trips": 7.9,
+    "straight_plus": 7.4
+   },
+   "3|bet|56-80%": {
+    "n": 13998,
+    "air": 21.3,
+    "draw": 0.0,
+    "weak_pair": 12.7,
+    "top_pair": 19.1,
+    "two_pair": 8.7,
+    "set_trips": 10.8,
+    "straight_plus": 27.3
+   },
+   "3|call|56-80%": {
+    "n": 19753,
+    "air": 10.2,
+    "draw": 0.0,
+    "weak_pair": 35.9,
+    "top_pair": 28.6,
+    "two_pair": 7.7,
+    "set_trips": 5.4,
+    "straight_plus": 12.2
+   },
+   "1|donk|34-55%": {
+    "n": 14838,
+    "air": 18.9,
+    "draw": 16.2,
+    "weak_pair": 26.4,
+    "top_pair": 30.8,
+    "two_pair": 2.9,
+    "set_trips": 3.4,
+    "straight_plus": 1.3
+   },
+   "1|donk|all": {
+    "n": 34539,
+    "air": 18.1,
+    "draw": 15.6,
+    "weak_pair": 25.8,
+    "top_pair": 31.4,
+    "two_pair": 3.6,
+    "set_trips": 3.8,
+    "straight_plus": 1.7
+   },
+   "3|lead|>110%": {
+    "n": 3084,
+    "air": 20.3,
+    "draw": 0.0,
+    "weak_pair": 9.3,
+    "top_pair": 5.8,
+    "two_pair": 7.8,
+    "set_trips": 12.5,
+    "straight_plus": 44.5
+   },
+   "3|call|>110%": {
+    "n": 6056,
+    "air": 7.8,
+    "draw": 0.0,
+    "weak_pair": 23.5,
+    "top_pair": 24.9,
+    "two_pair": 9.0,
+    "set_trips": 8.9,
+    "straight_plus": 25.9
+   },
+   "1|bet|56-80%": {
+    "n": 24635,
+    "air": 18.5,
+    "draw": 13.6,
+    "weak_pair": 19.9,
+    "top_pair": 39.8,
+    "two_pair": 3.4,
+    "set_trips": 3.6,
+    "straight_plus": 1.3
+   },
+   "1|call|56-80%": {
+    "n": 25978,
+    "air": 14.9,
+    "draw": 21.5,
+    "weak_pair": 28.0,
+    "top_pair": 27.0,
+    "two_pair": 2.3,
+    "set_trips": 4.5,
+    "straight_plus": 1.7
+   },
+   "1|donk|56-80%": {
+    "n": 5520,
+    "air": 15.1,
+    "draw": 15.5,
+    "weak_pair": 22.1,
+    "top_pair": 36.5,
+    "two_pair": 4.8,
+    "set_trips": 4.1,
+    "straight_plus": 1.9
+   },
+   "3|lead|81-110%": {
+    "n": 6975,
+    "air": 19.2,
+    "draw": 0.0,
+    "weak_pair": 11.3,
+    "top_pair": 10.0,
+    "two_pair": 10.0,
+    "set_trips": 12.5,
+    "straight_plus": 37.0
+   },
+   "3|call|81-110%": {
+    "n": 12767,
+    "air": 10.0,
+    "draw": 0.0,
+    "weak_pair": 31.9,
+    "top_pair": 27.6,
+    "two_pair": 8.6,
+    "set_trips": 6.1,
+    "straight_plus": 15.8
+   },
+   "1|bet|>110%": {
+    "n": 2892,
+    "air": 21.6,
+    "draw": 12.9,
+    "weak_pair": 18.4,
+    "top_pair": 39.8,
+    "two_pair": 3.7,
+    "set_trips": 2.6,
+    "straight_plus": 1.1
+   },
+   "1|call|>110%": {
+    "n": 3803,
+    "air": 11.9,
+    "draw": 17.8,
+    "weak_pair": 21.7,
+    "top_pair": 34.8,
+    "two_pair": 3.4,
+    "set_trips": 7.2,
+    "straight_plus": 3.2
+   },
+   "3|bet|≤33%": {
+    "n": 13331,
+    "air": 14.5,
+    "draw": 0.0,
+    "weak_pair": 26.7,
+    "top_pair": 29.3,
+    "two_pair": 6.7,
+    "set_trips": 6.8,
+    "straight_plus": 16.0
+   },
+   "3|call|≤33%": {
+    "n": 22189,
+    "air": 16.5,
+    "draw": 0.0,
+    "weak_pair": 42.4,
+    "top_pair": 24.3,
+    "two_pair": 5.2,
+    "set_trips": 3.5,
+    "straight_plus": 8.1
+   },
+   "2|lead/probe|34-55%": {
+    "n": 18035,
+    "air": 11.7,
+    "draw": 17.0,
+    "weak_pair": 28.2,
+    "top_pair": 24.1,
+    "two_pair": 5.9,
+    "set_trips": 5.9,
+    "straight_plus": 7.2
+   },
+   "2|bet|≤33%": {
+    "n": 17791,
+    "air": 13.8,
+    "draw": 14.5,
+    "weak_pair": 30.6,
+    "top_pair": 26.8,
+    "two_pair": 3.1,
+    "set_trips": 5.0,
+    "straight_plus": 6.2
+   },
+   "1|donk|≤33%": {
+    "n": 9565,
+    "air": 20.6,
+    "draw": 15.6,
+    "weak_pair": 27.7,
+    "top_pair": 27.2,
+    "two_pair": 2.7,
+    "set_trips": 4.3,
+    "straight_plus": 1.8
+   },
+   "2|lead/probe|81-110%": {
+    "n": 4229,
+    "air": 10.1,
+    "draw": 14.1,
+    "weak_pair": 19.2,
+    "top_pair": 23.5,
+    "two_pair": 10.5,
+    "set_trips": 10.0,
+    "straight_plus": 12.5
+   },
+   "2|raise|all": {
+    "n": 9572,
+    "air": 6.5,
+    "draw": 10.8,
+    "weak_pair": 14.4,
+    "top_pair": 26.2,
+    "two_pair": 10.4,
+    "set_trips": 14.6,
+    "straight_plus": 17.1
+   },
+   "1|xr|all": {
+    "n": 8945,
+    "air": 12.4,
+    "draw": 14.5,
+    "weak_pair": 14.1,
+    "top_pair": 32.8,
+    "two_pair": 9.0,
+    "set_trips": 12.6,
+    "straight_plus": 4.6
+   },
+   "3|bet|>110%": {
+    "n": 4493,
+    "air": 18.5,
+    "draw": 0.0,
+    "weak_pair": 7.1,
+    "top_pair": 11.2,
+    "two_pair": 7.2,
+    "set_trips": 12.1,
+    "straight_plus": 44.0
+   },
+   "3|bet|81-110%": {
+    "n": 9165,
+    "air": 18.7,
+    "draw": 0.0,
+    "weak_pair": 11.1,
+    "top_pair": 14.3,
+    "two_pair": 9.3,
+    "set_trips": 11.6,
+    "straight_plus": 35.0
+   },
+   "2|xr|all": {
+    "n": 6468,
+    "air": 5.3,
+    "draw": 9.2,
+    "weak_pair": 12.8,
+    "top_pair": 21.8,
+    "two_pair": 11.9,
+    "set_trips": 16.9,
+    "straight_plus": 22.1
+   },
+   "2|lead/probe|>110%": {
+    "n": 1247,
+    "air": 8.3,
+    "draw": 18.1,
+    "weak_pair": 16.4,
+    "top_pair": 20.4,
+    "two_pair": 12.3,
+    "set_trips": 10.6,
+    "straight_plus": 13.9
+   },
+   "1|raise|all": {
+    "n": 12927,
+    "air": 11.8,
+    "draw": 12.9,
+    "weak_pair": 16.6,
+    "top_pair": 40.5,
+    "two_pair": 6.7,
+    "set_trips": 8.0,
+    "straight_plus": 3.4
+   },
+   "2|bet|81-110%": {
+    "n": 8370,
+    "air": 9.7,
+    "draw": 14.0,
+    "weak_pair": 16.4,
+    "top_pair": 32.4,
+    "two_pair": 9.3,
+    "set_trips": 8.6,
+    "straight_plus": 9.6
+   },
+   "2|call|81-110%": {
+    "n": 10622,
+    "air": 5.0,
+    "draw": 19.1,
+    "weak_pair": 28.5,
+    "top_pair": 27.4,
+    "two_pair": 5.0,
+    "set_trips": 6.8,
+    "straight_plus": 8.2
+   },
+   "3|lead|56-80%": {
+    "n": 9652,
+    "air": 22.7,
+    "draw": 0.0,
+    "weak_pair": 13.0,
+    "top_pair": 12.5,
+    "two_pair": 9.8,
+    "set_trips": 11.7,
+    "straight_plus": 30.4
+   },
+   "1|donk|81-110%": {
+    "n": 3412,
+    "air": 13.6,
+    "draw": 13.3,
+    "weak_pair": 23.0,
+    "top_pair": 37.1,
+    "two_pair": 6.2,
+    "set_trips": 3.9,
+    "straight_plus": 2.8
+   },
+   "3|lead|≤33%": {
+    "n": 13099,
+    "air": 16.0,
+    "draw": 0.0,
+    "weak_pair": 29.1,
+    "top_pair": 22.8,
+    "two_pair": 7.9,
+    "set_trips": 6.4,
+    "straight_plus": 17.7
+   },
+   "3|raise|all": {
+    "n": 9862,
+    "air": 8.0,
+    "draw": 0.0,
+    "weak_pair": 7.0,
+    "top_pair": 10.5,
+    "two_pair": 8.7,
+    "set_trips": 14.2,
+    "straight_plus": 51.5
+   },
+   "1|donk|>110%": {
+    "n": 1204,
+    "air": 14.6,
+    "draw": 14.5,
+    "weak_pair": 26.9,
+    "top_pair": 32.9,
+    "two_pair": 5.1,
+    "set_trips": 3.7,
+    "straight_plus": 2.2
+   },
+   "3|xr|all": {
+    "n": 2310,
+    "air": 8.7,
+    "draw": 0.0,
+    "weak_pair": 11.6,
+    "top_pair": 9.1,
+    "two_pair": 9.6,
+    "set_trips": 14.9,
+    "straight_plus": 46.0
+   }
+  },
+  "preflop_showdown_hands": {
+   "open_limp": {
+    "n": 136065,
+    "AA/KK": 1.5,
+    "QQ/JJ": 1.2,
+    "TT-77": 2.9,
+    "66-22": 5.0,
+    "AK": 1.5,
+    "AQ/AJ": 3.1,
+    "A2-AT": 17.5,
+    "KQ-JT等大牌": 12.3,
+    "其他同花": 26.5,
+    "不同花連張": 10.1,
+    "其他雜牌": 18.5
+   },
+   "open_raise_EP": {
+    "n": 134880,
+    "AA/KK": 5.8,
+    "QQ/JJ": 5.9,
+    "TT-77": 9.1,
+    "66-22": 6.7,
+    "AK": 6.9,
+    "AQ/AJ": 11.6,
+    "A2-AT": 17.6,
+    "KQ-JT等大牌": 19.2,
+    "其他同花": 13.2,
+    "不同花連張": 1.7,
+    "其他雜牌": 2.2
+   },
+   "3bet": {
+    "n": 69268,
+    "AA/KK": 13.2,
+    "QQ/JJ": 11.7,
+    "TT-77": 9.8,
+    "66-22": 3.1,
+    "AK": 13.7,
+    "AQ/AJ": 15.8,
+    "A2-AT": 11.5,
+    "KQ-JT等大牌": 12.0,
+    "其他同花": 5.9,
+    "不同花連張": 1.0,
+    "其他雜牌": 2.3
+   },
+   "4bet_allin": {
+    "n": 7215,
+    "AA/KK": 12.5,
+    "QQ/JJ": 12.3,
+    "TT-77": 12.6,
+    "66-22": 5.3,
+    "AK": 21.2,
+    "AQ/AJ": 13.1,
+    "A2-AT": 9.8,
+    "KQ-JT等大牌": 7.5,
+    "其他同花": 3.5,
+    "不同花連張": 0.8,
+    "其他雜牌": 1.4
+   },
+   "4bet": {
+    "n": 10189,
+    "AA/KK": 29.3,
+    "QQ/JJ": 16.0,
+    "TT-77": 6.6,
+    "66-22": 2.0,
+    "AK": 20.6,
+    "AQ/AJ": 11.1,
+    "A2-AT": 5.8,
+    "KQ-JT等大牌": 5.0,
+    "其他同花": 2.3,
+    "不同花連張": 0.5,
+    "其他雜牌": 0.7
+   },
+   "open_raise_LP": {
+    "n": 132284,
+    "AA/KK": 4.0,
+    "QQ/JJ": 4.1,
+    "TT-77": 6.9,
+    "66-22": 6.1,
+    "AK": 5.0,
+    "AQ/AJ": 9.0,
+    "A2-AT": 20.3,
+    "KQ-JT等大牌": 18.8,
+    "其他同花": 18.0,
+    "不同花連張": 3.4,
+    "其他雜牌": 4.4
+   },
+   "flat_vs_open": {
+    "n": 129919,
+    "AA/KK": 1.0,
+    "QQ/JJ": 1.5,
+    "TT-77": 7.1,
+    "66-22": 8.1,
+    "AK": 1.6,
+    "AQ/AJ": 6.3,
+    "A2-AT": 19.7,
+    "KQ-JT等大牌": 19.4,
+    "其他同花": 22.5,
+    "不同花連張": 5.4,
+    "其他雜牌": 7.4
+   },
+   "call_3bet": {
+    "n": 51068,
+    "AA/KK": 2.2,
+    "QQ/JJ": 5.3,
+    "TT-77": 10.9,
+    "66-22": 7.1,
+    "AK": 4.7,
+    "AQ/AJ": 11.9,
+    "A2-AT": 17.2,
+    "KQ-JT等大牌": 20.1,
+    "其他同花": 15.9,
+    "不同花連張": 2.3,
+    "其他雜牌": 2.5
+   },
+   "open_raise_SB": {
+    "n": 30716,
+    "AA/KK": 3.4,
+    "QQ/JJ": 3.4,
+    "TT-77": 5.4,
+    "66-22": 4.7,
+    "AK": 4.0,
+    "AQ/AJ": 7.9,
+    "A2-AT": 21.0,
+    "KQ-JT等大牌": 16.6,
+    "其他同花": 18.9,
+    "不同花連張": 5.5,
+    "其他雜牌": 9.1
+   },
+   "flat_vs_open_BB": {
+    "n": 104255,
+    "AA/KK": 0.4,
+    "QQ/JJ": 0.8,
+    "TT-77": 4.0,
+    "66-22": 5.2,
+    "AK": 0.9,
+    "AQ/AJ": 4.3,
+    "A2-AT": 19.7,
+    "KQ-JT等大牌": 16.6,
+    "其他同花": 25.3,
+    "不同花連張": 9.2,
+    "其他雜牌": 13.7
+   },
+   "limp_raise": {
+    "n": 3519,
+    "AA/KK": 18.4,
+    "QQ/JJ": 9.3,
+    "TT-77": 7.9,
+    "66-22": 5.3,
+    "AK": 10.3,
+    "AQ/AJ": 10.9,
+    "A2-AT": 13.7,
+    "KQ-JT等大牌": 10.0,
+    "其他同花": 7.6,
+    "不同花連張": 2.4,
+    "其他雜牌": 4.3
+   },
+   "limp_call": {
+    "n": 45658,
+    "AA/KK": 0.9,
+    "QQ/JJ": 1.0,
+    "TT-77": 3.6,
+    "66-22": 5.8,
+    "AK": 1.3,
+    "AQ/AJ": 3.3,
+    "A2-AT": 18.6,
+    "KQ-JT等大牌": 14.6,
+    "其他同花": 27.6,
+    "不同花連張": 9.0,
+    "其他雜牌": 14.3
+   }
+  }
+ },
+ "NL5": {
+  "hands": 1676922,
+  "hands_by_players": {
+   "3": 40553,
+   "4": 137141,
+   "5": 519010,
+   "6": 980218
+  },
+  "pot_level": {
+   "limped": 22.7,
+   "SRP": 62.4,
+   "3BP": 12.7,
+   "4BP": 1.7,
+   "5B+": 0.4
+  },
+  "preflop": {
+   "UTG": {
+    "hands": 980218,
+    "vpip": 22.7,
+    "pfr": 18.5,
+    "rfi_opp": 979269,
+    "open_raise": 18.4,
+    "open_limp": 4.2,
+    "limp_any": 4.2,
+    "open_sizes": {
+     "2.0x": 31.6,
+     "2.1-2.5x": 15.4,
+     "2.6-3x": 48.2,
+     "3.1-4x": 3.7,
+     "4.1-6x": 0.4,
+     ">6x": 0.7
+    },
+    "iso_opp": 310,
+    "iso": 17.4,
+    "overlimp": 6.1,
+    "f3": {
+     "n": 46119,
+     "fold": 37.8,
+     "call": 49.7,
+     "raise": 12.5
+    },
+    "sq_opp": 492,
+    "squeeze": 3.5,
+    "overcall_vs_open_plus_caller": 40.4,
+    "vs_open": {},
+    "3bet_total": 3.7,
+    "coldcall_total": 33.5,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 102,
+      "fold": 30.4,
+      "3bet": 1.0
+     },
+     "2.1-2.5x": {
+      "n": 38,
+      "fold": 23.7,
+      "3bet": 2.6
+     },
+     "2.6-3x": {
+      "n": 194,
+      "fold": 45.9,
+      "3bet": 3.6
+     },
+     "3.1-4x": {
+      "n": 362,
+      "fold": 61.9,
+      "3bet": 2.8
+     },
+     "4.1-6x": {
+      "n": 374,
+      "fold": 71.1,
+      "3bet": 4.5
+     },
+     ">6x": {
+      "n": 369,
+      "fold": 77.2,
+      "3bet": 4.6
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 56967,
+      "win": 22.4
+     },
+     "2.1-2.5x": {
+      "n": 27806,
+      "win": 27.0
+     },
+     "2.6-3x": {
+      "n": 86827,
+      "win": 30.5
+     },
+     "3.1-4x": {
+      "n": 6721,
+      "win": 37.8
+     },
+     "4.1-6x": {
+      "n": 680,
+      "win": 39.7
+     },
+     ">6x": {
+      "n": 1188,
+      "win": 56.5
+     }
+    },
+    "limp_vs_raise": {
+     "n": 22867,
+     "fold": 21.8,
+     "call": 73.4,
+     "raise": 4.8
+    }
+   },
+   "HJ": {
+    "hands": 1499228,
+    "vpip": 23.8,
+    "pfr": 18.9,
+    "rfi_opp": 1276719,
+    "open_raise": 20.6,
+    "open_limp": 4.1,
+    "limp_any": 3.7,
+    "open_sizes": {
+     "2.0x": 30.0,
+     "2.1-2.5x": 16.2,
+     "2.6-3x": 49.2,
+     "3.1-4x": 3.6,
+     "4.1-6x": 0.4,
+     ">6x": 0.6
+    },
+    "iso_opp": 41625,
+    "iso": 16.5,
+    "overlimp": 5.8,
+    "f3": {
+     "n": 59713,
+     "fold": 40.7,
+     "call": 47.5,
+     "raise": 11.8
+    },
+    "sq_opp": 552,
+    "squeeze": 2.2,
+    "overcall_vs_open_plus_caller": 45.5,
+    "vs_open": {
+     "UTG": {
+      "n": 180182,
+      "fold": 83.1,
+      "call": 10.7,
+      "3bet": 6.1
+     }
+    },
+    "3bet_total": 6.1,
+    "coldcall_total": 11.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 57109,
+      "fold": 81.8,
+      "3bet": 7.2
+     },
+     "2.1-2.5x": {
+      "n": 27838,
+      "fold": 82.6,
+      "3bet": 6.1
+     },
+     "2.6-3x": {
+      "n": 87092,
+      "fold": 83.7,
+      "3bet": 5.6
+     },
+     "3.1-4x": {
+      "n": 7253,
+      "fold": 84.0,
+      "3bet": 4.4
+     },
+     "4.1-6x": {
+      "n": 1193,
+      "fold": 76.9,
+      "3bet": 3.6
+     },
+     ">6x": {
+      "n": 1569,
+      "fold": 86.7,
+      "3bet": 3.0
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 79017,
+      "win": 26.8
+     },
+     "2.1-2.5x": {
+      "n": 42739,
+      "win": 31.7
+     },
+     "2.6-3x": {
+      "n": 129817,
+      "win": 35.7
+     },
+     "3.1-4x": {
+      "n": 9396,
+      "win": 43.7
+     },
+     "4.1-6x": {
+      "n": 995,
+      "win": 46.0
+     },
+     ">6x": {
+      "n": 1625,
+      "win": 63.3
+     }
+    },
+    "limp_vs_raise": {
+     "n": 27579,
+     "fold": 24.3,
+     "call": 71.1,
+     "raise": 4.5
+    }
+   },
+   "CO": {
+    "hands": 1636369,
+    "vpip": 26.2,
+    "pfr": 20.1,
+    "rfi_opp": 1097704,
+    "open_raise": 25.5,
+    "open_limp": 3.9,
+    "limp_any": 3.0,
+    "open_sizes": {
+     "2.0x": 25.4,
+     "2.1-2.5x": 19.1,
+     "2.6-3x": 51.5,
+     "3.1-4x": 3.2,
+     "4.1-6x": 0.3,
+     ">6x": 0.5
+    },
+    "iso_opp": 87606,
+    "iso": 19.0,
+    "overlimp": 6.2,
+    "f3": {
+     "n": 56974,
+     "fold": 47.0,
+     "call": 42.4,
+     "raise": 10.5
+    },
+    "sq_opp": 19899,
+    "squeeze": 6.2,
+    "overcall_vs_open_plus_caller": 12.9,
+    "vs_open": {
+     "UTG": {
+      "n": 149795,
+      "fold": 81.5,
+      "call": 11.8,
+      "3bet": 6.7
+     },
+     "HJ": {
+      "n": 263568,
+      "fold": 81.4,
+      "call": 11.6,
+      "3bet": 7.0
+     }
+    },
+    "3bet_total": 6.9,
+    "coldcall_total": 11.8,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 125805,
+      "fold": 79.9,
+      "3bet": 8.1
+     },
+     "2.1-2.5x": {
+      "n": 65755,
+      "fold": 81.0,
+      "3bet": 7.0
+     },
+     "2.6-3x": {
+      "n": 202910,
+      "fold": 82.1,
+      "3bet": 6.3
+     },
+     "3.1-4x": {
+      "n": 15772,
+      "fold": 83.1,
+      "3bet": 4.6
+     },
+     "4.1-6x": {
+      "n": 2126,
+      "fold": 79.7,
+      "3bet": 3.2
+     },
+     ">6x": {
+      "n": 2970,
+      "fold": 88.9,
+      "3bet": 2.7
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 71122,
+      "win": 31.3
+     },
+     "2.1-2.5x": {
+      "n": 53492,
+      "win": 36.7
+     },
+     "2.6-3x": {
+      "n": 144196,
+      "win": 40.8
+     },
+     "3.1-4x": {
+      "n": 8918,
+      "win": 49.9
+     },
+     "4.1-6x": {
+      "n": 921,
+      "win": 50.5
+     },
+     ">6x": {
+      "n": 1396,
+      "win": 66.7
+     }
+    },
+    "limp_vs_raise": {
+     "n": 20441,
+     "fold": 27.2,
+     "call": 68.9,
+     "raise": 3.9
+    }
+   },
+   "BTN": {
+    "hands": 1676922,
+    "vpip": 31.0,
+    "pfr": 22.4,
+    "rfi_opp": 815431,
+    "open_raise": 36.0,
+    "open_limp": 4.2,
+    "limp_any": 2.6,
+    "open_sizes": {
+     "2.0x": 21.3,
+     "2.1-2.5x": 19.3,
+     "2.6-3x": 55.5,
+     "3.1-4x": 3.1,
+     "4.1-6x": 0.4,
+     ">6x": 0.4
+    },
+    "iso_opp": 114117,
+    "iso": 22.3,
+    "overlimp": 8.3,
+    "f3": {
+     "n": 48198,
+     "fold": 55.1,
+     "call": 36.8,
+     "raise": 8.1
+    },
+    "sq_opp": 66328,
+    "squeeze": 6.9,
+    "overcall_vs_open_plus_caller": 14.2,
+    "vs_open": {
+     "UTG": {
+      "n": 122017,
+      "fold": 78.5,
+      "call": 14.5,
+      "3bet": 6.9
+     },
+     "HJ": {
+      "n": 214537,
+      "fold": 78.6,
+      "call": 14.1,
+      "3bet": 7.4
+     },
+     "CO": {
+      "n": 280026,
+      "fold": 77.5,
+      "call": 13.7,
+      "3bet": 8.8
+     }
+    },
+    "3bet_total": 7.9,
+    "coldcall_total": 14.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 171631,
+      "fold": 76.1,
+      "3bet": 9.4
+     },
+     "2.1-2.5x": {
+      "n": 106744,
+      "fold": 77.4,
+      "3bet": 8.1
+     },
+     "2.6-3x": {
+      "n": 310589,
+      "fold": 78.9,
+      "3bet": 7.3
+     },
+     "3.1-4x": {
+      "n": 21655,
+      "fold": 82.4,
+      "3bet": 5.1
+     },
+     "4.1-6x": {
+      "n": 2240,
+      "fold": 84.8,
+      "3bet": 4.2
+     },
+     ">6x": {
+      "n": 3886,
+      "fold": 89.2,
+      "3bet": 3.0
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 62493,
+      "win": 38.1
+     },
+     "2.1-2.5x": {
+      "n": 56579,
+      "win": 43.8
+     },
+     "2.6-3x": {
+      "n": 162850,
+      "win": 47.7
+     },
+     "3.1-4x": {
+      "n": 9047,
+      "win": 56.8
+     },
+     "4.1-6x": {
+      "n": 1188,
+      "win": 56.1
+     },
+     ">6x": {
+      "n": 1248,
+      "win": 68.3
+     }
+    },
+    "limp_vs_raise": {
+     "n": 12921,
+     "fold": 32.6,
+     "call": 64.2,
+     "raise": 3.3
+    }
+   },
+   "SB": {
+    "hands": 1676922,
+    "vpip": 29.4,
+    "pfr": 16.6,
+    "rfi_opp": 487859,
+    "open_raise": 37.0,
+    "open_limp": 9.5,
+    "limp_any": 4.3,
+    "open_sizes": {
+     "2.0x": 15.6,
+     "2.1-2.5x": 6.4,
+     "2.6-3x": 71.5,
+     "3.1-4x": 5.3,
+     "4.1-6x": 0.5,
+     ">6x": 0.7
+    },
+    "iso_opp": 123035,
+    "iso": 17.5,
+    "overlimp": 20.7,
+    "f3": {
+     "n": 17636,
+     "fold": 51.0,
+     "call": 38.4,
+     "raise": 10.6
+    },
+    "sq_opp": 148015,
+    "squeeze": 6.2,
+    "overcall_vs_open_plus_caller": 15.2,
+    "vs_open": {
+     "UTG": {
+      "n": 95811,
+      "fold": 79.2,
+      "call": 14.9,
+      "3bet": 5.8
+     },
+     "HJ": {
+      "n": 168504,
+      "fold": 78.9,
+      "call": 14.6,
+      "3bet": 6.5
+     },
+     "CO": {
+      "n": 217107,
+      "fold": 77.9,
+      "call": 14.4,
+      "3bet": 7.7
+     },
+     "BTN": {
+      "n": 293388,
+      "fold": 76.3,
+      "call": 14.0,
+      "3bet": 9.6
+     }
+    },
+    "3bet_total": 8.0,
+    "coldcall_total": 14.3,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 193114,
+      "fold": 75.3,
+      "3bet": 8.8
+     },
+     "2.1-2.5x": {
+      "n": 139227,
+      "fold": 76.7,
+      "3bet": 8.4
+     },
+     "2.6-3x": {
+      "n": 407947,
+      "fold": 78.7,
+      "3bet": 7.6
+     },
+     "3.1-4x": {
+      "n": 26895,
+      "fold": 82.8,
+      "3bet": 5.4
+     },
+     "4.1-6x": {
+      "n": 3055,
+      "fold": 85.3,
+      "3bet": 3.5
+     },
+     ">6x": {
+      "n": 4622,
+      "fold": 88.9,
+      "3bet": 2.7
+     }
+    },
+    "fold_to_steal": {
+     "CO": {
+      "n": 217107,
+      "fold": 77.9
+     },
+     "BTN": {
+      "n": 293388,
+      "fold": 76.3
+     }
+    },
+    "open_takes_blinds": {
+     "2.0x": {
+      "n": 28221,
+      "win": 44.6
+     },
+     "2.1-2.5x": {
+      "n": 11521,
+      "win": 52.0
+     },
+     "2.6-3x": {
+      "n": 129227,
+      "win": 56.1
+     },
+     "3.1-4x": {
+      "n": 9510,
+      "win": 64.1
+     },
+     "4.1-6x": {
+      "n": 949,
+      "win": 65.2
+     },
+     ">6x": {
+      "n": 1235,
+      "win": 76.1
+     }
+    },
+    "limp_vs_raise": {
+     "n": 14331,
+     "fold": 43.4,
+     "call": 53.7,
+     "raise": 2.9
+    }
+   },
+   "BB": {
+    "hands": 1676922,
+    "vpip": 27.8,
+    "pfr": 6.4,
+    "rfi_opp": 0,
+    "open_raise": null,
+    "open_limp": null,
+    "limp_any": 0.0,
+    "open_sizes": {
+     "2.0x": null,
+     "2.1-2.5x": null,
+     "2.6-3x": null,
+     "3.1-4x": null,
+     "4.1-6x": null,
+     ">6x": null
+    },
+    "iso_opp": 147667,
+    "iso": 17.7,
+    "overlimp": 0.1,
+    "f3": {
+     "n": 53,
+     "fold": 28.3,
+     "call": 58.5,
+     "raise": 13.2
+    },
+    "sq_opp": 249831,
+    "squeeze": 6.2,
+    "overcall_vs_open_plus_caller": 31.6,
+    "vs_open": {
+     "UTG": {
+      "n": 75912,
+      "fold": 63.6,
+      "call": 31.4,
+      "3bet": 5.0
+     },
+     "HJ": {
+      "n": 132973,
+      "fold": 63.4,
+      "call": 31.4,
+      "3bet": 5.2
+     },
+     "CO": {
+      "n": 169113,
+      "fold": 61.9,
+      "call": 32.0,
+      "3bet": 6.1
+     },
+     "BTN": {
+      "n": 223961,
+      "fold": 59.0,
+      "call": 33.2,
+      "3bet": 7.8
+     },
+     "SB": {
+      "n": 180648,
+      "fold": 54.5,
+      "call": 35.7,
+      "3bet": 9.7
+     }
+    },
+    "3bet_total": 7.2,
+    "coldcall_total": 33.0,
+    "vs_open_size": {
+     "2.0x": {
+      "n": 173591,
+      "fold": 52.3,
+      "3bet": 8.1
+     },
+     "2.1-2.5x": {
+      "n": 118284,
+      "fold": 59.1,
+      "3bet": 7.0
+     },
+     "2.6-3x": {
+      "n": 450179,
+      "fold": 61.6,
+      "3bet": 7.1
+     },
+     "3.1-4x": {
+      "n": 31770,
+      "fold": 71.0,
+      "3bet": 5.1
+     },
+     "4.1-6x": {
+      "n": 3510,
+      "fold": 78.7,
+      "3bet": 3.4
+     },
+     ">6x": {
+      "n": 5273,
+      "fold": 85.5,
+      "3bet": 1.0
+     }
+    },
+    "fold_to_steal": {
+     "CO": {
+      "n": 169113,
+      "fold": 61.9
+     },
+     "BTN": {
+      "n": 223961,
+      "fold": 59.0
+     },
+     "SB": {
+      "n": 180648,
+      "fold": 54.5
+     }
+    },
+    "open_takes_blinds": {}
+   }
+  },
+  "bb_defend_by_opener": {
+   "UTG": {
+    "n": 75912,
+    "defend": 36.4
+   },
+   "HJ": {
+    "n": 132973,
+    "defend": 36.6
+   },
+   "CO": {
+    "n": 169113,
+    "defend": 38.1
+   },
+   "BTN": {
+    "n": 223961,
+    "defend": 41.0
+   },
+   "SB": {
+    "n": 180648,
+    "defend": 45.5
+   }
+  },
+  "bb_defend_by_size": {
+   "2.0x": {
+    "n": 173591,
+    "defend": 47.7
+   },
+   "2.1-2.5x": {
+    "n": 118284,
+    "defend": 40.9
+   },
+   "2.6-3x": {
+    "n": 450179,
+    "defend": 38.4
+   },
+   "3.1-4x": {
+    "n": 31770,
+    "defend": 29.0
+   },
+   "4.1-6x": {
+    "n": 3510,
+    "defend": 21.3
+   },
+   ">6x": {
+    "n": 5273,
+    "defend": 14.5
+   }
+  },
+  "limper_vs_raise": {
+   "n": 98139,
+   "fold": 28.2,
+   "call": 67.7,
+   "raise": 4.1
+  },
+  "iso_size": {
+   "1": {
+    "2.0x": 8901,
+    "2.1-2.5x": 2374,
+    "2.6-3x": 17978,
+    "3.1-4x": 31587,
+    "4.1-6x": 23234,
+    ">6x": 3800
+   },
+   "2": {
+    "2.0x": 533,
+    "2.1-2.5x": 53,
+    "2.6-3x": 914,
+    "3.1-4x": 1720,
+    "4.1-6x": 3606,
+    ">6x": 1295
+   },
+   "3": {
+    "2.0x": 40,
+    "2.1-2.5x": 8,
+    "2.6-3x": 52,
+    "3.1-4x": 66,
+    "4.1-6x": 272,
+    ">6x": 271
+   }
+  },
+  "fold_to_3bet_IP_OOP": {
+   "IP": {
+    "n": 123021,
+    "fold": 48.8,
+    "call": 41.6,
+    "raise": 9.6
+   },
+   "OOP": {
+    "n": 105672,
+    "fold": 41.6,
+    "call": 46.3,
+    "raise": 12.1
+   }
+  },
+  "fold_to_4bet": {
+   "n": 33936,
+   "fold": 37.8,
+   "call": 45.6,
+   "raise": 16.6
+  },
+  "3bet_size": {
+   "IP": {
+    "≤3x": 49926,
+    "3-4x": 46918,
+    ">4x": 6998,
+    "allin": 2221
+   },
+   "OOP": {
+    "≤3x": 24740,
+    "3-4x": 42095,
+    ">4x": 30652,
+    "allin": 2868
+   }
+  },
+  "postflop_HU": {
+   "SRP_PFR_IP": {
+    "cbet": {
+     "n": 258420,
+     "pct": 62.1
+    },
+    "cbet_size": {
+     "≤33%": 35.6,
+     "34-55%": 41.2,
+     "56-80%": 18.3,
+     "81-110%": 3.8,
+     ">110%": 1.1
+    },
+    "vs_cbet": {
+     "n": 160400,
+     "fold": 45.9,
+     "call": 46.3,
+     "raise": 7.8
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 57153,
+      "fold": 38.6,
+      "call": 52.0,
+      "raise": 9.5
+     },
+     "34-55%": {
+      "n": 66037,
+      "fold": 46.3,
+      "call": 46.1,
+      "raise": 7.6
+     },
+     "56-80%": {
+      "n": 29422,
+      "fold": 54.4,
+      "call": 39.5,
+      "raise": 6.0
+     },
+     "81-110%": {
+      "n": 6078,
+      "fold": 62.1,
+      "call": 33.1,
+      "raise": 4.8
+     },
+     ">110%": {
+      "n": 1710,
+      "fold": 69.5,
+      "call": 27.1,
+      "raise": 3.3
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 12587,
+     "fold": 41.2,
+     "call": 50.5,
+     "raise": 8.3
+    },
+    "turn_barrel": {
+     "n": 69226,
+     "pct": 52.8
+    },
+    "turn_barrel_size": {
+     "≤33%": 13.5,
+     "34-55%": 26.7,
+     "56-80%": 42.7,
+     "81-110%": 9.7,
+     ">110%": 7.5
+    },
+    "vs_turn_barrel": {
+     "n": 36542,
+     "fold": 42.7,
+     "call": 47.5,
+     "raise": 9.9
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 4921,
+      "fold": 26.3,
+      "call": 59.4,
+      "raise": 14.3
+     },
+     "34-55%": {
+      "n": 9763,
+      "fold": 36.4,
+      "call": 52.0,
+      "raise": 11.6
+     },
+     "56-80%": {
+      "n": 15597,
+      "fold": 45.8,
+      "call": 45.6,
+      "raise": 8.5
+     },
+     "81-110%": {
+      "n": 3534,
+      "fold": 51.3,
+      "call": 40.3,
+      "raise": 8.5
+     },
+     ">110%": {
+      "n": 2727,
+      "fold": 65.5,
+      "call": 29.6,
+      "raise": 5.0
+     }
+    },
+    "river_barrel": {
+     "n": 14256,
+     "pct": 46.7
+    },
+    "river_barrel_size": {
+     "≤33%": 14.7,
+     "34-55%": 19.6,
+     "56-80%": 33.3,
+     "81-110%": 17.2,
+     ">110%": 15.3
+    },
+    "vs_river_barrel": {
+     "n": 6655,
+     "fold": 51.3,
+     "call": 41.3,
+     "raise": 7.4
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 975,
+      "fold": 35.9,
+      "call": 53.6,
+      "raise": 10.5
+     },
+     "34-55%": {
+      "n": 1307,
+      "fold": 45.6,
+      "call": 44.7,
+      "raise": 9.7
+     },
+     "56-80%": {
+      "n": 2216,
+      "fold": 50.9,
+      "call": 42.1,
+      "raise": 7.0
+     },
+     "81-110%": {
+      "n": 1142,
+      "fold": 58.1,
+      "call": 34.7,
+      "raise": 7.2
+     },
+     ">110%": {
+      "n": 1015,
+      "fold": 66.4,
+      "call": 31.0,
+      "raise": 2.6
+     }
+    },
+    "delayed_cbet": {
+     "n": 58933,
+     "pct": 40.3
+    },
+    "vs_delayed_cbet": {
+     "n": 23764,
+     "fold": 58.6,
+     "call": 37.1,
+     "raise": 4.3
+    },
+    "vs_donk": {
+     "n": 32326,
+     "fold": 34.3,
+     "call": 50.2,
+     "raise": 15.5
+    },
+    "vs_probe": {
+     "n": 39085,
+     "fold": 50.7,
+     "call": 42.5,
+     "raise": 6.8
+    }
+   },
+   "SRP_PFR_OOP": {
+    "cbet": {
+     "n": 153749,
+     "pct": 50.1
+    },
+    "cbet_size": {
+     "≤33%": 40.8,
+     "34-55%": 36.7,
+     "56-80%": 17.3,
+     "81-110%": 4.1,
+     ">110%": 1.2
+    },
+    "vs_cbet": {
+     "n": 76965,
+     "fold": 38.2,
+     "call": 52.0,
+     "raise": 9.8
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 31438,
+      "fold": 30.7,
+      "call": 57.0,
+      "raise": 12.3
+     },
+     "34-55%": {
+      "n": 28222,
+      "fold": 39.5,
+      "call": 51.6,
+      "raise": 8.9
+     },
+     "56-80%": {
+      "n": 13285,
+      "fold": 47.6,
+      "call": 45.3,
+      "raise": 7.1
+     },
+     "81-110%": {
+      "n": 3120,
+      "fold": 55.9,
+      "call": 37.5,
+      "raise": 6.6
+     },
+     ">110%": {
+      "n": 900,
+      "fold": 61.0,
+      "call": 36.0,
+      "raise": 3.0
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 7560,
+     "fold": 40.6,
+     "call": 49.3,
+     "raise": 10.1
+    },
+    "turn_barrel": {
+     "n": 39576,
+     "pct": 56.5
+    },
+    "turn_barrel_size": {
+     "≤33%": 18.5,
+     "34-55%": 28.6,
+     "56-80%": 38.4,
+     "81-110%": 8.8,
+     ">110%": 5.6
+    },
+    "vs_turn_barrel": {
+     "n": 22354,
+     "fold": 37.7,
+     "call": 51.9,
+     "raise": 10.4
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 4143,
+      "fold": 23.0,
+      "call": 60.7,
+      "raise": 16.3
+     },
+     "34-55%": {
+      "n": 6403,
+      "fold": 33.4,
+      "call": 55.6,
+      "raise": 11.0
+     },
+     "56-80%": {
+      "n": 8574,
+      "fold": 42.5,
+      "call": 48.8,
+      "raise": 8.7
+     },
+     "81-110%": {
+      "n": 1974,
+      "fold": 47.0,
+      "call": 45.7,
+      "raise": 7.3
+     },
+     ">110%": {
+      "n": 1260,
+      "fold": 60.6,
+      "call": 34.7,
+      "raise": 4.7
+     }
+    },
+    "river_barrel": {
+     "n": 11082,
+     "pct": 52.7
+    },
+    "river_barrel_size": {
+     "≤33%": 25.2,
+     "34-55%": 21.9,
+     "56-80%": 27.2,
+     "81-110%": 13.8,
+     ">110%": 11.9
+    },
+    "vs_river_barrel": {
+     "n": 5842,
+     "fold": 40.9,
+     "call": 44.2,
+     "raise": 14.8
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 1471,
+      "fold": 26.7,
+      "call": 50.2,
+      "raise": 23.0
+     },
+     "34-55%": {
+      "n": 1277,
+      "fold": 35.4,
+      "call": 45.2,
+      "raise": 19.4
+     },
+     "56-80%": {
+      "n": 1587,
+      "fold": 44.6,
+      "call": 43.6,
+      "raise": 11.8
+     },
+     "81-110%": {
+      "n": 809,
+      "fold": 49.7,
+      "call": 42.0,
+      "raise": 8.3
+     },
+     ">110%": {
+      "n": 698,
+      "fold": 62.6,
+      "call": 33.7,
+      "raise": 3.7
+     }
+    },
+    "delayed_cbet": {
+     "n": 44954,
+     "pct": 41.8
+    },
+    "vs_delayed_cbet": {
+     "n": 18770,
+     "fold": 50.3,
+     "call": 42.9,
+     "raise": 6.8
+    },
+    "vs_ip_float_bet": {
+     "n": 31830,
+     "fold": 49.3,
+     "call": 43.6,
+     "raise": 7.1
+    }
+   },
+   "SRP_donk": {
+    "n": 290746,
+    "pct": 11.1,
+    "sizes": {
+     "≤33%": 33.5,
+     "34-55%": 38.3,
+     "56-80%": 15.7,
+     "81-110%": 9.8,
+     ">110%": 2.7
+    }
+   },
+   "SRP_probe": {
+    "n": 98018,
+    "pct": 39.9
+   },
+   "SRP_flop_xr_vs_cbet": {
+    "n": 160400,
+    "pct": 7.8
+   },
+   "SRP_float_bet_when_pfr_checks_oop": {
+    "n": 76784,
+    "pct": 41.5
+   },
+   "SRP_turn_lead_after_calling_cbet": {
+    "n": 73900,
+    "pct": 6.3
+   },
+   "SRP_turn_stab_ip_after_pfr_checks": {
+    "n": 26184,
+    "pct": 37.8
+   },
+   "3BP_PFR_IP": {
+    "cbet": {
+     "n": 41832,
+     "pct": 74.3
+    },
+    "cbet_size": {
+     "≤33%": 44.0,
+     "34-55%": 32.7,
+     "56-80%": 16.9,
+     "81-110%": 4.5,
+     ">110%": 1.8
+    },
+    "vs_cbet": {
+     "n": 31070,
+     "fold": 42.7,
+     "call": 47.7,
+     "raise": 9.6
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 13680,
+      "fold": 33.3,
+      "call": 55.2,
+      "raise": 11.5
+     },
+     "34-55%": {
+      "n": 10167,
+      "fold": 45.6,
+      "call": 45.8,
+      "raise": 8.6
+     },
+     "56-80%": {
+      "n": 5262,
+      "fold": 54.2,
+      "call": 38.3,
+      "raise": 7.5
+     },
+     "81-110%": {
+      "n": 1403,
+      "fold": 61.8,
+      "call": 29.8,
+      "raise": 8.4
+     },
+     ">110%": {
+      "n": 558,
+      "fold": 64.2,
+      "call": 34.2,
+      "raise": 1.6
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 2975,
+     "fold": 38.9,
+     "call": 46.7,
+     "raise": 14.5
+    },
+    "turn_barrel": {
+     "n": 13640,
+     "pct": 54.2
+    },
+    "turn_barrel_size": {
+     "≤33%": 16.6,
+     "34-55%": 29.7,
+     "56-80%": 39.4,
+     "81-110%": 8.3,
+     ">110%": 5.9
+    },
+    "vs_turn_barrel": {
+     "n": 7396,
+     "fold": 42.3,
+     "call": 44.5,
+     "raise": 13.2
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 1229,
+      "fold": 26.4,
+      "call": 57.0,
+      "raise": 16.7
+     },
+     "34-55%": {
+      "n": 2199,
+      "fold": 37.1,
+      "call": 48.7,
+      "raise": 14.2
+     },
+     "56-80%": {
+      "n": 2917,
+      "fold": 48.4,
+      "call": 39.1,
+      "raise": 12.4
+     },
+     "81-110%": {
+      "n": 616,
+      "fold": 50.0,
+      "call": 37.2,
+      "raise": 12.8
+     },
+     ">110%": {
+      "n": 435,
+      "fold": 62.8,
+      "call": 33.8,
+      "raise": 3.4
+     }
+    },
+    "river_barrel": {
+     "n": 2404,
+     "pct": 50.0
+    },
+    "river_barrel_size": {
+     "≤33%": 15.4,
+     "34-55%": 20.6,
+     "56-80%": 26.9,
+     "81-110%": 20.4,
+     ">110%": 16.7
+    },
+    "vs_river_barrel": {
+     "n": 1201,
+     "fold": 47.5,
+     "call": 47.8,
+     "raise": 4.7
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 185,
+      "fold": 30.3,
+      "call": 60.0,
+      "raise": 9.7
+     },
+     "34-55%": {
+      "n": 248,
+      "fold": 41.5,
+      "call": 53.6,
+      "raise": 4.8
+     },
+     "56-80%": {
+      "n": 323,
+      "fold": 50.8,
+      "call": 44.6,
+      "raise": 4.6
+     },
+     "81-110%": {
+      "n": 245,
+      "fold": 47.8,
+      "call": 49.8,
+      "raise": 2.4
+     },
+     ">110%": {
+      "n": 200,
+      "fold": 65.5,
+      "call": 32.0,
+      "raise": 2.5
+     }
+    },
+    "delayed_cbet": {
+     "n": 5973,
+     "pct": 48.5
+    },
+    "vs_delayed_cbet": {
+     "n": 2899,
+     "fold": 54.9,
+     "call": 39.3,
+     "raise": 5.8
+    },
+    "vs_donk": {
+     "n": 4884,
+     "fold": 25.8,
+     "call": 51.9,
+     "raise": 22.3
+    },
+    "vs_probe": {
+     "n": 4789,
+     "fold": 43.3,
+     "call": 47.8,
+     "raise": 8.9
+    }
+   },
+   "3BP_PFR_OOP": {
+    "cbet": {
+     "n": 51083,
+     "pct": 68.4
+    },
+    "cbet_size": {
+     "≤33%": 43.2,
+     "34-55%": 31.8,
+     "56-80%": 17.1,
+     "81-110%": 5.5,
+     ">110%": 2.5
+    },
+    "vs_cbet": {
+     "n": 34966,
+     "fold": 38.1,
+     "call": 51.3,
+     "raise": 10.6
+    },
+    "vs_cbet_by_size": {
+     "≤33%": {
+      "n": 15113,
+      "fold": 27.9,
+      "call": 59.1,
+      "raise": 13.0
+     },
+     "34-55%": {
+      "n": 11104,
+      "fold": 40.6,
+      "call": 50.2,
+      "raise": 9.2
+     },
+     "56-80%": {
+      "n": 5967,
+      "fold": 50.3,
+      "call": 41.3,
+      "raise": 8.4
+     },
+     "81-110%": {
+      "n": 1913,
+      "fold": 56.8,
+      "call": 33.5,
+      "raise": 9.7
+     },
+     ">110%": {
+      "n": 869,
+      "fold": 58.7,
+      "call": 39.6,
+      "raise": 1.7
+     }
+    },
+    "vs_cbet_raise_resp": {
+     "n": 3691,
+     "fold": 37.3,
+     "call": 47.9,
+     "raise": 14.8
+    },
+    "turn_barrel": {
+     "n": 16973,
+     "pct": 58.0
+    },
+    "turn_barrel_size": {
+     "≤33%": 21.9,
+     "34-55%": 30.0,
+     "56-80%": 32.4,
+     "81-110%": 8.4,
+     ">110%": 7.3
+    },
+    "vs_turn_barrel": {
+     "n": 9851,
+     "fold": 38.3,
+     "call": 49.3,
+     "raise": 12.4
+    },
+    "vs_turn_barrel_by_size": {
+     "≤33%": {
+      "n": 2158,
+      "fold": 24.0,
+      "call": 59.3,
+      "raise": 16.7
+     },
+     "34-55%": {
+      "n": 2959,
+      "fold": 35.5,
+      "call": 51.9,
+      "raise": 12.6
+     },
+     "56-80%": {
+      "n": 3193,
+      "fold": 46.9,
+      "call": 41.2,
+      "raise": 11.9
+     },
+     "81-110%": {
+      "n": 825,
+      "fold": 44.7,
+      "call": 44.5,
+      "raise": 10.8
+     },
+     ">110%": {
+      "n": 716,
+      "fold": 48.2,
+      "call": 49.2,
+      "raise": 2.7
+     }
+    },
+    "river_barrel": {
+     "n": 3998,
+     "pct": 58.9
+    },
+    "river_barrel_size": {
+     "≤33%": 23.2,
+     "34-55%": 21.1,
+     "56-80%": 26.0,
+     "81-110%": 18.0,
+     ">110%": 11.8
+    },
+    "vs_river_barrel": {
+     "n": 2354,
+     "fold": 39.5,
+     "call": 51.5,
+     "raise": 9.0
+    },
+    "vs_river_barrel_by_size": {
+     "≤33%": {
+      "n": 545,
+      "fold": 26.2,
+      "call": 52.8,
+      "raise": 20.9
+     },
+     "34-55%": {
+      "n": 496,
+      "fold": 37.1,
+      "call": 51.8,
+      "raise": 11.1
+     },
+     "56-80%": {
+      "n": 612,
+      "fold": 42.3,
+      "call": 53.3,
+      "raise": 4.4
+     },
+     "81-110%": {
+      "n": 423,
+      "fold": 47.8,
+      "call": 48.7,
+      "raise": 3.5
+     },
+     ">110%": {
+      "n": 278,
+      "fold": 50.7,
+      "call": 48.9,
+      "raise": 0.4
+     }
+    },
+    "delayed_cbet": {
+     "n": 9423,
+     "pct": 53.0
+    },
+    "vs_delayed_cbet": {
+     "n": 4990,
+     "fold": 48.1,
+     "call": 45.2,
+     "raise": 6.7
+    },
+    "vs_ip_float_bet": {
+     "n": 6694,
+     "fold": 34.8,
+     "call": 51.2,
+     "raise": 14.1
+    }
+   },
+   "3BP_donk": {
+    "n": 46716,
+    "pct": 10.5,
+    "sizes": {
+     "≤33%": 38.2,
+     "34-55%": 31.2,
+     "56-80%": 14.9,
+     "81-110%": 9.6,
+     ">110%": 6.2
+    }
+   },
+   "3BP_probe": {
+    "n": 10762,
+    "pct": 44.5
+   },
+   "3BP_flop_xr_vs_cbet": {
+    "n": 31070,
+    "pct": 9.6
+   },
+   "3BP_float_bet_when_pfr_checks_oop": {
+    "n": 16117,
+    "pct": 41.5
+   },
+   "3BP_turn_lead_after_calling_cbet": {
+    "n": 14402,
+    "pct": 5.3
+   },
+   "3BP_turn_stab_ip_after_pfr_checks": {
+    "n": 4433,
+    "pct": 42.3
+   }
+  },
+  "cbet_by_texture_SRP": {
+   "OOP|rainbow|unpaired|A高": {
+    "n": 10852,
+    "cbet": 55.9
+   },
+   "IP|twotone|unpaired|J/T高": {
+    "n": 26448,
+    "cbet": 62.1
+   },
+   "IP|rainbow|unpaired|A高": {
+    "n": 18645,
+    "cbet": 68.6
+   },
+   "OOP|twotone|unpaired|J/T高": {
+    "n": 16103,
+    "cbet": 50.1
+   },
+   "OOP|rainbow|unpaired|K/Q高": {
+    "n": 16638,
+    "cbet": 53.3
+   },
+   "OOP|twotone|unpaired|K/Q高": {
+    "n": 24993,
+    "cbet": 53.6
+   },
+   "IP|twotone|unpaired|9以下": {
+    "n": 23146,
+    "cbet": 52.6
+   },
+   "OOP|twotone|paired|J/T高": {
+    "n": 2817,
+    "cbet": 47.6
+   },
+   "OOP|mono|unpaired|J/T高": {
+    "n": 1755,
+    "cbet": 42.3
+   },
+   "IP|twotone|paired|J/T高": {
+    "n": 4807,
+    "cbet": 60.1
+   },
+   "OOP|twotone|paired|9以下": {
+    "n": 4763,
+    "cbet": 45.9
+   },
+   "IP|rainbow|paired|9以下": {
+    "n": 8444,
+    "cbet": 55.2
+   },
+   "OOP|rainbow|unpaired|9以下": {
+    "n": 9567,
+    "cbet": 42.6
+   },
+   "OOP|twotone|unpaired|A高": {
+    "n": 16291,
+    "cbet": 56.2
+   },
+   "IP|rainbow|unpaired|J/T高": {
+    "n": 17766,
+    "cbet": 61.3
+   },
+   "IP|rainbow|paired|J/T高": {
+    "n": 4971,
+    "cbet": 58.3
+   },
+   "IP|rainbow|unpaired|9以下": {
+    "n": 15487,
+    "cbet": 52.7
+   },
+   "IP|twotone|paired|9以下": {
+    "n": 8072,
+    "cbet": 55.3
+   },
+   "IP|rainbow|unpaired|K/Q高": {
+    "n": 28731,
+    "cbet": 66.5
+   },
+   "OOP|twotone|unpaired|9以下": {
+    "n": 14263,
+    "cbet": 43.3
+   },
+   "IP|rainbow|paired|A高": {
+    "n": 3406,
+    "cbet": 59.9
+   },
+   "OOP|rainbow|unpaired|J/T高": {
+    "n": 10640,
+    "cbet": 49.9
+   },
+   "IP|twotone|unpaired|K/Q高": {
+    "n": 42153,
+    "cbet": 66.8
+   },
+   "IP|rainbow|paired|K/Q高": {
+    "n": 6186,
+    "cbet": 59.8
+   },
+   "IP|twotone|unpaired|A高": {
+    "n": 27847,
+    "cbet": 68.9
+   },
+   "OOP|twotone|paired|K/Q高": {
+    "n": 3595,
+    "cbet": 49.6
+   },
+   "IP|twotone|paired|K/Q高": {
+    "n": 5942,
+    "cbet": 62.0
+   },
+   "OOP|mono|unpaired|A高": {
+    "n": 1737,
+    "cbet": 47.3
+   },
+   "OOP|mono|unpaired|K/Q高": {
+    "n": 2801,
+    "cbet": 43.4
+   },
+   "IP|twotone|paired|A高": {
+    "n": 3316,
+    "cbet": 62.5
+   },
+   "OOP|twotone|paired|A高": {
+    "n": 1924,
+    "cbet": 51.2
+   },
+   "OOP|rainbow|paired|9以下": {
+    "n": 4992,
+    "cbet": 44.2
+   },
+   "OOP|rainbow|paired|J/T高": {
+    "n": 2943,
+    "cbet": 45.3
+   },
+   "IP|mono|unpaired|K/Q高": {
+    "n": 4606,
+    "cbet": 55.0
+   },
+   "IP|mono|unpaired|A高": {
+    "n": 2944,
+    "cbet": 56.8
+   },
+   "IP|mono|unpaired|J/T高": {
+    "n": 2903,
+    "cbet": 53.9
+   },
+   "IP|mono|unpaired|9以下": {
+    "n": 2600,
+    "cbet": 51.7
+   },
+   "OOP|rainbow|paired|K/Q高": {
+    "n": 3558,
+    "cbet": 47.8
+   },
+   "OOP|rainbow|paired|A高": {
+    "n": 1989,
+    "cbet": 48.4
+   },
+   "OOP|mono|unpaired|9以下": {
+    "n": 1528,
+    "cbet": 38.0
+   }
+  },
+  "fold_to_cbet_by_texture_SRP": {
+   "OOP|rainbow|unpaired|A高": {
+    "n": 6069,
+    "fold": 43.1,
+    "raise": 7.0
+   },
+   "IP|twotone|unpaired|J/T高": {
+    "n": 16421,
+    "fold": 41.4,
+    "raise": 9.5
+   },
+   "IP|rainbow|unpaired|A高": {
+    "n": 12783,
+    "fold": 48.3,
+    "raise": 5.0
+   },
+   "IP|twotone|unpaired|9以下": {
+    "n": 12186,
+    "fold": 40.2,
+    "raise": 11.5
+   },
+   "IP|twotone|paired|J/T高": {
+    "n": 2890,
+    "fold": 47.8,
+    "raise": 9.0
+   },
+   "OOP|twotone|paired|9以下": {
+    "n": 2185,
+    "fold": 39.5,
+    "raise": 10.1
+   },
+   "OOP|rainbow|unpaired|K/Q高": {
+    "n": 8869,
+    "fold": 39.7,
+    "raise": 7.9
+   },
+   "OOP|twotone|unpaired|K/Q高": {
+    "n": 13393,
+    "fold": 39.0,
+    "raise": 9.8
+   },
+   "OOP|twotone|unpaired|A高": {
+    "n": 9155,
+    "fold": 39.7,
+    "raise": 9.2
+   },
+   "IP|rainbow|unpaired|9以下": {
+    "n": 8159,
+    "fold": 40.2,
+    "raise": 10.4
+   },
+   "IP|rainbow|unpaired|K/Q高": {
+    "n": 19112,
+    "fold": 47.7,
+    "raise": 6.4
+   },
+   "OOP|rainbow|unpaired|J/T高": {
+    "n": 5305,
+    "fold": 33.0,
+    "raise": 10.1
+   },
+   "IP|rainbow|paired|K/Q高": {
+    "n": 3701,
+    "fold": 54.0,
+    "raise": 6.1
+   },
+   "IP|twotone|unpaired|K/Q高": {
+    "n": 28139,
+    "fold": 46.4,
+    "raise": 7.9
+   },
+   "OOP|twotone|unpaired|J/T高": {
+    "n": 8061,
+    "fold": 34.6,
+    "raise": 11.6
+   },
+   "IP|rainbow|paired|J/T高": {
+    "n": 2900,
+    "fold": 50.8,
+    "raise": 7.2
+   },
+   "IP|rainbow|unpaired|J/T高": {
+    "n": 10899,
+    "fold": 40.8,
+    "raise": 7.8
+   },
+   "OOP|twotone|paired|K/Q高": {
+    "n": 1784,
+    "fold": 43.8,
+    "raise": 8.4
+   },
+   "IP|twotone|unpaired|A高": {
+    "n": 19179,
+    "fold": 46.6,
+    "raise": 6.4
+   },
+   "IP|twotone|paired|9以下": {
+    "n": 4460,
+    "fold": 46.1,
+    "raise": 9.4
+   },
+   "OOP|rainbow|unpaired|9以下": {
+    "n": 4073,
+    "fold": 32.3,
+    "raise": 11.1
+   },
+   "IP|twotone|paired|K/Q高": {
+    "n": 3682,
+    "fold": 51.4,
+    "raise": 7.4
+   },
+   "IP|rainbow|paired|9以下": {
+    "n": 4663,
+    "fold": 48.0,
+    "raise": 9.2
+   },
+   "OOP|twotone|paired|A高": {
+    "n": 986,
+    "fold": 45.5,
+    "raise": 7.1
+   },
+   "OOP|twotone|unpaired|9以下": {
+    "n": 6182,
+    "fold": 31.1,
+    "raise": 13.7
+   },
+   "IP|twotone|paired|A高": {
+    "n": 2072,
+    "fold": 53.4,
+    "raise": 6.1
+   },
+   "OOP|rainbow|paired|9以下": {
+    "n": 2208,
+    "fold": 39.2,
+    "raise": 10.1
+   },
+   "OOP|mono|unpaired|K/Q高": {
+    "n": 1215,
+    "fold": 42.4,
+    "raise": 10.1
+   },
+   "OOP|twotone|paired|J/T高": {
+    "n": 1341,
+    "fold": 38.5,
+    "raise": 10.5
+   },
+   "OOP|rainbow|paired|J/T高": {
+    "n": 1334,
+    "fold": 40.3,
+    "raise": 9.4
+   },
+   "IP|mono|unpaired|A高": {
+    "n": 1672,
+    "fold": 51.6,
+    "raise": 8.0
+   },
+   "IP|mono|unpaired|9以下": {
+    "n": 1344,
+    "fold": 47.5,
+    "raise": 8.2
+   },
+   "OOP|rainbow|paired|A高": {
+    "n": 963,
+    "fold": 46.9,
+    "raise": 8.8
+   },
+   "OOP|mono|unpaired|9以下": {
+    "n": 580,
+    "fold": 40.3,
+    "raise": 12.2
+   },
+   "IP|rainbow|paired|A高": {
+    "n": 2039,
+    "fold": 56.6,
+    "raise": 5.6
+   },
+   "OOP|mono|unpaired|A高": {
+    "n": 821,
+    "fold": 42.8,
+    "raise": 10.2
+   },
+   "IP|mono|unpaired|J/T高": {
+    "n": 1566,
+    "fold": 47.7,
+    "raise": 8.2
+   },
+   "IP|mono|unpaired|K/Q高": {
+    "n": 2533,
+    "fold": 52.1,
+    "raise": 7.4
+   },
+   "OOP|rainbow|paired|K/Q高": {
+    "n": 1699,
+    "fold": 45.4,
+    "raise": 7.5
+   },
+   "OOP|mono|unpaired|J/T高": {
+    "n": 742,
+    "fold": 42.5,
+    "raise": 12.3
+   }
+  },
+  "fold_to_cbet_texture_marginal": {
+   "suit": {
+    "OOP|rainbow": {
+     "n": 30520,
+     "fold": 38.8
+    },
+    "IP|twotone": {
+     "n": 89029,
+     "fold": 45.1
+    },
+    "IP|rainbow": {
+     "n": 64256,
+     "fold": 46.5
+    },
+    "OOP|twotone": {
+     "n": 43087,
+     "fold": 37.5
+    },
+    "OOP|mono": {
+     "n": 3358,
+     "fold": 42.1
+    },
+    "IP|mono": {
+     "n": 7115,
+     "fold": 50.2
+    }
+   },
+   "paired": {
+    "OOP|unpaired": {
+     "n": 64465,
+     "fold": 37.5
+    },
+    "IP|unpaired": {
+     "n": 133993,
+     "fold": 45.0
+    },
+    "IP|paired": {
+     "n": 26407,
+     "fold": 50.3
+    },
+    "OOP|paired": {
+     "n": 12500,
+     "fold": 41.9
+    }
+   },
+   "high": {
+    "OOP|A高": {
+     "n": 17994,
+     "fold": 41.7
+    },
+    "IP|J/T高": {
+     "n": 34676,
+     "fold": 42.8
+    },
+    "IP|A高": {
+     "n": 37745,
+     "fold": 48.3
+    },
+    "IP|9以下": {
+     "n": 30812,
+     "fold": 42.5
+    },
+    "OOP|9以下": {
+     "n": 15228,
+     "fold": 34.1
+    },
+    "OOP|K/Q高": {
+     "n": 26960,
+     "fold": 40.1
+    },
+    "IP|K/Q高": {
+     "n": 57167,
+     "fold": 47.9
+    },
+    "OOP|J/T高": {
+     "n": 16783,
+     "fold": 35.2
+    }
+   }
+  },
+  "HU_facing_bet": {
+   "1": {
+    "by_pot": {
+     "limped": {
+      "n": 43675,
+      "fold": 58.3,
+      "call": 36.6,
+      "raise": 5.1
+     },
+     "SRP": {
+      "n": 301521,
+      "fold": 43.0,
+      "call": 47.9,
+      "raise": 9.1
+     },
+     "3BP": {
+      "n": 77614,
+      "fold": 38.9,
+      "call": 49.9,
+      "raise": 11.2
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 146601,
+      "fold": 33.3,
+      "call": 54.6,
+      "raise": 12.1
+     },
+     "34-55%": {
+      "n": 171007,
+      "fold": 44.7,
+      "call": 46.7,
+      "raise": 8.6
+     },
+     "56-80%": {
+      "n": 75920,
+      "fold": 52.5,
+      "call": 40.5,
+      "raise": 6.9
+     },
+     "81-110%": {
+      "n": 28525,
+      "fold": 60.2,
+      "call": 33.3,
+      "raise": 6.5
+     },
+     ">110%": {
+      "n": 8435,
+      "fold": 65.1,
+      "call": 32.3,
+      "raise": 2.6
+     }
+    },
+    "check_raise": {
+     "n": 260746,
+     "pct": 7.8
+    },
+    "bettor_vs_raise": {
+     "n": 39671,
+     "fold": 37.8,
+     "call": 51.9,
+     "raise": 10.3
+    }
+   },
+   "2": {
+    "by_pot": {
+     "limped": {
+      "n": 36219,
+      "fold": 51.9,
+      "call": 41.8,
+      "raise": 6.3
+     },
+     "SRP": {
+      "n": 194441,
+      "fold": 47.2,
+      "call": 44.7,
+      "raise": 8.1
+     },
+     "3BP": {
+      "n": 41695,
+      "fold": 43.4,
+      "call": 45.6,
+      "raise": 10.9
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 55567,
+      "fold": 33.3,
+      "call": 54.3,
+      "raise": 12.4
+     },
+     "34-55%": {
+      "n": 95774,
+      "fold": 45.5,
+      "call": 46.2,
+      "raise": 8.3
+     },
+     "56-80%": {
+      "n": 85234,
+      "fold": 52.0,
+      "call": 40.9,
+      "raise": 7.1
+     },
+     "81-110%": {
+      "n": 26456,
+      "fold": 57.7,
+      "call": 35.8,
+      "raise": 6.4
+     },
+     ">110%": {
+      "n": 12823,
+      "fold": 64.6,
+      "call": 31.7,
+      "raise": 3.7
+     }
+    },
+    "check_raise": {
+     "n": 130661,
+     "pct": 7.5
+    },
+    "bettor_vs_raise": {
+     "n": 23050,
+     "fold": 38.8,
+     "call": 52.2,
+     "raise": 9.0
+    }
+   },
+   "3": {
+    "by_pot": {
+     "limped": {
+      "n": 24615,
+      "fold": 60.4,
+      "call": 31.4,
+      "raise": 8.2
+     },
+     "SRP": {
+      "n": 116846,
+      "fold": 57.2,
+      "call": 34.5,
+      "raise": 8.3
+     },
+     "3BP": {
+      "n": 23008,
+      "fold": 52.1,
+      "call": 39.9,
+      "raise": 8.0
+     }
+    },
+    "by_size": {
+     "≤33%": {
+      "n": 34319,
+      "fold": 42.1,
+      "call": 44.7,
+      "raise": 13.1
+     },
+     "34-55%": {
+      "n": 41385,
+      "fold": 54.3,
+      "call": 36.7,
+      "raise": 8.9
+     },
+     "56-80%": {
+      "n": 44695,
+      "fold": 60.0,
+      "call": 32.9,
+      "raise": 7.1
+     },
+     "81-110%": {
+      "n": 28018,
+      "fold": 64.1,
+      "call": 29.9,
+      "raise": 6.0
+     },
+     ">110%": {
+      "n": 17565,
+      "fold": 72.2,
+      "call": 24.8,
+      "raise": 3.1
+     }
+    },
+    "check_raise": {
+     "n": 64363,
+     "pct": 3.9
+    },
+    "bettor_vs_raise": {
+     "n": 13610,
+     "fold": 45.1,
+     "call": 48.0,
+     "raise": 6.8
+    }
+   }
+  },
+  "multiway": {
+   "limped": {
+    "flops": 31636,
+    "someone_bets_flop": 54.9,
+    "players": {
+     "3": 87.4,
+     "4": 11.6,
+     "5": 1.0
+    },
+    "flop_bet_takes_pot": 34.6,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 4937,
+      "win": 24.1
+     },
+     "34-55%": {
+      "n": 5261,
+      "win": 31.8
+     },
+     "56-80%": {
+      "n": 3899,
+      "win": 38.8
+     },
+     "81-110%": {
+      "n": 2623,
+      "win": 47.6
+     },
+     ">110%": {
+      "n": 636,
+      "win": 60.2
+     }
+    },
+    "turn_bet_takes_pot": 36.9,
+    "river_bet_takes_pot": 51.7
+   },
+   "SRP": {
+    "flops": 115155,
+    "someone_bets_flop": 64.6,
+    "players": {
+     "3": 88.2,
+     "4": 11.0,
+     "5": 0.8
+    },
+    "flop_bet_takes_pot": 30.1,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 28269,
+      "win": 21.1
+     },
+     "34-55%": {
+      "n": 26727,
+      "win": 30.3
+     },
+     "56-80%": {
+      "n": 13920,
+      "win": 40.3
+     },
+     "81-110%": {
+      "n": 4291,
+      "win": 48.0
+     },
+     ">110%": {
+      "n": 1153,
+      "win": 56.0
+     }
+    },
+    "turn_bet_takes_pot": 38.4,
+    "river_bet_takes_pot": 50.9,
+    "first_bet_by_pfr": 54.7
+   },
+   "3BP": {
+    "flops": 14631,
+    "someone_bets_flop": 74.0,
+    "players": {
+     "3": 93.9,
+     "4": 6.0,
+     "5": 0.2
+    },
+    "flop_bet_takes_pot": 29.1,
+    "flop_bet_takes_pot_by_size": {
+     "≤33%": {
+      "n": 4366,
+      "win": 18.4
+     },
+     "34-55%": {
+      "n": 3499,
+      "win": 30.8
+     },
+     "56-80%": {
+      "n": 1809,
+      "win": 40.4
+     },
+     "81-110%": {
+      "n": 706,
+      "win": 46.6
+     },
+     ">110%": {
+      "n": 445,
+      "win": 47.0
+     }
+    },
+    "turn_bet_takes_pot": 32.9,
+    "river_bet_takes_pot": 44.3,
+    "first_bet_by_pfr": 65.5
+   }
+  },
+  "showdown_class": {
+   "1|bet|34-55%": {
+    "n": 34526,
+    "air": 23.3,
+    "draw": 14.3,
+    "weak_pair": 23.7,
+    "top_pair": 32.6,
+    "two_pair": 2.1,
+    "set_trips": 3.0,
+    "straight_plus": 1.0
+   },
+   "1|bet|all": {
+    "n": 86839,
+    "air": 24.4,
+    "draw": 13.8,
+    "weak_pair": 22.6,
+    "top_pair": 32.3,
+    "two_pair": 2.2,
+    "set_trips": 3.7,
+    "straight_plus": 1.1
+   },
+   "1|call|34-55%": {
+    "n": 37527,
+    "air": 17.0,
+    "draw": 19.4,
+    "weak_pair": 30.1,
+    "top_pair": 26.5,
+    "two_pair": 1.7,
+    "set_trips": 4.0,
+    "straight_plus": 1.3
+   },
+   "1|donk|34-55%": {
+    "n": 8067,
+    "air": 18.3,
+    "draw": 16.9,
+    "weak_pair": 25.6,
+    "top_pair": 31.4,
+    "two_pair": 3.1,
+    "set_trips": 3.3,
+    "straight_plus": 1.4
+   },
+   "1|donk|all": {
+    "n": 21460,
+    "air": 18.7,
+    "draw": 16.1,
+    "weak_pair": 25.9,
+    "top_pair": 30.3,
+    "two_pair": 3.3,
+    "set_trips": 3.9,
+    "straight_plus": 1.7
+   },
+   "2|lead/probe|56-80%": {
+    "n": 7872,
+    "air": 10.9,
+    "draw": 18.8,
+    "weak_pair": 19.3,
+    "top_pair": 23.9,
+    "two_pair": 8.6,
+    "set_trips": 9.4,
+    "straight_plus": 9.1
+   },
+   "2|lead/probe|all": {
+    "n": 33800,
+    "air": 11.8,
+    "draw": 17.4,
+    "weak_pair": 26.4,
+    "top_pair": 23.0,
+    "two_pair": 6.4,
+    "set_trips": 7.0,
+    "straight_plus": 8.0
+   },
+   "2|call|56-80%": {
+    "n": 23047,
+    "air": 5.1,
+    "draw": 18.3,
+    "weak_pair": 30.6,
+    "top_pair": 30.2,
+    "two_pair": 4.2,
+    "set_trips": 5.6,
+    "straight_plus": 6.0
+   },
+   "3|lead|81-110%": {
+    "n": 4793,
+    "air": 20.7,
+    "draw": 0.0,
+    "weak_pair": 10.6,
+    "top_pair": 9.0,
+    "two_pair": 9.2,
+    "set_trips": 12.9,
+    "straight_plus": 37.6
+   },
+   "3|lead|all": {
+    "n": 32484,
+    "air": 21.0,
+    "draw": 0.0,
+    "weak_pair": 18.2,
+    "top_pair": 16.4,
+    "two_pair": 8.6,
+    "set_trips": 9.7,
+    "straight_plus": 26.2
+   },
+   "3|call|81-110%": {
+    "n": 8376,
+    "air": 9.4,
+    "draw": 0.0,
+    "weak_pair": 30.9,
+    "top_pair": 29.0,
+    "two_pair": 8.6,
+    "set_trips": 6.9,
+    "straight_plus": 15.3
+   },
+   "2|bet|56-80%": {
+    "n": 17878,
+    "air": 10.3,
+    "draw": 17.8,
+    "weak_pair": 16.6,
+    "top_pair": 34.0,
+    "two_pair": 6.3,
+    "set_trips": 7.9,
+    "straight_plus": 7.2
+   },
+   "2|bet|all": {
+    "n": 58358,
+    "air": 11.8,
+    "draw": 16.3,
+    "weak_pair": 23.2,
+    "top_pair": 30.1,
+    "two_pair": 5.2,
+    "set_trips": 6.6,
+    "straight_plus": 6.7
+   },
+   "3|bet|>110%": {
+    "n": 3101,
+    "air": 20.4,
+    "draw": 0.0,
+    "weak_pair": 6.8,
+    "top_pair": 10.8,
+    "two_pair": 7.5,
+    "set_trips": 12.2,
+    "straight_plus": 42.2
+   },
+   "3|bet|all": {
+    "n": 36548,
+    "air": 18.6,
+    "draw": 0.0,
+    "weak_pair": 16.4,
+    "top_pair": 22.7,
+    "two_pair": 7.8,
+    "set_trips": 9.4,
+    "straight_plus": 25.1
+   },
+   "3|call|>110%": {
+    "n": 4349,
+    "air": 6.3,
+    "draw": 0.0,
+    "weak_pair": 24.2,
+    "top_pair": 26.6,
+    "two_pair": 8.5,
+    "set_trips": 9.4,
+    "straight_plus": 25.0
+   },
+   "3|bet|56-80%": {
+    "n": 9584,
+    "air": 21.7,
+    "draw": 0.0,
+    "weak_pair": 10.3,
+    "top_pair": 21.1,
+    "two_pair": 8.5,
+    "set_trips": 10.9,
+    "straight_plus": 27.5
+   },
+   "3|call|56-80%": {
+    "n": 14693,
+    "air": 8.7,
+    "draw": 0.0,
+    "weak_pair": 34.7,
+    "top_pair": 30.4,
+    "two_pair": 8.0,
+    "set_trips": 6.0,
+    "straight_plus": 12.2
+   },
+   "2|bet|34-55%": {
+    "n": 20528,
+    "air": 13.0,
+    "draw": 16.2,
+    "weak_pair": 26.6,
+    "top_pair": 29.0,
+    "two_pair": 4.1,
+    "set_trips": 5.4,
+    "straight_plus": 5.8
+   },
+   "2|call|34-55%": {
+    "n": 29303,
+    "air": 8.7,
+    "draw": 20.1,
+    "weak_pair": 34.2,
+    "top_pair": 25.0,
+    "two_pair": 3.0,
+    "set_trips": 4.0,
+    "straight_plus": 5.0
+   },
+   "3|bet|34-55%": {
+    "n": 9547,
+    "air": 18.8,
+    "draw": 0.0,
+    "weak_pair": 19.1,
+    "top_pair": 26.5,
+    "two_pair": 7.7,
+    "set_trips": 8.3,
+    "straight_plus": 19.6
+   },
+   "3|call|34-55%": {
+    "n": 15200,
+    "air": 12.6,
+    "draw": 0.0,
+    "weak_pair": 40.3,
+    "top_pair": 27.5,
+    "two_pair": 6.1,
+    "set_trips": 4.2,
+    "straight_plus": 9.4
+   },
+   "2|bet|≤33%": {
+    "n": 12379,
+    "air": 13.9,
+    "draw": 14.8,
+    "weak_pair": 31.7,
+    "top_pair": 25.4,
+    "two_pair": 2.7,
+    "set_trips": 5.2,
+    "straight_plus": 6.2
+   },
+   "2|call|≤33%": {
+    "n": 19862,
+    "air": 11.3,
+    "draw": 19.4,
+    "weak_pair": 36.2,
+    "top_pair": 22.6,
+    "two_pair": 2.2,
+    "set_trips": 3.7,
+    "straight_plus": 4.7
+   },
+   "1|donk|81-110%": {
+    "n": 1669,
+    "air": 13.9,
+    "draw": 15.0,
+    "weak_pair": 22.6,
+    "top_pair": 38.0,
+    "two_pair": 4.4,
+    "set_trips": 3.5,
+    "straight_plus": 2.5
+   },
+   "1|call|81-110%": {
+    "n": 4983,
+    "air": 11.9,
+    "draw": 20.5,
+    "weak_pair": 25.2,
+    "top_pair": 31.4,
+    "two_pair": 2.6,
+    "set_trips": 6.1,
+    "straight_plus": 2.3
+   },
+   "3|xr|all": {
+    "n": 1529,
+    "air": 9.4,
+    "draw": 0.0,
+    "weak_pair": 9.8,
+    "top_pair": 8.0,
+    "two_pair": 7.8,
+    "set_trips": 16.1,
+    "straight_plus": 48.8
+   },
+   "1|donk|≤33%": {
+    "n": 7814,
+    "air": 21.5,
+    "draw": 15.9,
+    "weak_pair": 28.3,
+    "top_pair": 26.1,
+    "two_pair": 2.5,
+    "set_trips": 4.2,
+    "straight_plus": 1.6
+   },
+   "1|call|≤33%": {
+    "n": 35573,
+    "air": 22.1,
+    "draw": 16.9,
+    "weak_pair": 30.9,
+    "top_pair": 23.8,
+    "two_pair": 1.4,
+    "set_trips": 3.8,
+    "straight_plus": 1.2
+   },
+   "2|lead/probe|34-55%": {
+    "n": 12207,
+    "air": 12.1,
+    "draw": 17.5,
+    "weak_pair": 27.5,
+    "top_pair": 24.3,
+    "two_pair": 5.4,
+    "set_trips": 6.0,
+    "straight_plus": 7.2
+   },
+   "2|call|81-110%": {
+    "n": 6571,
+    "air": 4.4,
+    "draw": 16.5,
+    "weak_pair": 27.8,
+    "top_pair": 30.4,
+    "two_pair": 4.9,
+    "set_trips": 7.5,
+    "straight_plus": 8.6
+   },
+   "3|raise|all": {
+    "n": 6178,
+    "air": 9.0,
+    "draw": 0.0,
+    "weak_pair": 6.8,
+    "top_pair": 9.4,
+    "two_pair": 8.2,
+    "set_trips": 14.1,
+    "straight_plus": 52.5
+   },
+   "1|xr|all": {
+    "n": 6536,
+    "air": 11.8,
+    "draw": 16.9,
+    "weak_pair": 12.3,
+    "top_pair": 32.2,
+    "two_pair": 9.2,
+    "set_trips": 12.6,
+    "straight_plus": 5.0
+   },
+   "2|lead/probe|81-110%": {
+    "n": 2427,
+    "air": 9.2,
+    "draw": 15.8,
+    "weak_pair": 18.2,
+    "top_pair": 21.4,
+    "two_pair": 11.4,
+    "set_trips": 11.0,
+    "straight_plus": 13.1
+   },
+   "3|lead|>110%": {
+    "n": 2230,
+    "air": 22.5,
+    "draw": 0.0,
+    "weak_pair": 9.6,
+    "top_pair": 5.2,
+    "two_pair": 8.7,
+    "set_trips": 11.7,
+    "straight_plus": 42.3
+   },
+   "1|donk|>110%": {
+    "n": 651,
+    "air": 16.7,
+    "draw": 15.2,
+    "weak_pair": 26.7,
+    "top_pair": 32.1,
+    "two_pair": 3.8,
+    "set_trips": 2.9,
+    "straight_plus": 2.5
+   },
+   "1|call|>110%": {
+    "n": 1978,
+    "air": 11.6,
+    "draw": 18.7,
+    "weak_pair": 20.0,
+    "top_pair": 35.2,
+    "two_pair": 3.4,
+    "set_trips": 8.0,
+    "straight_plus": 3.0
+   },
+   "1|bet|81-110%": {
+    "n": 4470,
+    "air": 18.4,
+    "draw": 12.1,
+    "weak_pair": 20.5,
+    "top_pair": 40.1,
+    "two_pair": 4.0,
+    "set_trips": 3.2,
+    "straight_plus": 1.6
+   },
+   "1|bet|56-80%": {
+    "n": 13689,
+    "air": 17.1,
+    "draw": 13.0,
+    "weak_pair": 17.6,
+    "top_pair": 43.5,
+    "two_pair": 3.4,
+    "set_trips": 4.0,
+    "straight_plus": 1.4
+   },
+   "1|call|56-80%": {
+    "n": 14732,
+    "air": 13.0,
+    "draw": 20.8,
+    "weak_pair": 26.8,
+    "top_pair": 30.9,
+    "two_pair": 2.0,
+    "set_trips": 4.7,
+    "straight_plus": 1.9
+   },
+   "1|bet|≤33%": {
+    "n": 32712,
+    "air": 29.4,
+    "draw": 13.8,
+    "weak_pair": 23.9,
+    "top_pair": 26.2,
+    "two_pair": 1.5,
+    "set_trips": 4.2,
+    "straight_plus": 1.1
+   },
+   "3|lead|56-80%": {
+    "n": 7763,
+    "air": 26.2,
+    "draw": 0.0,
+    "weak_pair": 11.4,
+    "top_pair": 12.6,
+    "two_pair": 9.2,
+    "set_trips": 11.7,
+    "straight_plus": 29.0
+   },
+   "2|raise|all": {
+    "n": 5874,
+    "air": 6.0,
+    "draw": 11.0,
+    "weak_pair": 13.7,
+    "top_pair": 26.9,
+    "two_pair": 9.8,
+    "set_trips": 15.7,
+    "straight_plus": 17.0
+   },
+   "2|bet|81-110%": {
+    "n": 5193,
+    "air": 9.3,
+    "draw": 14.1,
+    "weak_pair": 16.9,
+    "top_pair": 31.3,
+    "two_pair": 9.3,
+    "set_trips": 9.5,
+    "straight_plus": 9.5
+   },
+   "3|lead|≤33%": {
+    "n": 9346,
+    "air": 16.0,
+    "draw": 0.0,
+    "weak_pair": 29.1,
+    "top_pair": 23.0,
+    "two_pair": 7.6,
+    "set_trips": 6.6,
+    "straight_plus": 17.6
+   },
+   "3|call|≤33%": {
+    "n": 15357,
+    "air": 15.1,
+    "draw": 0.0,
+    "weak_pair": 42.3,
+    "top_pair": 25.5,
+    "two_pair": 5.2,
+    "set_trips": 3.7,
+    "straight_plus": 8.3
+   },
+   "3|bet|≤33%": {
+    "n": 8788,
+    "air": 13.0,
+    "draw": 0.0,
+    "weak_pair": 27.5,
+    "top_pair": 29.3,
+    "two_pair": 6.3,
+    "set_trips": 6.7,
+    "straight_plus": 17.1
+   },
+   "2|lead/probe|≤33%": {
+    "n": 10361,
+    "air": 13.2,
+    "draw": 16.4,
+    "weak_pair": 33.3,
+    "top_pair": 21.5,
+    "two_pair": 4.1,
+    "set_trips": 5.2,
+    "straight_plus": 6.4
+   },
+   "1|raise|all": {
+    "n": 7291,
+    "air": 11.7,
+    "draw": 13.7,
+    "weak_pair": 15.6,
+    "top_pair": 39.7,
+    "two_pair": 7.5,
+    "set_trips": 8.3,
+    "straight_plus": 3.5
+   },
+   "3|lead|34-55%": {
+    "n": 8352,
+    "air": 21.6,
+    "draw": 0.0,
+    "weak_pair": 19.0,
+    "top_pair": 19.6,
+    "two_pair": 8.7,
+    "set_trips": 8.8,
+    "straight_plus": 22.3
+   },
+   "1|bet|>110%": {
+    "n": 1442,
+    "air": 24.8,
+    "draw": 15.0,
+    "weak_pair": 18.2,
+    "top_pair": 34.7,
+    "two_pair": 3.0,
+    "set_trips": 3.1,
+    "straight_plus": 1.3
+   },
+   "3|bet|81-110%": {
+    "n": 5528,
+    "air": 20.5,
+    "draw": 0.0,
+    "weak_pair": 10.2,
+    "top_pair": 15.0,
+    "two_pair": 9.4,
+    "set_trips": 11.6,
+    "straight_plus": 33.3
+   },
+   "1|donk|56-80%": {
+    "n": 3259,
+    "air": 15.7,
+    "draw": 15.7,
+    "weak_pair": 22.7,
+    "top_pair": 33.4,
+    "two_pair": 5.1,
+    "set_trips": 5.2,
+    "straight_plus": 2.3
+   },
+   "2|xr|all": {
+    "n": 4308,
+    "air": 4.9,
+    "draw": 9.4,
+    "weak_pair": 11.7,
+    "top_pair": 21.1,
+    "two_pair": 11.5,
+    "set_trips": 18.4,
+    "straight_plus": 23.0
+   },
+   "2|bet|>110%": {
+    "n": 2380,
+    "air": 8.6,
+    "draw": 18.4,
+    "weak_pair": 12.3,
+    "top_pair": 32.8,
+    "two_pair": 10.1,
+    "set_trips": 9.6,
+    "straight_plus": 8.3
+   },
+   "2|call|>110%": {
+    "n": 3077,
+    "air": 3.3,
+    "draw": 14.1,
+    "weak_pair": 24.7,
+    "top_pair": 31.4,
+    "two_pair": 7.2,
+    "set_trips": 9.6,
+    "straight_plus": 9.6
+   },
+   "2|lead/probe|>110%": {
+    "n": 933,
+    "air": 7.0,
+    "draw": 19.5,
+    "weak_pair": 16.1,
+    "top_pair": 18.9,
+    "two_pair": 12.9,
+    "set_trips": 11.8,
+    "straight_plus": 13.9
+   }
+  },
+  "preflop_showdown_hands": {
+   "open_raise_SB": {
+    "n": 21869,
+    "AA/KK": 3.4,
+    "QQ/JJ": 3.5,
+    "TT-77": 5.7,
+    "66-22": 4.8,
+    "AK": 4.0,
+    "AQ/AJ": 7.4,
+    "A2-AT": 21.0,
+    "KQ-JT等大牌": 17.0,
+    "其他同花": 19.7,
+    "不同花連張": 5.3,
+    "其他雜牌": 8.4
+   },
+   "3bet": {
+    "n": 47298,
+    "AA/KK": 13.6,
+    "QQ/JJ": 12.2,
+    "TT-77": 9.8,
+    "66-22": 2.7,
+    "AK": 14.3,
+    "AQ/AJ": 15.9,
+    "A2-AT": 11.0,
+    "KQ-JT等大牌": 12.0,
+    "其他同花": 5.7,
+    "不同花連張": 1.0,
+    "其他雜牌": 1.8
+   },
+   "4bet": {
+    "n": 7336,
+    "AA/KK": 31.3,
+    "QQ/JJ": 16.2,
+    "TT-77": 6.2,
+    "66-22": 1.4,
+    "AK": 21.7,
+    "AQ/AJ": 10.2,
+    "A2-AT": 5.3,
+    "KQ-JT等大牌": 4.5,
+    "其他同花": 2.3,
+    "不同花連張": 0.4,
+    "其他雜牌": 0.6
+   },
+   "open_limp": {
+    "n": 66353,
+    "AA/KK": 1.5,
+    "QQ/JJ": 1.1,
+    "TT-77": 2.7,
+    "66-22": 5.3,
+    "AK": 1.4,
+    "AQ/AJ": 2.9,
+    "A2-AT": 17.7,
+    "KQ-JT等大牌": 12.1,
+    "其他同花": 27.7,
+    "不同花連張": 10.7,
+    "其他雜牌": 17.0
+   },
+   "open_raise_LP": {
+    "n": 89423,
+    "AA/KK": 4.1,
+    "QQ/JJ": 4.4,
+    "TT-77": 7.3,
+    "66-22": 6.3,
+    "AK": 5.1,
+    "AQ/AJ": 8.8,
+    "A2-AT": 20.0,
+    "KQ-JT等大牌": 19.0,
+    "其他同花": 18.2,
+    "不同花連張": 3.0,
+    "其他雜牌": 3.7
+   },
+   "call_3bet": {
+    "n": 34735,
+    "AA/KK": 1.9,
+    "QQ/JJ": 5.8,
+    "TT-77": 12.5,
+    "66-22": 7.4,
+    "AK": 4.6,
+    "AQ/AJ": 12.0,
+    "A2-AT": 16.1,
+    "KQ-JT等大牌": 19.7,
+    "其他同花": 16.0,
+    "不同花連張": 2.1,
+    "其他雜牌": 2.0
+   },
+   "flat_vs_open_BB": {
+    "n": 78128,
+    "AA/KK": 0.3,
+    "QQ/JJ": 0.6,
+    "TT-77": 4.2,
+    "66-22": 5.6,
+    "AK": 0.7,
+    "AQ/AJ": 4.5,
+    "A2-AT": 20.4,
+    "KQ-JT等大牌": 17.4,
+    "其他同花": 26.4,
+    "不同花連張": 8.6,
+    "其他雜牌": 11.6
+   },
+   "open_raise_EP": {
+    "n": 87947,
+    "AA/KK": 5.9,
+    "QQ/JJ": 6.1,
+    "TT-77": 9.8,
+    "66-22": 6.7,
+    "AK": 7.0,
+    "AQ/AJ": 11.9,
+    "A2-AT": 17.2,
+    "KQ-JT等大牌": 19.4,
+    "其他同花": 13.0,
+    "不同花連張": 1.4,
+    "其他雜牌": 1.6
+   },
+   "flat_vs_open": {
+    "n": 78774,
+    "AA/KK": 0.9,
+    "QQ/JJ": 1.4,
+    "TT-77": 7.8,
+    "66-22": 9.1,
+    "AK": 1.4,
+    "AQ/AJ": 6.4,
+    "A2-AT": 19.5,
+    "KQ-JT等大牌": 19.8,
+    "其他同花": 22.5,
+    "不同花連張": 5.1,
+    "其他雜牌": 6.0
+   },
+   "limp_call": {
+    "n": 22091,
+    "AA/KK": 0.8,
+    "QQ/JJ": 1.0,
+    "TT-77": 3.3,
+    "66-22": 6.1,
+    "AK": 1.2,
+    "AQ/AJ": 3.3,
+    "A2-AT": 18.4,
+    "KQ-JT等大牌": 14.3,
+    "其他同花": 28.7,
+    "不同花連張": 9.6,
+    "其他雜牌": 13.3
+   },
+   "4bet_allin": {
+    "n": 4054,
+    "AA/KK": 12.5,
+    "QQ/JJ": 13.7,
+    "TT-77": 12.3,
+    "66-22": 4.5,
+    "AK": 22.3,
+    "AQ/AJ": 12.8,
+    "A2-AT": 9.2,
+    "KQ-JT等大牌": 7.5,
+    "其他同花": 3.1,
+    "不同花連張": 0.8,
+    "其他雜牌": 1.1
+   },
+   "limp_raise": {
+    "n": 1895,
+    "AA/KK": 18.2,
+    "QQ/JJ": 9.9,
+    "TT-77": 8.9,
+    "66-22": 5.5,
+    "AK": 9.1,
+    "AQ/AJ": 10.5,
+    "A2-AT": 12.0,
+    "KQ-JT等大牌": 9.8,
+    "其他同花": 9.5,
+    "不同花連張": 2.3,
+    "其他雜牌": 4.2
+   }
+  }
+ },
+ "player_types": {
+  "NL2": {
+   "緊手(Nit)": {
+    "hands": 321418,
+    "vpip": 14.3,
+    "pfr": 9.9,
+    "open_raise": 15.1,
+    "open_limp": 1.0,
+    "3bet": 4.4,
+    "fold_to_3bet": 49.2,
+    "4bet_vs_3bet": 11.5,
+    "bb_defend": 19.9,
+    "fold_to_steal": 83.4,
+    "limp_fold_vs_iso": 36.6,
+    "limp_call_vs_iso": 58.8,
+    "AF": 2.09,
+    "AFq": 43.3,
+    "cbet": 56.2,
+    "fold_to_cbet": 51.0,
+    "raise_cbet": 8.6,
+    "fold_to_turn_barrel": 41.3,
+    "fold_to_river_bet": 61.8,
+    "river_bet_first_in": 26.8,
+    "wtsd": 31.6,
+    "wsd": 61.6,
+    "big_river_bet_shown_n": 394,
+    "big_river_bet_weak_or_air": 19.8,
+    "river_call_shown_n": 1054,
+    "river_call_weak_or_air": 38.4,
+    "bb100": 0.3,
+    "players": 299,
+    "share_of_hands_pct": 2.5
+   },
+   "TAG(緊兇常規)": {
+    "hands": 4999472,
+    "vpip": 21.5,
+    "pfr": 16.1,
+    "open_raise": 24.5,
+    "open_limp": 0.4,
+    "3bet": 7.1,
+    "fold_to_3bet": 50.2,
+    "4bet_vs_3bet": 10.6,
+    "bb_defend": 31.4,
+    "fold_to_steal": 74.7,
+    "limp_fold_vs_iso": 44.8,
+    "limp_call_vs_iso": 51.4,
+    "AF": 2.19,
+    "AFq": 46.7,
+    "cbet": 58.4,
+    "fold_to_cbet": 47.5,
+    "raise_cbet": 8.5,
+    "fold_to_turn_barrel": 42.1,
+    "fold_to_river_bet": 60.6,
+    "river_bet_first_in": 30.9,
+    "wtsd": 30.8,
+    "wsd": 56.5,
+    "big_river_bet_shown_n": 11750,
+    "big_river_bet_weak_or_air": 25.2,
+    "river_call_shown_n": 22934,
+    "river_call_weak_or_air": 42.3,
+    "bb100": 0.2,
+    "players": 3710,
+    "share_of_hands_pct": 39.6
+   },
+   "LAG(鬆兇)": {
+    "hands": 2225551,
+    "vpip": 30.5,
+    "pfr": 20.2,
+    "open_raise": 30.9,
+    "open_limp": 1.8,
+    "3bet": 8.2,
+    "fold_to_3bet": 42.5,
+    "4bet_vs_3bet": 9.3,
+    "bb_defend": 44.5,
+    "fold_to_steal": 62.7,
+    "limp_fold_vs_iso": 38.3,
+    "limp_call_vs_iso": 57.0,
+    "AF": 2.0,
+    "AFq": 47.5,
+    "cbet": 57.8,
+    "fold_to_cbet": 42.7,
+    "raise_cbet": 8.9,
+    "fold_to_turn_barrel": 40.4,
+    "fold_to_river_bet": 56.7,
+    "river_bet_first_in": 34.7,
+    "wtsd": 32.0,
+    "wsd": 51.7,
+    "big_river_bet_shown_n": 8532,
+    "big_river_bet_weak_or_air": 30.9,
+    "river_call_shown_n": 15454,
+    "river_call_weak_or_air": 48.1,
+    "bb100": -4.9,
+    "players": 2770,
+    "share_of_hands_pct": 17.6
+   },
+   "緊被動/半鬆被動": {
+    "hands": 917802,
+    "vpip": 23.1,
+    "pfr": 10.4,
+    "open_raise": 16.7,
+    "open_limp": 7.6,
+    "3bet": 3.5,
+    "fold_to_3bet": 40.3,
+    "4bet_vs_3bet": 8.9,
+    "bb_defend": 33.3,
+    "fold_to_steal": 71.3,
+    "limp_fold_vs_iso": 33.5,
+    "limp_call_vs_iso": 63.1,
+    "AF": 1.62,
+    "AFq": 40.3,
+    "cbet": 52.8,
+    "fold_to_cbet": 47.5,
+    "raise_cbet": 7.3,
+    "fold_to_turn_barrel": 39.9,
+    "fold_to_river_bet": 59.4,
+    "river_bet_first_in": 27.8,
+    "wtsd": 32.6,
+    "wsd": 56.5,
+    "big_river_bet_shown_n": 1937,
+    "big_river_bet_weak_or_air": 20.3,
+    "river_call_shown_n": 4920,
+    "river_call_weak_or_air": 44.6,
+    "bb100": -5.5,
+    "players": 937,
+    "share_of_hands_pct": 7.3
+   },
+   "鬆被動魚(跟注站)": {
+    "hands": 608585,
+    "vpip": 42.3,
+    "pfr": 11.7,
+    "open_raise": 17.3,
+    "open_limp": 28.4,
+    "3bet": 4.6,
+    "fold_to_3bet": 29.7,
+    "4bet_vs_3bet": 9.9,
+    "bb_defend": 55.3,
+    "fold_to_steal": 51.4,
+    "limp_fold_vs_iso": 28.0,
+    "limp_call_vs_iso": 69.4,
+    "AF": 1.72,
+    "AFq": 45.3,
+    "cbet": 59.5,
+    "fold_to_cbet": 44.3,
+    "raise_cbet": 6.8,
+    "fold_to_turn_barrel": 38.3,
+    "fold_to_river_bet": 54.9,
+    "river_bet_first_in": 36.2,
+    "wtsd": 34.6,
+    "wsd": 48.7,
+    "big_river_bet_shown_n": 3103,
+    "big_river_bet_weak_or_air": 30.3,
+    "river_call_shown_n": 6188,
+    "river_call_weak_or_air": 54.6,
+    "bb100": -24.1,
+    "players": 1251,
+    "share_of_hands_pct": 4.8
+   },
+   "狂人": {
+    "hands": 346015,
+    "vpip": 44.8,
+    "pfr": 29.3,
+    "open_raise": 44.8,
+    "open_limp": 3.4,
+    "3bet": 11.3,
+    "fold_to_3bet": 42.1,
+    "4bet_vs_3bet": 7.1,
+    "bb_defend": 59.7,
+    "fold_to_steal": 48.5,
+    "limp_fold_vs_iso": 33.0,
+    "limp_call_vs_iso": 61.7,
+    "AF": 2.24,
+    "AFq": 51.2,
+    "cbet": 64.6,
+    "fold_to_cbet": 39.4,
+    "raise_cbet": 9.5,
+    "fold_to_turn_barrel": 40.8,
+    "fold_to_river_bet": 57.1,
+    "river_bet_first_in": 38.1,
+    "wtsd": 31.7,
+    "wsd": 47.2,
+    "big_river_bet_shown_n": 1996,
+    "big_river_bet_weak_or_air": 36.5,
+    "river_call_shown_n": 3381,
+    "river_call_weak_or_air": 52.9,
+    "bb100": -19.8,
+    "players": 535,
+    "share_of_hands_pct": 2.7
+   },
+   "_<200手玩家": {
+    "hands": 3215437,
+    "vpip": 38.5,
+    "pfr": 16.9,
+    "open_raise": 24.5,
+    "open_limp": 16.7,
+    "3bet": 7.8,
+    "fold_to_3bet": 31.9,
+    "4bet_vs_3bet": 12.6,
+    "bb_defend": 53.0,
+    "fold_to_steal": 54.0,
+    "limp_fold_vs_iso": 24.5,
+    "limp_call_vs_iso": 71.6,
+    "AF": 1.95,
+    "AFq": 49.3,
+    "cbet": 64.0,
+    "fold_to_cbet": 41.9,
+    "raise_cbet": 9.4,
+    "fold_to_turn_barrel": 35.2,
+    "fold_to_river_bet": 50.0,
+    "river_bet_first_in": 40.7,
+    "wtsd": 35.4,
+    "wsd": 46.3,
+    "big_river_bet_shown_n": 18559,
+    "big_river_bet_weak_or_air": 37.3,
+    "river_call_shown_n": 31000,
+    "river_call_weak_or_air": 57.8,
+    "bb100": -34.8,
+    "players": 172181,
+    "share_of_hands_pct": 25.5
+   },
+   "_全部": {
+    "hands": 12634280,
+    "vpip": 29.0,
+    "pfr": 16.6,
+    "open_raise": 25.1,
+    "open_limp": 6.8,
+    "3bet": 7.1,
+    "fold_to_3bet": 42.2,
+    "4bet_vs_3bet": 10.5,
+    "bb_defend": 41.1,
+    "fold_to_steal": 65.4,
+    "limp_fold_vs_iso": 27.6,
+    "limp_call_vs_iso": 68.7,
+    "AF": 1.99,
+    "AFq": 47.5,
+    "cbet": 59.8,
+    "fold_to_cbet": 44.0,
+    "raise_cbet": 8.7,
+    "fold_to_turn_barrel": 38.6,
+    "fold_to_river_bet": 55.8,
+    "river_bet_first_in": 35.5,
+    "wtsd": 33.1,
+    "wsd": 50.9,
+    "big_river_bet_shown_n": 46271,
+    "big_river_bet_weak_or_air": 31.7,
+    "river_call_shown_n": 84931,
+    "river_call_weak_or_air": 50.4,
+    "bb100": -11.7
+   }
+  },
+  "NL5": {
+   "緊手(Nit)": {
+    "hands": 197208,
+    "vpip": 14.7,
+    "pfr": 10.1,
+    "open_raise": 15.7,
+    "open_limp": 0.7,
+    "3bet": 4.1,
+    "fold_to_3bet": 49.9,
+    "4bet_vs_3bet": 12.5,
+    "bb_defend": 21.9,
+    "fold_to_steal": 81.9,
+    "limp_fold_vs_iso": 39.2,
+    "limp_call_vs_iso": 56.1,
+    "AF": 2.06,
+    "AFq": 44.3,
+    "cbet": 58.6,
+    "fold_to_cbet": 46.4,
+    "raise_cbet": 9.8,
+    "fold_to_turn_barrel": 42.4,
+    "fold_to_river_bet": 59.6,
+    "river_bet_first_in": 29.9,
+    "wtsd": 29.7,
+    "wsd": 59.1,
+    "big_river_bet_shown_n": 263,
+    "big_river_bet_weak_or_air": 22.1,
+    "river_call_shown_n": 697,
+    "river_call_weak_or_air": 40.0,
+    "bb100": -6.0,
+    "players": 187,
+    "share_of_hands_pct": 2.2
+   },
+   "TAG(緊兇常規)": {
+    "hands": 4703015,
+    "vpip": 21.4,
+    "pfr": 16.4,
+    "open_raise": 25.0,
+    "open_limp": 0.3,
+    "3bet": 7.4,
+    "fold_to_3bet": 53.7,
+    "4bet_vs_3bet": 10.9,
+    "bb_defend": 32.5,
+    "fold_to_steal": 74.6,
+    "limp_fold_vs_iso": 49.3,
+    "limp_call_vs_iso": 46.0,
+    "AF": 2.19,
+    "AFq": 47.4,
+    "cbet": 58.4,
+    "fold_to_cbet": 45.6,
+    "raise_cbet": 8.5,
+    "fold_to_turn_barrel": 43.7,
+    "fold_to_river_bet": 60.7,
+    "river_bet_first_in": 32.3,
+    "wtsd": 29.8,
+    "wsd": 56.7,
+    "big_river_bet_shown_n": 11095,
+    "big_river_bet_weak_or_air": 27.6,
+    "river_call_shown_n": 21541,
+    "river_call_weak_or_air": 41.6,
+    "bb100": -2.0,
+    "players": 3440,
+    "share_of_hands_pct": 51.4
+   },
+   "LAG(鬆兇)": {
+    "hands": 1375616,
+    "vpip": 30.1,
+    "pfr": 20.3,
+    "open_raise": 31.1,
+    "open_limp": 1.5,
+    "3bet": 8.3,
+    "fold_to_3bet": 43.2,
+    "4bet_vs_3bet": 9.6,
+    "bb_defend": 44.9,
+    "fold_to_steal": 63.1,
+    "limp_fold_vs_iso": 39.6,
+    "limp_call_vs_iso": 55.7,
+    "AF": 2.03,
+    "AFq": 48.0,
+    "cbet": 60.5,
+    "fold_to_cbet": 41.5,
+    "raise_cbet": 9.1,
+    "fold_to_turn_barrel": 42.2,
+    "fold_to_river_bet": 57.6,
+    "river_bet_first_in": 34.4,
+    "wtsd": 30.8,
+    "wsd": 51.9,
+    "big_river_bet_shown_n": 5248,
+    "big_river_bet_weak_or_air": 30.9,
+    "river_call_shown_n": 9724,
+    "river_call_weak_or_air": 46.4,
+    "bb100": -7.6,
+    "players": 1925,
+    "share_of_hands_pct": 15.0
+   },
+   "緊被動/半鬆被動": {
+    "hands": 350828,
+    "vpip": 22.9,
+    "pfr": 10.9,
+    "open_raise": 17.5,
+    "open_limp": 6.3,
+    "3bet": 3.4,
+    "fold_to_3bet": 43.8,
+    "4bet_vs_3bet": 8.3,
+    "bb_defend": 33.6,
+    "fold_to_steal": 71.6,
+    "limp_fold_vs_iso": 36.4,
+    "limp_call_vs_iso": 60.6,
+    "AF": 1.71,
+    "AFq": 42.7,
+    "cbet": 54.8,
+    "fold_to_cbet": 45.6,
+    "raise_cbet": 7.1,
+    "fold_to_turn_barrel": 41.0,
+    "fold_to_river_bet": 57.5,
+    "river_bet_first_in": 31.6,
+    "wtsd": 31.4,
+    "wsd": 55.5,
+    "big_river_bet_shown_n": 774,
+    "big_river_bet_weak_or_air": 23.0,
+    "river_call_shown_n": 1992,
+    "river_call_weak_or_air": 42.8,
+    "bb100": -6.6,
+    "players": 499,
+    "share_of_hands_pct": 3.8
+   },
+   "鬆被動魚(跟注站)": {
+    "hands": 231437,
+    "vpip": 41.3,
+    "pfr": 12.5,
+    "open_raise": 18.8,
+    "open_limp": 24.9,
+    "3bet": 4.6,
+    "fold_to_3bet": 29.7,
+    "4bet_vs_3bet": 9.3,
+    "bb_defend": 56.6,
+    "fold_to_steal": 50.6,
+    "limp_fold_vs_iso": 28.9,
+    "limp_call_vs_iso": 68.0,
+    "AF": 1.81,
+    "AFq": 47.0,
+    "cbet": 59.7,
+    "fold_to_cbet": 41.5,
+    "raise_cbet": 7.7,
+    "fold_to_turn_barrel": 40.6,
+    "fold_to_river_bet": 57.2,
+    "river_bet_first_in": 37.1,
+    "wtsd": 32.8,
+    "wsd": 48.4,
+    "big_river_bet_shown_n": 1292,
+    "big_river_bet_weak_or_air": 32.0,
+    "river_call_shown_n": 2308,
+    "river_call_weak_or_air": 52.8,
+    "bb100": -28.0,
+    "players": 529,
+    "share_of_hands_pct": 2.5
+   },
+   "狂人": {
+    "hands": 120593,
+    "vpip": 44.3,
+    "pfr": 29.1,
+    "open_raise": 44.3,
+    "open_limp": 2.9,
+    "3bet": 12.2,
+    "fold_to_3bet": 35.8,
+    "4bet_vs_3bet": 8.2,
+    "bb_defend": 61.2,
+    "fold_to_steal": 46.9,
+    "limp_fold_vs_iso": 27.3,
+    "limp_call_vs_iso": 68.2,
+    "AF": 2.14,
+    "AFq": 51.4,
+    "cbet": 64.4,
+    "fold_to_cbet": 37.6,
+    "raise_cbet": 10.6,
+    "fold_to_turn_barrel": 39.8,
+    "fold_to_river_bet": 56.6,
+    "river_bet_first_in": 40.2,
+    "wtsd": 31.5,
+    "wsd": 46.0,
+    "big_river_bet_shown_n": 863,
+    "big_river_bet_weak_or_air": 39.3,
+    "river_call_shown_n": 1221,
+    "river_call_weak_or_air": 51.2,
+    "bb100": -26.4,
+    "players": 272,
+    "share_of_hands_pct": 1.3
+   },
+   "_<200手玩家": {
+    "hands": 2167884,
+    "vpip": 37.2,
+    "pfr": 17.5,
+    "open_raise": 25.8,
+    "open_limp": 14.1,
+    "3bet": 7.9,
+    "fold_to_3bet": 33.3,
+    "4bet_vs_3bet": 11.8,
+    "bb_defend": 53.0,
+    "fold_to_steal": 55.0,
+    "limp_fold_vs_iso": 25.2,
+    "limp_call_vs_iso": 70.6,
+    "AF": 2.03,
+    "AFq": 50.5,
+    "cbet": 64.4,
+    "fold_to_cbet": 40.3,
+    "raise_cbet": 9.6,
+    "fold_to_turn_barrel": 37.0,
+    "fold_to_river_bet": 51.5,
+    "river_bet_first_in": 41.5,
+    "wtsd": 33.9,
+    "wsd": 46.1,
+    "big_river_bet_shown_n": 13035,
+    "big_river_bet_weak_or_air": 38.0,
+    "river_call_shown_n": 20492,
+    "river_call_weak_or_air": 55.9,
+    "bb100": -34.8,
+    "players": 127747,
+    "share_of_hands_pct": 23.7
+   },
+   "_全部": {
+    "hands": 9146581,
+    "vpip": 27.2,
+    "pfr": 17.0,
+    "open_raise": 25.7,
+    "open_limp": 4.7,
+    "3bet": 7.4,
+    "fold_to_3bet": 45.5,
+    "4bet_vs_3bet": 10.7,
+    "bb_defend": 40.2,
+    "fold_to_steal": 67.2,
+    "limp_fold_vs_iso": 28.2,
+    "limp_call_vs_iso": 67.7,
+    "AF": 2.06,
+    "AFq": 48.5,
+    "cbet": 60.3,
+    "fold_to_cbet": 42.5,
+    "raise_cbet": 9.0,
+    "fold_to_turn_barrel": 40.5,
+    "fold_to_river_bet": 56.9,
+    "river_bet_first_in": 36.2,
+    "wtsd": 31.6,
+    "wsd": 51.3,
+    "big_river_bet_shown_n": 32570,
+    "big_river_bet_weak_or_air": 32.6,
+    "river_call_shown_n": 57975,
+    "river_call_weak_or_air": 48.2,
+    "bb100": -11.9
+   }
+  },
+  "NL2_vpip_hist": {
+   "0": 3,
+   "5": 37,
+   "10": 150,
+   "15": 1242,
+   "20": 2777,
+   "25": 2145,
+   "30": 1234,
+   "35": 729,
+   "40": 455,
+   "45": 289,
+   "50": 194,
+   "55": 120,
+   "60": 127
+  },
+  "NL5_vpip_hist": {
+   "5": 4,
+   "10": 98,
+   "15": 1087,
+   "20": 2412,
+   "25": 1559,
+   "30": 772,
+   "35": 403,
+   "40": 217,
+   "45": 142,
+   "50": 83,
+   "55": 32,
+   "60": 43
+  }
+ },
+ "winners_profile_3000plus": {
+  "NL2": {
+   "players": 578,
+   "bottom25%": {
+    "bb100": -14.4,
+    "hands": 4127.5,
+    "vpip": 23.5,
+    "pfr": 16.3,
+    "t3": 6.9,
+    "bbd": 33.3,
+    "f3": 44.0,
+    "rfi": 24.7,
+    "limp": 0.4,
+    "cb": 57.9,
+    "fcb": 45.5,
+    "wtsd": 31.3,
+    "wsd": 52.5,
+    "frb": 61.3,
+    "rb": 31.0,
+    "n": 144
+   },
+   "middle50%": {
+    "bb100": -0.7,
+    "hands": 4951,
+    "vpip": 22.0,
+    "pfr": 15.4,
+    "t3": 6.1,
+    "bbd": 31.7,
+    "f3": 50.9,
+    "rfi": 24.1,
+    "limp": 0.3,
+    "cb": 55.0,
+    "fcb": 49.4,
+    "wtsd": 30.2,
+    "wsd": 57.5,
+    "frb": 64.1,
+    "rb": 27.2,
+    "n": 289
+   },
+   "top25%": {
+    "bb100": 13.6,
+    "hands": 4750,
+    "vpip": 22.7,
+    "pfr": 17.1,
+    "t3": 7.2,
+    "bbd": 33.2,
+    "f3": 50.0,
+    "rfi": 26.0,
+    "limp": 0.2,
+    "cb": 57.6,
+    "fcb": 49.1,
+    "wtsd": 30.4,
+    "wsd": 59.3,
+    "frb": 63.5,
+    "rb": 30.1,
+    "n": 145
+   }
+  },
+  "NL5": {
+   "players": 461,
+   "bottom25%": {
+    "bb100": -14.8,
+    "hands": 3912,
+    "vpip": 21.4,
+    "pfr": 16.1,
+    "t3": 6.9,
+    "bbd": 32.1,
+    "f3": 49.0,
+    "rfi": 24.1,
+    "limp": 0.2,
+    "cb": 56.2,
+    "fcb": 47.2,
+    "wtsd": 30.0,
+    "wsd": 54.0,
+    "frb": 63.4,
+    "rb": 29.3,
+    "n": 115
+   },
+   "middle50%": {
+    "bb100": -1.7,
+    "hands": 4937.0,
+    "vpip": 21.4,
+    "pfr": 16.1,
+    "t3": 6.7,
+    "bbd": 32.3,
+    "f3": 56.2,
+    "rfi": 25.1,
+    "limp": 0.1,
+    "cb": 54.8,
+    "fcb": 48.2,
+    "wtsd": 29.3,
+    "wsd": 58.2,
+    "frb": 64.4,
+    "rb": 29.4,
+    "n": 230
+   },
+   "top25%": {
+    "bb100": 11.8,
+    "hands": 4354.5,
+    "vpip": 22.0,
+    "pfr": 17.4,
+    "t3": 7.8,
+    "bbd": 33.4,
+    "f3": 52.7,
+    "rfi": 26.0,
+    "limp": 0.1,
+    "cb": 59.3,
+    "fcb": 46.4,
+    "wtsd": 29.1,
+    "wsd": 59.6,
+    "frb": 60.5,
+    "rb": 32.0,
+    "n": 116
+   }
+  }
+ }
+}

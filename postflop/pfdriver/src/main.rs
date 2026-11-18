@@ -28,6 +28,7 @@ struct Job {
     #[serde(default)] extract: Vec<Extract>,
     out: String,
     #[serde(default)] compress: bool,
+    #[serde(default)] max_memory_gb: Option<f64>,
 }
 
 fn label(a: &Action, pot_before: i32, prev_bet: i32) -> String {
@@ -260,6 +261,13 @@ fn main() {
     let mut game = PostFlopGame::with_config(card_config, tree).unwrap();
     let (m, mc) = game.memory_usage();
     eprintln!("mem {:.2}GB (compressed {:.2}GB) hands {} {}", m as f64 / 1e9, mc as f64 / 1e9, game.private_cards(0).len(), game.private_cards(1).len());
+    let required = if job.compress { mc } else { m };
+    if let Some(max_gb) = job.max_memory_gb {
+        if required as f64 > max_gb * 1e9 {
+            eprintln!("MEMORY_BUDGET_EXCEEDED required={:.3}GB limit={:.3}GB compressed={}", required as f64 / 1e9, max_gb, job.compress);
+            std::process::exit(42);
+        }
+    }
     if std::env::var("MEMONLY").is_ok() { return; }
     game.allocate_memory(job.compress);
     let pot = job.pot as f32;
@@ -330,6 +338,9 @@ fn main() {
     game.back_to_root();
     let hands: Vec<Vec<String>> = (0..2).map(|p| game.private_cards(p).iter().map(|&(a, b)| format!("{}{}", card_str(b), card_str(a))).collect()).collect();
     info["secs"] = json!(t0.elapsed().as_secs_f32());
+    info["memory_bytes"] = json!(required);
+    info["target_pct"] = json!(job.target_pct);
+    info["gto_converged"] = json!(expl <= stage_target);
     let out = json!({"flop": job.flop, "pot": job.pot, "stack": job.stack, "info": info, "hands": hands, "nodes": nodes});
     std::fs::write(&job.out, serde_json::to_string(&out).unwrap()).unwrap();
     eprintln!("done {:.1}s nodes {}", t0.elapsed().as_secs_f32(), out["nodes"].as_array().unwrap().len());

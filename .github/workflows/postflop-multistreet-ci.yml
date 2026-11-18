@@ -20,6 +20,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run deterministic toy tree tests
         run: python3 -m unittest discover -s postflop/check -p 'test_multistreet*.py' -v
+      - name: Verify existing toy CFR equilibrium and terminal accounting
+        run: |
+          node river/test_toy.js
+          node river/test_terminal.js
       - name: Pin external solver
         run: |
           git clone --quiet https://github.com/b-inary/postflop-solver.git postflop/postflop-solver

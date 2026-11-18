@@ -1,0 +1,37 @@
+name: Postflop multi-street PR checks
+
+on:
+  pull_request:
+    paths:
+      - 'postflop/**'
+      - '.github/workflows/postflop-multistreet*.yml'
+  push:
+    branches:
+      - 'feat/multistreet-batch-solver-20261118'
+
+permissions:
+  contents: read
+
+jobs:
+  toy-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run deterministic toy tree tests
+        run: python3 -m unittest discover -s postflop/check -p 'test_multistreet*.py' -v
+      - name: Verify existing toy CFR equilibrium and terminal accounting
+        run: |
+          node river/test_toy.js
+          node river/test_terminal.js
+      - name: Pin external solver
+        run: |
+          git clone --quiet https://github.com/b-inary/postflop-solver.git postflop/postflop-solver
+          git -C postflop/postflop-solver checkout 9d1509fe5077d019825f833eed04b16d342dfda1
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Check driver compiles
+        run: cargo check --manifest-path postflop/pfdriver/Cargo.toml
+      - name: Python syntax check
+        run: |
+          python3 -m py_compile postflop/py/multistreet_batch.py
+          python3 -m py_compile postflop/py/strategy_report.py

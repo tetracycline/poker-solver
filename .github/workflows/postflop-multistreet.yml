@@ -1,0 +1,87 @@
+name: Postflop multi-street batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      spot:
+        description: "Supported HU preflop configuration"
+        required: true
+        type: choice
+        options: [BTN_BB, CO_BB, SB_BB, UTG_BB, HJ_BB, SB3_BTN, BB3_BTN]
+      start:
+        description: "First flop sample index (0-based)"
+        required: true
+        default: "0"
+        type: string
+      count:
+        description: "Number of flops in batch"
+        required: true
+        default: "1"
+        type: string
+      preset:
+        description: "smoke=33%; medium=33/75%; full=33/50/75/100/150/all-in"
+        required: true
+        default: smoke
+        type: choice
+        options: [smoke, medium, full]
+      memory_gb:
+        description: "Maximum solver allocation in decimal GB"
+        required: true
+        default: "5"
+        type: string
+      iters:
+        description: "Maximum DCFR iterations; convergence reported, never assumed"
+        required: true
+        default: "300"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      CARGO_BUILD_JOBS: "2"
+      RAYON_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python tests (no solver build)
+        run: python3 -m unittest discover -s postflop/check -p 'test_multistreet*.py' -v
+      - name: Prepare pinned external AGPL solver
+        run: |
+          git clone https://github.com/b-inary/postflop-solver.git postflop/postflop-solver
+          git -C postflop/postflop-solver checkout 9d1509fe5077d019825f833eed04b16d342dfda1
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Build driver
+        run: cargo build --release --manifest-path postflop/pfdriver/Cargo.toml
+      - name: Install input requirements
+        run: python3 -m pip install numpy
+      - name: Run full-game batch (fail closed on memory or convergence)
+        id: batch
+        continue-on-error: true
+        run: |
+          python3 postflop/py/multistreet_batch.py \
+            --spot "${{ inputs.spot }}" --start "${{ inputs.start }}" \
+            --count "${{ inputs.count }}" --preset "${{ inputs.preset }}" \
+            --max-memory-gb "${{ inputs.memory_gb }}" --iters "${{ inputs.iters }}" \
+            --output postflop/batch_out
+      - name: Export action tables and reachability audits
+        if: always()
+        run: |
+          shopt -s nullglob
+          for file in postflop/batch_out/*.json; do
+            case "$file" in *.job.json|*/manifest_*.json|*.audit.json) continue;; esac
+            python3 postflop/py/strategy_report.py "$file" \
+              --output "${file%.json}.csv" --audit "${file%.json}.audit.json" --strict
+          done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: postflop-${{ inputs.spot }}-${{ inputs.start }}-${{ inputs.preset }}
+          path: postflop/batch_out/
+          retention-days: 14
+      - name: Require converged jobs
+        if: steps.batch.outcome != 'success'
+        run: exit 1
